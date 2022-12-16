@@ -1,0 +1,12 @@
+begin_crisis_yourmod = {
+	set_global_flag = mid_game_crisis_happened 			# this must be set and not removed
+	set_timed_global_flag = {							# this must be set and not removed
+		flag = mid_game_crisis_happened_recently
+		years = 12
+	}
+	set_global_flag = yourmod_in_progress 				# must be removed when crisis is resolved
+	set_global_flag = yourmod_fired 					# (optional) only set this flag if you want your crisis to fire only once
+	set_global_flag = midgame_crisis_ongoing			# must be removed when crisis is resolved
+	# BOOM BOOM PEW PEW effects go here
+	# this is in country scope, on global event country
+}

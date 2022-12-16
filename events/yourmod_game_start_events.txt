@@ -1,0 +1,14 @@
+namespace = yourmod_game_start
+
+event = { 
+	id = yourmod_game_start.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {}
+
+	immediate = {
+		set_global_flag = yourmod_installed							# required for the Mod Jam mod to detect your submission
+		set_global_flag = yourmod_allowed							# required for spawning 
+	}
+}

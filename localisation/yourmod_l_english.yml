@@ -1,0 +1,19 @@
+﻿l_english:
+ yourmod_tooltip: "This is a tooltip that briefly describes what your crisis does/how it works/etc. Please check the loc file for a list of colors."
+ yourmod_allowed: "§GYourmod Enabled§!"
+ yourmod_disabled: "§RYourmod Disabled§!"
+
+# Color List
+# §B thisisblue §!
+# §E thisisteal §!
+# §G thisisgreen §!
+# §H thisisorange §!
+# §L thisisbrown §!
+# §M thisispurple §!
+# §P thisislightred §! 
+# §R thisisred §!
+# §S thisisdarkorange §!
+# §T thisislightgrey §!
+# §W thisiswhite §!
+# §Y thisisyellow §!
+# §! this returns to the default text color §!
