@@ -46,19 +46,19 @@ event = {							# Mid Game
 					modifier = {
 						factor = 0
 						NOT = {
-							has_global_flag = yourmod_allowed
+							has_global_flag = sw22_allowed
 						}
 					}
 					modifier = {
 						factor = 0
-						has_global_flag = yourmod_in_progress
+						has_global_flag = sw22_in_progress
 					}
 					modifier = {
 						factor = 0
-						has_global_flag = yourmod_fired
+						has_global_flag = sw22_fired
 					}
-					log = "begin crisis yourmod" 							# feel free to comment this out for release
-					begin_crisis_yourmod = yes
+					log = "begin crisis sw22" 							# feel free to comment this out for release
+					begin_crisis_sw22 = yes
 				}
 			}
 		}
