@@ -5,7 +5,7 @@
 
 sw22_r_worm_mom = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_baol"
+	portrait = "GFX_relic_baol" #Need Orginal Art
 	sound = "relic_activation_the_last_baol"
 
 	resources = {
