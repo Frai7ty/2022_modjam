@@ -1,0 +1,36 @@
+# Worm Army
+worm_army = {
+	damage = 10.0
+	health = 10.0
+	has_morale = no
+	morale_damage = 5
+	collateral_damage = 10
+	war_exhaustion = 5
+	time = 720
+	has_species = no
+
+	icon = GFX_army_type_machine_assault #placeholder
+
+	resources = {
+		category = armies
+		cost = {
+			food = 1000
+			energy = 250
+		}
+
+		upkeep = {
+			energy = 4
+			food = 8
+		}
+	}
+
+	potential_country = {
+		has_country_flag = sw22_relic_worm_mom_active
+	}
+
+	potential = {
+		custom_tooltip = {
+			planet = { is_capital = yes }
+		}
+	}
+}
