@@ -9,4 +9,11 @@ begin_crisis_sw22= {
 	set_global_flag = midgame_crisis_ongoing			# must be removed when crisis is resolved
 	# BOOM BOOM PEW PEW effects go here
 	# this is in country scope, on global event country
+	every_country = {
+		enable_special_project = {
+			name = "SW22_WORM_PROJECT"
+			location = this
+			owner = root
+		}
+	}
 }
