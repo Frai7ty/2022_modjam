@@ -19,20 +19,34 @@ planet_event = {
 	# Ignore it, leads to 2a
 	option = {
 		name = sw22_crisis.11.a
-		enable_special_project = {
-			name = "SW22_IGNORE_DISTURBACE"
-			location = from
-			owner = root.owner
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.2
+			}
 		}
 	}
 
 	#Explore more, leads to 3a
 	option = {
-		name = sw22_crisis.11.b
-		enable_special_project = {
-			name = "SW22_EXPLORE_DISTURBACE"
-			location = from
-			owner = root.owner
+		name = sw22_crisis.11.a
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.3
+			}
 		}
 	}
+}
+
+# The Dirt Turned turned to Ash (Extra Science)
+planet_event = {
+	id = sw22_crisis.2
+	title = "sw22_crisis.2.name"
+	is_triggered_only = yes
+}
+
+#Underground Terrorists (Less Damage)
+planet_event = {
+	id = sw22_crisis.3
+	title = "sw22_crisis.3.name"
+	is_triggered_only = yes
 }
