@@ -1,0 +1,27 @@
+namespace = sw22_crisis
+
+country_event = {
+	id = sw22_crisis.1
+	title = "sw22_crisis.1.name"
+	is_triggered_only = yes
+
+	random_owned_planet = {
+		planet_event = { id = sw22_crisis.11 }
+	}
+}
+
+planet_event = {
+	id = sw22_crisis.11
+	title = "sw22_crisis.11.name"
+	is_triggered_only = yes
+
+	option = {
+		name = sw22_crisis.11.a
+
+	}
+
+	option = {
+		name = sw22_crisis.11.b
+		
+	}
+}
