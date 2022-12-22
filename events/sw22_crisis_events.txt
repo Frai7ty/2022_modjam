@@ -10,7 +10,7 @@ country_event = {
 	}
 }
 
-# Seismin Disturbances 
+# Seismic Disturbances 
 planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
@@ -19,12 +19,20 @@ planet_event = {
 	# Ignore it, leads to 2a
 	option = {
 		name = sw22_crisis.11.a
-
+		enable_special_project = {
+			name = "SW22_IGNORE_DISTURBACE"
+			location = from
+			owner = root.owner
+		}
 	}
 
 	#Explore more, leads to 3a
 	option = {
 		name = sw22_crisis.11.b
-		
+		enable_special_project = {
+			name = "SW22_EXPLORE_DISTURBACE"
+			location = from
+			owner = root.owner
+		}
 	}
 }
