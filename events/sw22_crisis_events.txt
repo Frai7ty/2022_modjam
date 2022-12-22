@@ -10,16 +10,19 @@ country_event = {
 	}
 }
 
+# Seismin Disturbances 
 planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
 	is_triggered_only = yes
 
+	# Ignore it, leads to 2a
 	option = {
 		name = sw22_crisis.11.a
 
 	}
 
+	#Explore more, leads to 3a
 	option = {
 		name = sw22_crisis.11.b
 		
