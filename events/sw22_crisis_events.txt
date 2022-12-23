@@ -22,6 +22,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.2
+				days = 90
 			}
 		}
 	}
@@ -32,6 +33,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.3
+				days = 90
 			}
 		}
 	}
