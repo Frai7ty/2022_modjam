@@ -1,5 +1,6 @@
 namespace = sw22_crisis
 
+# Trigger for each empire
 country_event = {
 	id = sw22_crisis.1
 	title = "sw22_crisis.1.name"
@@ -11,6 +12,7 @@ country_event = {
 }
 
 # Seismic Disturbances 
+#1a
 planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
@@ -21,7 +23,7 @@ planet_event = {
 		name = sw22_crisis.11.a
 		hidden_effect = {
 			planet_event = {
-				id = sw22_crisis.2
+				id = sw22_crisis.21
 				days = 90
 			}
 		}
@@ -32,7 +34,7 @@ planet_event = {
 		name = sw22_crisis.11.a
 		hidden_effect = {
 			planet_event = {
-				id = sw22_crisis.3
+				id = sw22_crisis.31
 				days = 90
 			}
 		}
@@ -40,15 +42,100 @@ planet_event = {
 }
 
 # The Dirt Turned turned to Ash (Extra Science)
+#2a
 planet_event = {
-	id = sw22_crisis.2
-	title = "sw22_crisis.2.name"
+	id = sw22_crisis.21 #2a
+	title = "sw22_crisis.21.name"
 	is_triggered_only = yes
+
+	# Leads to 2b, Add Damage Deposit
+	option = {
+		name = sw22_crisis.21.a
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.22
+			}
+		}
+	}
 }
 
-#Underground Terrorists (Less Damage)
+#2b
 planet_event = {
-	id = sw22_crisis.3
-	title = "sw22_crisis.3.name"
+	id = sw22_crisis.22
+	title = "sw22_crisis.22"
 	is_triggered_only = yes
+
+	#Leads to 2c, Add Damage Deposit
+	option = {
+		name = sw22_crisis.22.a
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.23
+			}
+		}
+	}
+}
+
+#2c
+planet_event = {
+	id = sw22_crisis.23
+	title = "sw22_crisis.23"
+	is_triggered_only = yes
+
+	#Leads to 4c, Add Damage Deposit
+	option = {
+		name = sw22_crisis.23.a
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.41
+			}
+		}
+	}
+}
+
+# Underground Terrorists (Less Damage)
+#3a
+planet_event = {
+	id = sw22_crisis.31 #3a
+	title = "sw22_crisis.31.name"
+	is_triggered_only = yes
+
+	# Leads to 3b, Add Damage Deposit
+	option = {
+		name = sw22_crisis.31.a
+		planet_event = {
+			id = sw22_crisis.32
+		}
+	}
+}
+
+#3b
+planet_event = { 
+	id = sw22_crisis.32
+	title = "sw22_crisis.32.name"
+	is_triggered_only = yes
+
+	# Leads to 4a, Add Damage Deposit
+	option = {
+		name = sw22_crisis.32.a
+		planet_event = {
+			id = sw22_crisis.41
+		}
+	}
+}
+
+# It couldn't worm its way out of this one.
+#4a
+planet_event = {
+	id = sw22_crisis.41
+	title = "sw22_crisis.41.name"
+	is_triggered_only = yes
+
+	# Leads to 5a
+	option = {
+		name = sw22_crisis.41.a
+		country_event = {
+			id = sw22_crisis.51
+		}
+	}
 }
