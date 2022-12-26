@@ -139,3 +139,22 @@ planet_event = {
 		}
 	}
 }
+
+# How Dare You (Diplo Event)(Random empire accuses you)
+#5a
+country_event = {
+	id = sw22_crisis.51
+	title = "sw22_crisis.51.name"
+	desc = "sw22_crisis.51.desc"
+	is_triggered_only = yes
+
+	immediate = {
+		random_neighbor_country = {
+			limit = {
+				NOT = { has_country_flag = sw22_blame }
+		}
+		set_country_flag = sw22_blame
+		save_event_target_as = sw22_accused 
+	}
+
+}
