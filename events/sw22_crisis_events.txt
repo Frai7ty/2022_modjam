@@ -152,9 +152,31 @@ country_event = {
 		random_neighbor_country = {
 			limit = {
 				NOT = { has_country_flag = sw22_blame }
+			}
 		}
 		set_country_flag = sw22_blame
-		save_event_target_as = sw22_accused 
+		save_event_target_as = sw22_accused
+		hidden_effect = {
+			country_event = {
+				id = sw22_crisis.52
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sw22_crisis.52
+	title = "TRANSMISSION"
+	desc = "sw22_crisis.52.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+
+	picture_event_data = {
+		portrait = event_target:sw22_accused
+		planet_background = event_target:sw22_accused
+		graphical_culture = event_target:sw22_accused
+		city_level = event_target:sw22_accused
+		room = event_target:sw22_accused.ruler
 	}
 
 }
