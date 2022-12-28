@@ -179,4 +179,7 @@ country_event = {
 		room = event_target:sw22_accused.ruler
 	}
 
+	
+		
+
 }
