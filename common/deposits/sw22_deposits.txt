@@ -1,0 +1,71 @@
+# Damaged Enviroment - Rotten Soil
+sw22_d_damage_1 = {
+	icon = d_rotten_soil_blocker
+	time = 720 #Crisis blockers are worse then normal deposits
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no } # This should make it so that it is only placed on event call
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+		habitability_ceil_mult = -0.05
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 500
+		}
+	}
+
+	prerequisites = { "sw22_tech_worm_cleanup" }
+}
+
+# Damaged Enviroment - Soil Erosion 
+sw22_d_damage_2 = {
+	icon = d_massive_crevice
+	time = 720 #Crisis blockers are worse then normal deposits
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no } # This should make it so that it is only placed on event call
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+		habitability_ceil_mult = -0.05
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 500
+		}
+	}
+
+	prerequisites = { "sw22_tech_worm_cleanup" }
+}
+
+# Damaged Enviroment - Toxic City
+sw22_d_damage_3 = {
+	icon = d_metal_boneyard
+	time = 720 #Crisis blockers are worse then normal deposits
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no } # This should make it so that it is only placed on event call
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+		habitability_ceil_mult = -0.05
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 500
+		}
+	}
+
+	prerequisites = { "sw22_tech_worm_cleanup" }
+}
