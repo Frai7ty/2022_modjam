@@ -3,6 +3,10 @@
  sw22_allowed: "§GSleeper Worms Enabled§!"
  sw22_disabled: "§RSleeper Worms Disabled§!"
 
+ # Event Local
+ sw22_crisis.41.name:0 "Worm Your Way Out Of This One"
+ sw22_crisis.41.desc:0 "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by [sw22_accused.GetName]. This could be the prelude to an all out attack."
+ sw22_crisis.41.a:0 "At least this planet is safe for now."
 
 # Color List
 # §B thisisblue §!
