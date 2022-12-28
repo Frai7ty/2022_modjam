@@ -48,12 +48,22 @@ planet_event = {
 	title = "sw22_crisis.21.name"
 	is_triggered_only = yes
 
-	# Leads to 2b, Add Damage Deposit
+	# Add Damage Deposit
+	immediate = {
+		random_list = {
+			33 = { add_deposit = sw22_d_damage_1 }
+			66 = { add_deposit = sw22_d_damage_2 }
+			99 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+
+	# Leads to 2b
 	option = {
 		name = sw22_crisis.21.a
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.22
+				days = 90
 			}
 		}
 	}
@@ -65,12 +75,22 @@ planet_event = {
 	title = "sw22_crisis.22"
 	is_triggered_only = yes
 
-	#Leads to 2c, Add Damage Deposit
+	# Add Damage Deposit
+	immediate = {
+		random_list = {
+			33 = { add_deposit = sw22_d_damage_1 }
+			66 = { add_deposit = sw22_d_damage_2 }
+			99 = { add_deposit = sw22_d_damage_3 }
+		}
+	}	
+
+	#Leads to 2c
 	option = {
 		name = sw22_crisis.22.a
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.23
+				days = 90
 			}
 		}
 	}
@@ -82,12 +102,22 @@ planet_event = {
 	title = "sw22_crisis.23"
 	is_triggered_only = yes
 
-	#Leads to 4c, Add Damage Deposit
+	# Add Damage Deposit
+	immediate = {
+		random_list = {
+			33 = { add_deposit = sw22_d_damage_1 }
+			66 = { add_deposit = sw22_d_damage_2 }
+			99 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+
+	#Leads to 4c
 	option = {
 		name = sw22_crisis.23.a
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.41
+				days = 90
 			}
 		}
 	}
@@ -100,11 +130,21 @@ planet_event = {
 	title = "sw22_crisis.31.name"
 	is_triggered_only = yes
 
-	# Leads to 3b, Add Damage Deposit
+	# Add Damage Deposit
+	immediate = {
+		random_list = {
+			33 = { add_deposit = sw22_d_damage_1 }
+			66 = { add_deposit = sw22_d_damage_2 }
+			99 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+
+	# Leads to 3b
 	option = {
 		name = sw22_crisis.31.a
 		planet_event = {
 			id = sw22_crisis.32
+			days = 90
 		}
 	}
 }
@@ -115,11 +155,21 @@ planet_event = {
 	title = "sw22_crisis.32.name"
 	is_triggered_only = yes
 
-	# Leads to 4a, Add Damage Deposit
+	# Add Damage Deposit
+	immediate = {
+		random_list = {
+			33 = { add_deposit = sw22_d_damage_1 }
+			66 = { add_deposit = sw22_d_damage_2 }
+			99 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+	
+	# Leads to 4a
 	option = {
 		name = sw22_crisis.32.a
 		planet_event = {
 			id = sw22_crisis.41
+			days = 90
 		}
 	}
 }
@@ -136,6 +186,7 @@ planet_event = {
 		name = sw22_crisis.41.a
 		country_event = {
 			id = sw22_crisis.51
+			days = 90
 		}
 	}
 }
