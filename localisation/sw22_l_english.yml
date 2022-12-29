@@ -11,9 +11,38 @@
  sw22_crisis.11.a: "Ignore it, it's just an earthquake"
  sw22_crisis.11.b: "Explore it more just in case."
 
+ # Event 2
+ sw22_crisis.21.name: "The Dirt Turned turned to Ash"
+ sw22_crisis.21.desc: "The land above the earthquakes has begun to die off, the earth has lost its nutrients and the planet and animals are dying at an alarming rate. The earthquake has caused significant damage."
+ sw22_crisis.21.a: "We must uncover what is going on!"
+
+ sw22_crisis.22.name: "Deep Trouble" 
+ sw22_crisis.22.desc: "Deep scans of the planet have unlocked a series of underground tunnels, it's clear now that this isn't a natural occurrence and that we are under attack."
+ sw22_crisis.22.a: "Call in the army immediately."
+ 
+ sw22_crisis.23.name: "6,000 Feet Under"
+ sw22_crisis.23.desc: "The large labyrinth of tunnels leads to dead ends but clear evidence, someone or something has been working on this for quite some time. A sticky residue deposited in the ceiling of the tunnel is what is causing the environmental damage, it breaks down the bacteria and natural processes which allow the soil to harbor life. Whoever planned this attack knew what they are doing, we are under attack."
+ sw22_crisis.23.a: "Find what is doing this!"
+ 
+ 
+# Event 3
+ sw22_crisis.31.name: "Underground Terrorists "
+ sw22_crisis.31.desc: "Our geological teams have been studying the unexpected earthquakes but nothing about them suggests natural causes. Furthermore, we are starting to see some unexpected environmental damage in the surrounding area. Deep scans have unlocked a series of recent tunnels under the affected area, suggesting this is a deliberate attack on our soil."
+ sw22_crisis.31.a: "Get a boring team there immediately!"
+
+ sw22_crisis.32.name: "Foiled Erosion"
+ sw22_crisis.32.desc: "The tunnel network is extensive, who or what dug them out has been at this for a while. The markers of the ecological damage show that there is more fallout to come in the area. We have yet to find those responsible. Our team was able to slay the beast, but just barely, its crystalline hide and regenerative qualities made it near impervious to our weapons."
+ sw22_crisis.32.a: "Find what is doing this!"
+
+ # Event 4
  sw22_crisis.41.name: "Worm Your Way Out Of This One"
  sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by [sw22_accused.GetName]. This could be the prelude to an all out attack."
  sw22_crisis.41.a: "At least this planet is safe for now."
+
+
+ # Event 5
+
+
 
 # Color List
 # §B thisisblue §!

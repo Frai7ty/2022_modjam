@@ -23,6 +23,7 @@ planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
 	desc = "sw22_crisis.11.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Ignore it, leads to 2a
@@ -53,6 +54,8 @@ planet_event = {
 planet_event = {
 	id = sw22_crisis.21 #2a
 	title = "sw22_crisis.21.name"
+	desc = "sw22_crisis.21.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Add Damage Deposit
@@ -79,7 +82,9 @@ planet_event = {
 #2b
 planet_event = {
 	id = sw22_crisis.22
-	title = "sw22_crisis.22"
+	title = "sw22_crisis.22.name"
+	desc = "sw22_crisis.22.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Add Damage Deposit
@@ -106,7 +111,9 @@ planet_event = {
 #2c
 planet_event = {
 	id = sw22_crisis.23
-	title = "sw22_crisis.23"
+	title = "sw22_crisis.23.name"
+	desc = "sw22_crisis.23.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Add Damage Deposit
@@ -135,6 +142,8 @@ planet_event = {
 planet_event = {
 	id = sw22_crisis.31 #3a
 	title = "sw22_crisis.31.name"
+	desc = "sw22_crisis.31.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Add Damage Deposit
@@ -160,6 +169,8 @@ planet_event = {
 planet_event = { 
 	id = sw22_crisis.32
 	title = "sw22_crisis.32.name"
+	desc = "sw22_crisis.32.desc"
+	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
 	# Add Damage Deposit
