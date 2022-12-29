@@ -4,6 +4,13 @@
  sw22_disabled: "§RSleeper Worms Disabled§!"
 
  # Event Local
+ 
+ # Event 1
+ sw22_crisis.11.name: "Seismic Disturbances"
+ sw22_crisis.11.desc: "There have been a series of unexplained seismic issues on PLANET. Because of the area's lack of history of this occurrence it might be something worth looking into."
+ sw22_crisis.11.a: "Ignore it, it's just an earthquake"
+ sw22_crisis.11.b: "Explore it more just in case."
+
  sw22_crisis.41.name: "Worm Your Way Out Of This One"
  sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by [sw22_accused.GetName]. This could be the prelude to an all out attack."
  sw22_crisis.41.a: "At least this planet is safe for now."

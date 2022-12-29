@@ -3,12 +3,18 @@ namespace = sw22_crisis
 # Trigger for each empire
 country_event = {
 	id = sw22_crisis.1
-	title = "sw22_crisis.1.name"
 	is_triggered_only = yes
+	hide_window = yes
 
-	random_owned_planet = {
-		planet_event = { id = sw22_crisis.11 }
+	immediate = {
+		hidden_effect = {
+			random_owned_planet = { 
+				set_planet_flag = first_worm 
+				planet_event = { id = sw22_crisis.11 }
+			}
+		}
 	}
+
 }
 
 # Seismic Disturbances 
@@ -16,6 +22,7 @@ country_event = {
 planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
+	desc = "sw22_crisis.11.desc"
 	is_triggered_only = yes
 
 	# Ignore it, leads to 2a
@@ -31,7 +38,7 @@ planet_event = {
 
 	#Explore more, leads to 3a
 	option = {
-		name = sw22_crisis.11.a
+		name = sw22_crisis.11.b
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.31
