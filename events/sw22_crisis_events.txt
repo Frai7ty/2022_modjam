@@ -224,6 +224,15 @@ planet_event = {
 
 # How Dare You (Diplo Event)(Random empire accuses you)
 #5a
-country_event = {
+planet_event = {
+	id = sw22_crisis.51
+	title = "sw22_crisis.51.name"
+	desc = "sw22_crisis.51.desc"
+	picture = GFX_evt_in_the_dark
+	is_triggered_only = yes
+
+	option = {
+		name = sw22_crisis.51.a
+	}
 
 }
