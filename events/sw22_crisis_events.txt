@@ -207,21 +207,5 @@ planet_event = {
 # How Dare You (Diplo Event)(Random empire accuses you)
 #5a
 country_event = {
-	id = sw22_crisis.51
-	title = "TRANSMISSION"
-	desc = "sw22_crisis.51.desc"
-	is_triggered_only = yes
-	diplomatic = yes
-
-	picture_event_data = {
-		portrait = event_target:sw22_accused
-		planet_background = event_target:sw22_accused
-		graphical_culture = event_target:sw22_accused
-		city_level = event_target:sw22_accused
-		room = event_target:sw22_accused.ruler
-	}
-
-	
-		
 
 }
