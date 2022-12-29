@@ -158,9 +158,11 @@ planet_event = {
 	# Leads to 3b
 	option = {
 		name = sw22_crisis.31.a
-		planet_event = {
-			id = sw22_crisis.32
-			days = 90
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.32
+				days = 90
+			}
 		}
 	}
 }
@@ -185,9 +187,11 @@ planet_event = {
 	# Leads to 4a
 	option = {
 		name = sw22_crisis.32.a
-		planet_event = {
-			id = sw22_crisis.41
-			days = 90
+		hidden_effect = {
+			planet_event = {
+				id = sw22_crisis.41
+				days = 90
+			}
 		}
 	}
 }
@@ -215,9 +219,11 @@ planet_event = {
 	# Leads to 5a
 	option = {
 		name = sw22_crisis.41.a
-		country_event = {
-			id = sw22_crisis.51
-			days = 90
+		hidden_effect = {
+			country_event = {
+				id = sw22_crisis.51
+				days = 90
+			}
 		}
 	}
 }
@@ -233,6 +239,8 @@ planet_event = {
 
 	option = {
 		name = sw22_crisis.51.a
+		hidden_effect = {
+		}
 	}
 
 }
