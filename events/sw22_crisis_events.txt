@@ -210,7 +210,6 @@ planet_event = {
 			limit = {
 				is_ai = yes
 				is_country_type = default
-				has_communications = prev
 			}
 			save_event_target_as = sw22_accused
 		}
@@ -220,7 +219,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.41.a
 		hidden_effect = {
-			country_event = {
+			planet_event = {
 				id = sw22_crisis.51
 				days = 90
 			}
@@ -253,6 +252,7 @@ country_event = {
 	diplomatic = yes
 	is_triggered_only = yes
 	title = TRANSMISSION
+	location = FROM
 
 	# Regular Empire
 	desc = {
@@ -316,10 +316,11 @@ country_event = {
 
 	option = {
 		name = {
-			event_target:sw22_accused = {
-				is_regular_empire = yes
+			trigger = {
+				event_target:sw22_accused = {
+					is_regular_empire = yes
+				}
 			}
-		}
 			text =  sw22_crisis_61.1.b
 		}
 	}
@@ -327,7 +328,7 @@ country_event = {
 	# Machine Empire
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					is_machine_empire = yes
 				}
@@ -338,7 +339,7 @@ country_event = {
 
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					is_machine_empire = yes
 				}
@@ -350,7 +351,7 @@ country_event = {
 	# Hive Empire
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					is_hive_empire = yes
 				}
@@ -361,7 +362,7 @@ country_event = {
 
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					is_hive_empire = yes
 				}
@@ -373,7 +374,7 @@ country_event = {
 	# Total War Empire
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					sw22_is_total_war_empire = yes
 				}
@@ -384,7 +385,7 @@ country_event = {
 
 	option = {
 		name = {
-			trigger ={
+			trigger = {
 				event_target:sw22_accused = {
 					sw22_is_total_war_empire = yes
 				}
