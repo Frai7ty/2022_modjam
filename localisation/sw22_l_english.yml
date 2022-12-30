@@ -40,9 +40,9 @@
 
 
  # Event 5
-  sw22_crisis.51.name: "They Hit Everyone"
-  sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
-  sw22_crisis.51.a: "How dare they."
+ sw22_crisis.51.name: "They Hit Everyone"
+ sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
+ sw22_crisis.51.a: "How dare they."
 
  # Event 6
  sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: The unfounded and untrue allegations that we are responsible for the attacks are nothing more than fantasy. One of our worlds was attacked as well, we are as much victims as the rest of you. We stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
@@ -59,7 +59,7 @@
 
  sw22_crisis.61.desc.4: "We didn't do the attacks on your worlds, but we wish we had. Never communicate with us ever again you filthy xenos."
  sw22_crisis_61.4.a: "It was for sure them."
- sw22_crisis_61.1.b: "Do we believe this?"
+ sw22_crisis_61.4.b: "Do we believe this?"
 
  # Non Event Local
  worm_army:0 "Attack Bio-Worm"

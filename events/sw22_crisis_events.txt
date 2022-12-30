@@ -212,6 +212,8 @@ planet_event = {
 				is_country_type = default
 			}
 			save_event_target_as = sw22_accused
+			set_country_flag = sw22_accused
+			establish_communications_no_message = root
 		}
 	}
 
@@ -219,6 +221,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.41.a
 		hidden_effect = {
+			owner = { set_country_flag = we_know_who_wormed_us }
 			planet_event = {
 				id = sw22_crisis.51
 				days = 90
@@ -239,15 +242,17 @@ planet_event = {
 	option = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.61 
-				days = 30
+			owner = {
+				country_event = {
+					id = sw22_crisis.61 
+					days = 30
+				}
 			}
 		}
 	}
 }
 
-planet_event = {
+country_event = {
 	id = sw22_crisis.61
 	diplomatic = yes
 	is_triggered_only = yes
@@ -301,8 +306,9 @@ planet_event = {
 		room = event_target:sw22_accused.ruler
 	}
 
-	# Regular Empire
+	#YES
 	option = {
+		#Reg
 		name = {
 			trigger = {
 				event_target:sw22_accused = {
@@ -311,44 +317,18 @@ planet_event = {
 			}
 			text =  sw22_crisis_61.1.a
 		}
-	}
-
-	option = {
+		#Machine
 		name = {
 			trigger = {
-				event_target:sw22_accused = {
-					is_regular_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.1.b
-		}
-	}
-
-	# Machine Empire
-	option = {
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_machine_empire = yes
+				from = {
+					event_target:sw22_accused = {
+						is_machine_empire = yes
+					}
 				}
 			}
 			text =  sw22_crisis_61.2.a
 		}
-	}
-
-	option = {
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_machine_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.2.b
-		}
-	}
-
-	# Hive Empire
-	option = {
+		#Hive
 		name = {
 			trigger = {
 				event_target:sw22_accused = {
@@ -357,21 +337,7 @@ planet_event = {
 			}
 			text =  sw22_crisis_61.3.a
 		}
-	}
-
-	option = {
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_hive_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.3.b
-		}
-	}
-
-	# Total War Empire
-	option = {
+		#MeanGang
 		name = {
 			trigger = {
 				event_target:sw22_accused = {
@@ -382,7 +348,38 @@ planet_event = {
 		}
 	}
 
+	#NO
 	option = {
+		#REG
+		name = {
+			trigger = {
+				event_target:sw22_accused = {
+					is_regular_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.1.b
+		}
+		#MACHINE
+		name = {
+			trigger = {
+				from = {
+					event_target:sw22_accused = {
+						is_machine_empire = yes
+					}
+				}
+			}
+			text =  sw22_crisis_61.2.b
+		}
+		#HIVE
+		name = {
+			trigger = {
+				event_target:sw22_accused = {
+					is_hive_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.3.b
+		}
+		#MEANGANG
 		name = {
 			trigger = {
 				event_target:sw22_accused = {
