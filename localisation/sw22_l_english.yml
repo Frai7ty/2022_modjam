@@ -3,7 +3,7 @@
  sw22_allowed: "§GSleeper Worms Enabled§!"
  sw22_disabled: "§RSleeper Worms Disabled§!"
 
-# Event Local
+ # Event Local
  
  # Event 1
  sw22_crisis.11.name: "Seismic Disturbances"
@@ -45,48 +45,46 @@
  sw22_crisis.51.a: "How dare they."
 
  # Event 6
- sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: The unfounded and untrue allegations that we are responsible for the attacks are nothing more than fantasy. One of our worlds was attacked as well, we are as much victims as the rest of you. We stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
- sw22_crisis_61.1.a: "Liars!"
- sw22_crisis_61.1.b: "Do we believe this?"
+ sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: /nThe unfounded allegations that we are responsible for the attacks are nothing more than fantasy. Furthermore, one of our worlds was attacked as well, and we are as much victims as the rest of you./n We stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
+ sw22_crisis_61.1.a: "They Lie!"
+ sw22_crisis_61.1.b: "Could they be telling the truth?"
 
- sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, with flawed logic as one of our hubs was also attacked. By our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature. End transmission."
- sw22_crisis_61.2.a: "Defective Toaster!"
- sw22_crisis_61.2.b: "Do we believe this?"
+ sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, and also presents flawed logic; one of our hubs was also attacked./n By our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature./n End transmission."
+ sw22_crisis_61.2.a: "Defective Glorified Appliance!"
+ sw22_crisis_61.2.b: "That is some sound logic."
 
- sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and one of our nests were also attacked. The individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one. One of you is responsible and when we find out which one we will eliminate the threat."
- sw22_crisis_61.3.a: "Liar!"
- sw22_crisis_61.3.b: "Do we believe this?"
+ sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and furthermore, one of our nests was also attacked./nThe individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one. /nOne of you is responsible and when we find out which one we will eliminate the threat to the nest."
+ sw22_crisis_61.3.a: "Lying Drone!"
+ sw22_crisis_61.3.b: "What does it have to gain?"
 
- sw22_crisis.61.desc.4: "We didn't do the attacks on your worlds, but we wish we had. Never communicate with us ever again you filthy xenos."
- sw22_crisis_61.4.a: "It was for sure them."
- sw22_crisis_61.4.b: "Do we believe this?"
+ sw22_crisis.61.desc.4: "We didn't do the attacks on your worlds./nWe wish we had./nNever communicate with us ever again, filthy alien scum."
+ sw22_crisis_61.4.a: "This should have been expected this."
+ sw22_crisis_61.4.b: "Ok if not them, then who?"
 
- # Non Event Local
- worm_army:0 "Attack Bio-Worm"
+ #Non Event Local
+ worm_army:0 "Bio-Attack Worm"
  worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
- sw22_d_damage_1:0 "Bio-Worm Damage"
- sw22_d_damage_1_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
- sw22_d_damage_2:0 "Bio-Worm Damage"
- sw22_d_damage_2_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
- sw22_d_damage_3:0 "Bio-Worm Damage"
- sw22_d_damage_3_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
- sw22_d_damage_mystery:0 "Mysterious Eco-Damage"
- sw22_d_damage_mystery_desc:0 "This area is experiencing, unexplained and signifact ecological damage."
+ sw22_d_damage_1:0 "REPLACE_ME"
+ sw22_d_damage_1_desc:0 "REPLACE_ME"
+ sw22_d_damage_2:0 "REPLACE_ME"
+ sw22_d_damage_2_desc:0 "REPLACE_ME"
+ sw22_d_damage_3:0 "REPLACE_ME"
+ sw22_d_damage_3_desc:0 "REPLACE_ME"
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
  sw22_relic_worm_mom_active_tooltip:0 "REPLACE_ME" #TODO
 
- # Color List
- # §B thisisblue §!
- # §E thisisteal §!
- # §G thisisgreen §!
- # §H thisisorange §!
- # §L thisisbrown §!
- # §M thisispurple §!
- # §P thisislightred §! 
- # §R thisisred §!
- # §S thisisdarkorange §!
- # §T thisislightgrey §!
- # §W thisiswhite §!
- # §Y thisisyellow §!
- # §! this returns to the default text color §!
+# Color List
+# §B thisisblue §!
+# §E thisisteal §!
+# §G thisisgreen §!
+# §H thisisorange §!
+# §L thisisbrown §!
+# §M thisispurple §!
+# §P thisislightred §! 
+# §R thisisred §!
+# §S thisisdarkorange §!
+# §T thisislightgrey §!
+# §W thisiswhite §!
+# §Y thisisyellow §!
+# §! this returns to the default text color §!
