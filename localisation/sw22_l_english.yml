@@ -1,5 +1,5 @@
 ﻿l_english:
- sw22_tooltip: "This is a tooltip that briefly describes what your crisis does/how it works/etc. Please check the loc file for a list of colors."
+ sw22_tooltip: "Biological worm superweapons lay buried under countless habitable worlds, can you solve the mystery of the evil empire lurking just under the surface? Defend your planets and destroy those attempting to bury your empire for good."
  sw22_allowed: "§GSleeper Worms Enabled§!"
  sw22_disabled: "§RSleeper Worms Disabled§!"
 
@@ -7,36 +7,35 @@
  
  # Event 1
  sw22_crisis.11.name: "Seismic Disturbances"
- sw22_crisis.11.desc: "There have been a series of unexplained seismic issues on PLANET. Because of the area's lack of history of this occurrence it might be something worth looking into."
- sw22_crisis.11.a: "Ignore it, it's just an earthquake"
+ sw22_crisis.11.desc: "There have been a series of unexplained seismic issues on [Root.GetName]. Because of the lack of earthquakes historically planetary administration is understandably concerned."
+ sw22_crisis.11.a: "Ignore it, it's just an simple earthquake"
  sw22_crisis.11.b: "Explore it more just in case."
 
  # Event 2
- sw22_crisis.21.name: "The Dirt Turned turned to Ash"
- sw22_crisis.21.desc: "The land above the earthquakes has begun to die off, the earth has lost its nutrients and the planet and animals are dying at an alarming rate. The earthquake has caused significant damage."
- sw22_crisis.21.a: "We must uncover what is going on!"
+ sw22_crisis.21.name: "The Land Turns to Ash"
+ sw22_crisis.21.desc: "The area directly above the epicenter has started to experience extreme ecological collapse; the soil no longer has any nutrients which has in turn destroyed local plant and animal life. This is highly irregular for earthquakes, something else must be going on."
+ sw22_crisis.21.a: "Get to the bottom of this."
 
- sw22_crisis.22.name: "Deep Trouble" 
- sw22_crisis.22.desc: "Deep scans of the planet have unlocked a series of underground tunnels, it's clear now that this isn't a natural occurrence and that we are under attack."
- sw22_crisis.22.a: "Call in the army immediately."
+ sw22_crisis.22.name: "Tunnel Trouble" 
+ sw22_crisis.22.desc: "Geological scans of the affected area have uncovered a series of recently created underground tunnels. While it's too early to tell if they are naturally occurring or not, their creation coincides just a few weeks before the first earthquake."
+ sw22_crisis.22.a: "Search those tunnels."
  
  sw22_crisis.23.name: "6,000 Feet Under"
- sw22_crisis.23.desc: "The large labyrinth of tunnels leads to dead ends but clear evidence, someone or something has been working on this for quite some time. A sticky residue deposited in the ceiling of the tunnel is what is causing the environmental damage, it breaks down the bacteria and natural processes which allow the soil to harbor life. Whoever planned this attack knew what they are doing, we are under attack."
- sw22_crisis.23.a: "Find what is doing this!"
+ sw22_crisis.23.desc: "The tunnels are a labyrinth of dead ends and snaking passageways. Whoever, or whatever, has been at this for months before the first earthquake happened. Cave ins in the older parts lead to the earthquakes, but the tunnels lead far away from it. The evidence of the ecological damage is most apparent here, it's clear that we've only seen the tip of the mountain of damage. "
+ sw22_crisis.23.a: "Bring the truth to the surface."
  
- 
-# Event 3
+ # Event 3
  sw22_crisis.31.name: "Underground Terrorists "
- sw22_crisis.31.desc: "Our geological teams have been studying the unexpected earthquakes but nothing about them suggests natural causes. Furthermore, we are starting to see some unexpected environmental damage in the surrounding area. Deep scans have unlocked a series of recent tunnels under the affected area, suggesting this is a deliberate attack on our soil."
- sw22_crisis.31.a: "Get a boring team there immediately!"
+ sw22_crisis.31.desc: "Our geological teams have been studying the unexpected seismic activity. Furthermore, we are starting to see some unexpected ecological damage in the surrounding area. Deep scans have uncovered a series of recently created tunnels under the affected area; it's too early to tell if it's naturally occurring, but regardless it is of concern."
+ sw22_crisis.31.a: "Get a drilling team to investigate."
 
  sw22_crisis.32.name: "Foiled Erosion"
- sw22_crisis.32.desc: "The tunnel network is extensive, who or what dug them out has been at this for a while. The markers of the ecological damage show that there is more fallout to come in the area. We have yet to find those responsible. Our team was able to slay the beast, but just barely, its crystalline hide and regenerative qualities made it near impervious to our weapons."
- sw22_crisis.32.a: "Find what is doing this!"
+ sw22_crisis.32.desc: "The tunnel network is extensive, who or what dug them out has been at this for a while. The state in the tunnels indicates there is more ecological damage to come, what is already dying is only a portion of the tunnel network. We have yet to find those responsible, but will continue the search."
+ sw22_crisis.32.a: "Dig to the truth."
 
  # Event 4
  sw22_crisis.41.name: "Worm Your Way Out Of This One"
- sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by [sw22_accused.GetName]. This could be the prelude to an all out attack."
+ sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by §R[sw22_accused.GetName]§!. This could be the prelude to an all out attack."
  sw22_crisis.41.a: "At least this planet is safe for now."
 
 
