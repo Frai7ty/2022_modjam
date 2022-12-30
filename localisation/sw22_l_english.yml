@@ -44,17 +44,32 @@
  sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
  sw22_crisis.51.a: "How dare they."
 
-# Color List
-# §B thisisblue §!
-# §E thisisteal §!
-# §G thisisgreen §!
-# §H thisisorange §!
-# §L thisisbrown §!
-# §M thisispurple §!
-# §P thisislightred §! 
-# §R thisisred §!
-# §S thisisdarkorange §!
-# §T thisislightgrey §!
-# §W thisiswhite §!
-# §Y thisisyellow §!
-# §! this returns to the default text color §!
+ #Non Event Local
+ worm_army:0 "Attack Bio-Worm"
+ worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
+ sw22_d_damage_1:0 "Bio-Worm Damage"
+ sw22_d_damage_1_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
+ sw22_d_damage_2:0 "Bio-Worm Damage"
+ sw22_d_damage_2_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
+ sw22_d_damage_3:0 "Bio-Worm Damage"
+ sw22_d_damage_3_desc:0 "Damage caused by a Bio-Worm, rendering much of this area's surface unlivable and unproductive."
+ sw22_d_damage_mystery:0 "Mysterious Eco-Damage"
+ sw22_d_damage_mystery_desc:0 "This area is experiencing, unexplained and signifact ecological damage."
+ sw22_r_worm_mom:0 "The Matri-Worm"
+ sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
+ sw22_relic_worm_mom_active_tooltip:0 "REPLACE_ME" #TODO
+
+ # Color List
+ # §B thisisblue §!
+ # §E thisisteal §!
+ # §G thisisgreen §!
+ # §H thisisorange §!
+ # §L thisisbrown §!
+ # §M thisispurple §!
+ # §P thisislightred §! 
+ # §R thisisred §!
+ # §S thisisdarkorange §!
+ # §T thisislightgrey §!
+ # §W thisiswhite §!
+ # §Y thisisyellow §!
+ # §! this returns to the default text color §!
