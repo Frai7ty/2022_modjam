@@ -3,7 +3,7 @@
  sw22_allowed: "§GSleeper Worms Enabled§!"
  sw22_disabled: "§RSleeper Worms Disabled§!"
 
- # Event Local
+# Event Local
  
  # Event 1
  sw22_crisis.11.name: "Seismic Disturbances"
@@ -40,9 +40,9 @@
 
 
  # Event 5
- sw22_crisis.51.name: "They Hit Everyone"
- sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
- sw22_crisis.51.a: "How dare they."
+  sw22_crisis.51.name: "They Hit Everyone"
+  sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
+  sw22_crisis.51.a: "How dare they."
 
  #Non Event Local
  worm_army:0 "Attack Bio-Worm"
