@@ -239,7 +239,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
-			country_event = {
+			planet_event = {
 				id = sw22_crisis.61 
 				days = 30
 			}
@@ -247,12 +247,11 @@ planet_event = {
 	}
 }
 
-country_event = {
+planet_event = {
 	id = sw22_crisis.61
 	diplomatic = yes
 	is_triggered_only = yes
 	title = TRANSMISSION
-	location = FROM
 
 	# Regular Empire
 	desc = {
