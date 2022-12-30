@@ -44,7 +44,24 @@
   sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
   sw22_crisis.51.a: "How dare they."
 
- #Non Event Local
+ # Event 6
+ sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: The unfounded and untrue allegations that we are responsible for the attacks are nothing more than fantasy. One of our worlds was attacked as well, we are as much victims as the rest of you. We stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
+ sw22_crisis_61.1.a: "Liars!"
+ sw22_crisis_61.1.b: "Do we believe this?"
+
+ sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, with flawed logic as one of our hubs was also attacked. By our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature. End transmission."
+ sw22_crisis_61.2.a: "Defective Toaster!"
+ sw22_crisis_61.2.b: "Do we believe this?"
+
+ sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and one of our nests were also attacked. The individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one. One of you is responsible and when we find out which one we will eliminate the threat."
+ sw22_crisis_61.3.a: "Liar!"
+ sw22_crisis_61.3b: "Do we believe this?"
+
+ sw22_crisis.61.desc.4: "We didn't do the attacks on your worlds, but we wish we had. Never communicate with us ever again you filthy xenos."
+ sw22_crisis_61.4.a: "It was for sure them."
+ sw22_crisis_61.1.b: "Do we believe this?"
+
+ # Non Event Local
  worm_army:0 "Attack Bio-Worm"
  worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
  sw22_d_damage_1:0 "Bio-Worm Damage"
