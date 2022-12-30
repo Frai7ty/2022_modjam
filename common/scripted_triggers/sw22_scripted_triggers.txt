@@ -1,0 +1,8 @@
+sw22_is_total_war_empire = {
+	OR = {
+		has_valid_civic = civic_fanatic_purifiers
+		has_valid_civic = civic_hive_devouring_swarm
+		has_valid_civic = civic_machine_assimilator
+		has_valid_civic = civic_machine_terminator
+	}
+}

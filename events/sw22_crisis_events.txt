@@ -228,7 +228,7 @@ planet_event = {
 	}
 }
 
-# How Dare You (Diplo Event)(Random empire accuses you)
+# They Hit Everyone
 #5a
 planet_event = {
 	id = sw22_crisis.51
@@ -240,7 +240,156 @@ planet_event = {
 	option = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
+			country_event = {
+				id = sw22_crisis.61 
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sw22_crisis.61
+	diplomatic = yes
+	is_triggered_only = yes
+	title = TRANSMISSION
+
+	# Regular Empire
+	desc = {
+		trigger ={
+			event_target:sw22_accused = {
+				is_regular_empire = yes
+			}
+		}
+		text =  sw22_crisis.61.desc.1
+	}
+
+	# Machine Empire
+	desc = {
+		trigger ={
+			event_target:sw22_accused = {
+				is_machine_empire = yes
+			}
+		}
+		text =  sw22_crisis.61.desc.2
+	}
+
+	# Hive Empire
+	desc = {
+		trigger ={
+			event_target:sw22_accused = {
+				is_hive_empire = yes
+			}
+		}
+		text =  sw22_crisis.61.desc.3
+	}
+
+	# Total War Empire
+	desc = {
+		trigger ={
+			event_target:sw22_accused = {
+				sw22_is_total_war_empire = yes
+			}
+		}
+		text =  sw22_crisis.61.desc.4
+	}
+
+	picture_event_data = {
+		portrait = event_target:sw22_accused
+		planet_background = event_target:sw22_accused
+		graphical_culture = event_target:sw22_accused
+		city_level = event_target:sw22_accused
+		room = event_target:sw22_accused.ruler
+	}
+
+	# Regular Empire
+	option = {
+		name = {
+			trigger = {
+				event_target:sw22_accused = {
+					is_regular_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.1.a
 		}
 	}
 
+	option = {
+		name = {
+			event_target:sw22_accused = {
+				is_regular_empire = yes
+			}
+		}
+			text =  sw22_crisis_61.1.b
+		}
+	}
+
+	# Machine Empire
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					is_machine_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.2.a
+		}
+	}
+
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					is_machine_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.2.b
+		}
+	}
+
+	# Hive Empire
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					is_hive_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.3.a
+		}
+	}
+
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					is_hive_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.3.b
+		}
+	}
+
+	# Total War Empire
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					sw22_is_total_war_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.4.a
+		}
+	}
+
+	option = {
+		name = {
+			trigger ={
+				event_target:sw22_accused = {
+					sw22_is_total_war_empire = yes
+				}
+			}
+			text =  sw22_crisis_61.4.b
+		}
+	}
 }
