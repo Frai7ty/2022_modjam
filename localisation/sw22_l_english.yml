@@ -45,19 +45,19 @@
  sw22_crisis.51.a: "How dare they."
 
  # Event 6
- sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: /nThe unfounded allegations that we are responsible for the attacks are nothing more than fantasy. Furthermore, one of our worlds was attacked as well, and we are as much victims as the rest of you./n We stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
+ sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: \n\nThe unfounded allegations that we are responsible for the attacks are nothing more than fantasy. Furthermore, one of our worlds was attacked as well, and we are as much victims as the rest of you.\n\nWe stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
  sw22_crisis_61.1.a: "They Lie!"
  sw22_crisis_61.1.b: "Could they be telling the truth?"
 
- sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, and also presents flawed logic; one of our hubs was also attacked./n By our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature./n End transmission."
+ sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, and also presents flawed logic; one of our hubs was also attacked.\n\nBy our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature.\n\nEnd transmission."
  sw22_crisis_61.2.a: "Defective Glorified Appliance!"
  sw22_crisis_61.2.b: "That is some sound logic."
 
- sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and furthermore, one of our nests was also attacked./nThe individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one. /nOne of you is responsible and when we find out which one we will eliminate the threat to the nest."
+ sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and furthermore, one of our nests was also attacked.\n\nThe individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one.\n\nOne of you is responsible and when we find out which one we will eliminate the threat to the nest."
  sw22_crisis_61.3.a: "Lying Drone!"
  sw22_crisis_61.3.b: "What does it have to gain?"
 
- sw22_crisis.61.desc.4: "We didn't do the attacks on your worlds./nWe wish we had./nNever communicate with us ever again, filthy alien scum."
+ sw22_crisis.61.desc.4: "We are not responsible for the attacks on your worlds.\n\nWe wish we were.\n\nNever communicate with us ever again, filthy alien scum."
  sw22_crisis_61.4.a: "This should have been expected this."
  sw22_crisis_61.4.b: "Ok if not them, then who?"
 
