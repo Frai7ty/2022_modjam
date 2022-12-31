@@ -1,0 +1,55 @@
+espionage_operation_event = {
+	id = sw22_worm_operation.1
+	title = sw22_worm_operation.1.name
+	desc = sw22_worm_operation.1.desc
+	location = target.capital_scope
+	picture = GFX_evt_inhabited_solar_system
+
+	is_triggered_only = yes
+
+	option = {
+		name = PROCEED
+	}
+}
+
+espionage_operation_event = {
+	id = sw22_worm_operation.2
+	title = sw22_worm_operation.2.name
+	desc = sw22_worm_operation.2.desc
+	location = target.capital_scope
+	is_triggered_only = yes
+
+	option = {
+		name = ACKNOWLEDGED
+	}
+
+}
+
+espionage_operation_event = {
+	id = sw22_worm_operation.3
+	title = sw22_worm_operation.3.name
+	desc = sw22_worm_operation.3.desc
+	location = target.capital_scope
+	is_triggered_only = yes
+
+	immediate = {
+		set_espionage_operation_progress_locked = yes
+	}
+
+	option = {
+		name = LAUNCH_OPERATION
+		hidden_effect = {
+			target = {
+				set_country_flag = sw22_worm_operation
+				create_army = {
+					owner = prev
+					type = worm_army
+				}
+			}
+		}
+	}
+
+	after = {
+		set_espionage_operation_progress_locked = no
+	}
+}
