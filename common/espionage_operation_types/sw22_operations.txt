@@ -1,0 +1,57 @@
+sw22_operation_plant_attack_worm = {
+	categories = { op_cat_sabotage op_cat_military }
+	picture = GFX_evt_stellarites
+	desc = sw22_operation_plant_attack_worm
+	stages = 3
+
+	resources = {
+		category = operations
+		cost = {
+			influence = 250
+		}
+		upkeep = {
+			energy = 9
+		}
+	}
+
+	spy_power_cost = 60
+
+	potential = {
+		owner = {
+			has_country_flag = sw22_relic_worm_mom_active
+		}
+	}
+	allow = {
+		custom_tooltip = {
+			is_running_espionage_operation = no
+			fail_text = operation_one_at_a_time
+		}
+	}
+
+	stage = {
+		difficulty = @diff_t7
+		icon = GFX_espionage_chapter_icon_motion
+		event = sw22_worm_operation.1
+	}
+	stage = {
+		difficulty = @diff_t7
+		icon = GFX_espionage_chapter_icon_target
+		event = sw22_worm_operation.2
+	}
+	stage = {
+		difficulty = @diff_t7
+		icon = GFX_espionage_chapter_icon_success
+		event = sw22_worm_operation.3
+	}
+	on_roll_failed = {
+		standard_espionage_operation_on_roll_failed = { RANDOM_EVENTS = operation_random_events_deepcover }
+	}
+	on_create = {
+		target = {
+			set_timed_country_flag = {
+				flag = espionage_operation_targeted_by@root.owner #Used in random Spy Network events
+				days = @operationTargetedByTimer
+			}
+		}
+	}
+}
