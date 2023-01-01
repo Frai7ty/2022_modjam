@@ -1,0 +1,105 @@
+situation_worm_attack = {
+	picture = GFX_evt_in_the_dark
+	complete_icon_frame = GFX_situation_outcome_frame_red
+	complete_icon = GFX_situation_outcome_negative
+	fail_icon_frame = GFX_situation_outcome_frame_green
+	fail_icon = GFX_situation_outcome_positive
+	
+	on_start = {
+		set_situation_locked = yes
+	}
+	
+	on_progress_complete = { # Worms Win
+		custom_tooltip = situation_sw22_worm_attack_worms_win_tooltip
+		hidden_effect = { destroy_situation = this }	
+	}
+
+	on_fail = { # Worms Lose
+		custom_tooltip = situation_sw22_worm_attack_worms_lose_tooltip
+		hidden_effect = { destroy_situation = this }
+	}
+
+	start_value = 50
+	progress_direction = monodirectional
+
+	on_monthly = {
+		random_events = {
+			50 = 0
+			25 = sw22_situation_events.1 # Worm Attack
+			25 = sw22_situation_events.2 # Worm Deposit
+		}
+	}
+
+	stages = {
+		worm_attack_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_red
+			end = 25
+		}
+		
+		worm_attack_2 = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_red
+			end = 75
+			on_first_enter = {
+				situation_event = { id = sw22_situation_events.3 }
+			}
+		}
+
+		worm_attack_3 = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_red
+			end = 100
+			on_first_enter = {
+				situation_event = { id = sw22_situation_events.4 }
+			}
+		}
+	}
+	
+	monthly_progress =  {
+		base = 5
+		modifier = {
+			add = -6
+			desc = sw22_worm_containment_easy
+			current_situation_approach = sw22_worm_attack_keep_contained 
+		}
+		modifier = {
+			add = -15
+			desc = sw22_worm_containment_hard
+			current_situation_approach = sw22_worm_attack_early_bird
+		}
+	}
+
+	approach = {
+		name = sw22_worm_attack_do_nothing
+		icon = GFX_situation_approach_this_is_fine
+		icon_background = GFX_situation_approach_bg_red
+		on_select = {
+			custom_tooltip = deficit_approach_do_nothing_tooltip
+		}
+	}
+
+	approach = {
+		name = sw22_worm_attack_keep_contained
+		icon = GFX_situation_approach_shrug
+		icon_background = GFX_situation_approach_bg_yellow
+		on_select = {
+			custom_tooltip = sw22_worm_attack_keep_contained_tooltip
+		}
+	
+	}
+
+	approach = {
+		name = sw22_worm_attack_early_bird
+		icon = GFX_situation_approach_research
+		icon_background = GFX_situation_approach_bg_green
+		on_select = {
+			custom_tooltip = sw22_worm_attack_early_bird_tooltip
+		}
+		potential = {
+			owner = {
+				has_technology = sw22_tech_early_bird
+			}
+		}
+	}
+}

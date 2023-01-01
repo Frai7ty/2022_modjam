@@ -7,5 +7,6 @@ on_game_start = {
 on_five_year_pulse = {
 	events = {
 		midgame_crisis_trigger.1
+		sw22_situation.0
 	}
 }
