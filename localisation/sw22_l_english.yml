@@ -61,6 +61,35 @@
  sw22_crisis_61.4.a: "This should have been expected this."
  sw22_crisis_61.4.b: "Ok if not them, then who?"
 
+ sw22_situation.0.name: "REPLACE ME"
+ sw22_situation.0.desc: "REPLACE ME"
+
+ sw22_situation.1.name: "REPLACE ME"
+ sw22_situation.1.desc: "REPLACE ME"
+ sw22_situation.1.a: "We must defend!"
+
+ sw22_situation.2.name: "REPLACE ME"
+ sw22_situation.2.desc: "REPLACE ME"
+ sw22_situation.2.a: "This can't be good"
+
+ sw22_situation.3.name: "REPLACE ME"
+ sw22_situation.3.desc: "REPLACE ME"
+ sw22_situation.3.a: "REPLACE ME"
+
+ # Situation Local
+ situation_sw22_worm_attack_worms_win_tooltip: "REPLACE ME"
+ situation_sw22_worm_attack_worms_lose_tooltip: "REPLACE ME"
+ situation_sw22_worm_attack_ended_tooltip: "REPLACE ME"
+ 
+ sw22_worm_attack_keep_contained: "REPLACE ME"
+ sw22_worm_attack_keep_contained_tooltip: "REPLACE ME"
+ 
+ sw22_worm_attack_early_bird_tooltip: "REPLACE ME"
+ 
+
+ sw22_worm_containment_easy: "REPLACE ME"
+ sw22_worm_containment_hard: "REPLACE ME"
+ 
  #Non Event Local
  worm_army:0 "Bio-Attack Worm"
  worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
@@ -73,6 +102,16 @@
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
  sw22_relic_worm_mom_active_tooltip:0 "REPLACE_ME" #TODO
+
+ # Operation Local
+ sw22_worm_operation.1.name: "REPLACE ME"
+ sw22_worm_operation.1.desc: "REPLACE ME"
+
+ sw22_worm_operation.2.name: "REPLACE ME"
+ sw22_worm_operation.2.desc: "REPLACE ME"
+
+ sw22_worm_operation.3.name: "REPLACE ME"
+ sw22_worm_operation.3.desc: "REPLACE ME"
 
 # Color List
 # §B thisisblue §!
