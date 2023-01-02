@@ -33,10 +33,6 @@ planet_event = { # on_action trigger
 				type = situation_worm_attack
 				target = root
 			}
-			start_situation = {
-				type = situation_search_for_the_worm_folk
-				target = THIS
-			}
 		}
 		hidden_effect = {
 			planet_event = {

@@ -21,7 +21,7 @@
  sw22_crisis.22.a: "Search those tunnels."
  
  sw22_crisis.23.name: "6,000 Feet Under"
- sw22_crisis.23.desc: "The tunnels are a labyrinth of dead ends and snaking passageways. Whoever, or whatever, has been at this for months before the first earthquake happened. Cave ins in the older parts lead to the earthquakes, but the tunnels lead far away from it. The evidence of the ecological damage is most apparent here, it's clear that we've only seen the tip of the mountain of damage. "
+ sw22_crisis.23.desc: "The tunnels are a labyrinth of dead ends and snaking passageways. Whoever, or whatever, has been at this for months before the first earthquake happened. Cave ins in the older parts lead to the earthquakes, but the tunnels lead far away from it. The evidence of the ecological damage is most apparent here, it's clear that we've only seen the first stages of damage. "
  sw22_crisis.23.a: "Bring the truth to the surface."
  
  # Event 3
@@ -35,31 +35,40 @@
 
  # Event 4
  sw22_crisis.41.name: "Worm Your Way Out Of This One"
- sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bio-engineering, not dissimilar to some genetic techniques used by §R[sw22_accused.GetName]§!. This could be the prelude to an all out attack."
+ sw22_crisis.41.desc: "After a long and grueling search our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bioengineering much beyond our understanding. Could this be the prelude to an all out attack?"
  sw22_crisis.41.a: "At least this planet is safe for now."
 
 
  # Event 5
  sw22_crisis.51.name: "They Hit Everyone"
- sw22_crisis.51.desc: "It appears [sw22_accused.GetName] hit dozens of planets and reports are still coming in. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms. Already there are talks about sanctions and some even suggesting counterattacks."
- sw22_crisis.51.a: "How dare they."
+ sw22_crisis.51.desc: "It appears a worm attacked a planet of every known spacefaring empire. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms, and paranoid runs deep with empires blaming each other and rivals for the attacks."
+ sw22_crisis.51.a: "Who could do this?"
 
- # Event 6
- sw22_crisis.61.desc.1: "Xenos, toasters, hiveminds and citizens of the galaxy. I stand before you on behalf of [sw22_accused.GetName]. We have prepared a statement: \n\nThe unfounded allegations that we are responsible for the attacks are nothing more than fantasy. Furthermore, one of our worlds was attacked as well, and we are as much victims as the rest of you.\n\nWe stand before the galactic community and condemn the attacks on the galaxy and will support any effort to hunt down the true perpetrators of this crime."
- sw22_crisis_61.1.a: "They Lie!"
- sw22_crisis_61.1.b: "Could they be telling the truth?"
+ # Event 6.1
+ sw22_crisis.61.name:0 "The Truth Surfaces"
+ sw22_crisis.61.desc:0 "Surface dwellers of the galaxy; we hope you enjoyed our little display.\n\nWe are the Molonoids, but you can refer to us simply as your new Overlords. Our ancient and advanced empire seeded all of your worlds with our advanced bio-worms long before your people or your creators had tools. The worm you experienced was nothing more than a juvenile, it's size does not even begun to compare to the full grown worms slumbering under your feet even now.\n\nYou all have two choices: Submit or be destroyed.\n\nA representative from our empire will be reaching out shortly to discuss the terms of your surrender."
+ sw22_crisis.61.a:0 "How dare they!"
+ sw22_crisis.61.b:0 "Did they hang up on us?"
 
- sw22_crisis.61.desc.2: "The accusation that our units are responsible for the worm attack is a false statement, and also presents flawed logic; one of our hubs was also attacked.\n\nBy our calculations there would be 247 more efficient ways to attack all empires simultaneously, which would dictate this attack is organic in nature.\n\nEnd transmission."
- sw22_crisis_61.2.a: "Defective Glorified Appliance!"
- sw22_crisis_61.2.b: "That is some sound logic."
+ # Event 6.2 Follow Up 1
+ sw22_crisis.62.name:0 "A Tense Galaxy"
+ sw22_crisis.62.desc:0 "It's been six months from sudden attacks from the Molonoids and no empire can confirm that they have heard any further demands from them. Were the attacks some kind of elaborate hoax? The galactic community is on edge as empires argue about how to best deal with the Molonoid threat once it surfaces."
+ sw22_crisis.62.a:0 "What is going on?"
 
- sw22_crisis.61.desc.3: "The [sw22_accused.GetName] is not responsible for the attacks, and furthermore, one of our nests was also attacked.\n\nThe individualistic nature of many of the galaxy's empires leads you to assume the worst in other creatures, but we know better as we are one.\n\nOne of you is responsible and when we find out which one we will eliminate the threat to the nest."
- sw22_crisis_61.3.a: "Lying Drone!"
- sw22_crisis_61.3.b: "What does it have to gain?"
+ # Event 6.3 Follow Up 2 (Crisis Begins)
+ sw22_crisis.63.name:0 "It Starts"
+ sw22_crisis.63.desc:0 "We had hoped it wouldn't have come to this but your defiance can not be allowed as we will not accept the seeds of rebellion to grow.\n\nUntil all empires have submitted there will escalating amounts of worm attacks on inhabited planets. Once your empire has submitted then attacks will cease.\n\nAs you've already been in touch with our representatives so you know where to reach out to when you're done digging your own graves.\n\nWe look forward to a time after this shakey start and we can work together to build the foundations of lasting interplanetary peace with the rightful rulers of the galaxy in charge."
+ sw22_crisis.63.a:0 "You haven't sent anyone, what is going on?"
 
- sw22_crisis.61.desc.4: "We are not responsible for the attacks on your worlds.\n\nWe wish we were.\n\nNever communicate with us ever again scum."
- sw22_crisis_61.4.a: "This should have been expected."
- sw22_crisis_61.4.b: "Ok if not them, then who?"
+ # Event 7.1 - Let Loose the Worms of War
+ sw22_crisis.71.name:0 "Cry Havoc, and Let Loose the Worms of War"
+ sw22_crisis.71.desc:0 "As promised the attacks have begun, [sw_planet_attack_warning.GetName] which is part of [sw_country_attack_warning.GetName] has reported it's under attack from a sleeper worm dozens of times larger than the ones part of the previous attack. There's no way to know how long before the next attack."
+ sw22_crisis.71.a:0 "It begins. Hopefully we don't get hit next."
+ 
+ # Event 7.2 - 
+ sw22_crisis.72.name:0 "We Must Dig Ourselves Out Of This Hole"
+ sw22_crisis.72.desc:0 "With this most recent attack on [sw_planet_attack_warning.GetName] it's become clear that the Molonoids must be stopped. We are starting to assemble a team to both search out where the Molonoid are operating from, but first to deal with the more pressing need of how to combat the powerful and impervious Bio-Worms."
+ sw22_crisis.72.a:0 "Excellent"
 
  sw22_situation.0.name: "Wormcon 1"
  sw22_situation.0.desc: "A mature sleeper worm has awoken deep under the surface of [Root.GetName]. Our forces are scrambling to respond."
@@ -80,13 +89,14 @@
  sw22_situation.4.desc:0 "The Sleeper Worm has completely destroyed the ecosystem of [Root.GetName], and returning it to its former glory will take considerable commitment."
  sw22_situation.4.a: "By the Shroud..."
 
+
  # Situation Local
  situation_worm_attack:0 "Sleeper Worm Attack"
- situation_worm_attack_desc:0 "[Target.GetName] is under attack from a sleeper worm. Without extra support the planets ecosystem will be destroyed."
+ situation_worm_attack_desc:0 "[Target.GetName] is under attack from a sleeper worm. Without extra support the planet's ecosystem will be destroyed."
  situation_worm_attack_type:0 "Sleeper Worm Attack"
  situation_worm_attack_monthly_change_tooltip:0 "[Target.GetName] will progress towards destruction or salvation based on our selected §YApproach§!."
  situation_sw22_worm_attack_worms_win_tooltip: "The only way to save this planet from being destroyed is to kill the advanced worm bio-weapon that is attacking it."
- situation_sw22_worm_attack_worms_lose_tooltip: "If we cannot stop the work in time, the planet's ecosystem will be destoryed rendering it uninhabitable."
+ situation_sw22_worm_attack_worms_lose_tooltip: "If we cannot stop the work in time, the planet's ecosystem will be destroyed rendering it uninhabitable."
  situation_sw22_worm_attack_ended_tooltip: "Victory"
  sw22_worm_attack_keep_contained: "Contain the Worm"
  sw22_worm_attack_keep_contained_tooltip: "While costly, by using advanced drilling and seismic mines we should be able to box the worm in its current location, slowing down it's progress for the time being."
@@ -102,17 +112,17 @@
 
  #Situation - Search for the Worm Folk
  situation_search_for_the_worm_folk:0 "Search for the Molonoids"
- situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleepers worm bio-weapson they planted on our planets generations ago. We will search them out and stop them."
+ situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleepers, worm bio-weapon they planted on our planets generations ago. We will search them out and stop them."
  situation_search_for_the_worm_folk_type:0 "Search for the Molonoids"
  situation_sw22_search_for_the_worm_folk_found_tooltip:0 "We uncover clues to stop the Molonoid attacks or die trying."
  sw22_search_for_the_worm_folk_light:0 "Limited Funding"
- sw22_search_for_the_worm_folk_medium:0 "Decent Contrabution"
+ sw22_search_for_the_worm_folk_medium:0 "Decent Contribution"
  sw22_search_for_the_worm_folk_medium_heavy:0 "Spare No Costs"
- sw22_search_for_the_worm_folk_light_tooltip:0 "We will fund the search for the Molonoids in the modest way, but it will take a while as we have other priorities right now."
- sw22_search_for_the_worm_folk_medium_tooltip:0 "A attack of this magnatutde demands finical and research commitment."
- sw22_search_for_the_worm_folk_medium_heavy_tooltip:0 "We will stop at nothing to stop this meance, we cannot allow them to hold the galaxy hostage."
+ sw22_search_for_the_worm_folk_light_tooltip:0 "We will fund the search for the Molonoids in a modest way, but it will take a while as we have other priorities right now."
+ sw22_search_for_the_worm_folk_medium_tooltip:0 "An attack of this magnitude demands financial and research commitment."
+ sw22_search_for_the_worm_folk_medium_heavy_tooltip:0 "We will stop at nothing to stop this menace, we cannot allow them to hold the galaxy hostage."
  search_for_the_worm_folk_1:0 "Limited Funding"
- search_for_the_worm_folk_2:0 "Decent Contrabution"
+ search_for_the_worm_folk_2:0 "Decent Contribution"
  search_for_the_worm_folk_3:0 "Spare No Costs"
 
  #Non Event Local
@@ -155,6 +165,8 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
+
+
 
 
 

@@ -205,17 +205,6 @@ planet_event = {
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 
-	immediate = {
-		random_country = {
-			limit = {
-				is_ai = yes
-				is_country_type = default
-			}
-			save_event_target_as = sw22_accused
-			set_country_flag = sw22_accused
-			establish_communications_no_message = root
-		}
-	}
 
 	# Leads to 5a
 	option = {
@@ -254,203 +243,174 @@ planet_event = {
 
 country_event = {
 	id = sw22_crisis.61
+	title = "sw22_crisis.61.name"
+	desc =  "sw22_crisis.61.desc"
 	diplomatic = yes
 	is_triggered_only = yes
 	title = TRANSMISSION
 
-	# Regular Empire
-	desc = {
-		trigger ={
-			event_target:sw22_accused = {
-				is_regular_empire = yes
+	immediate = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = sw22_crisis.62 
+					days = 5 #TODO
+				}
 			}
-		}
-		text =  sw22_crisis.61.desc.1
-	}
-
-	# Machine Empire
-	desc = {
-		trigger ={
-			event_target:sw22_accused = {
-				is_machine_empire = yes
-			}
-		}
-		text =  sw22_crisis.61.desc.2
-	}
-
-	# Hive Empire
-	desc = {
-		trigger ={
-			event_target:sw22_accused = {
-				is_hive_empire = yes
-			}
-		}
-		text =  sw22_crisis.61.desc.3
-	}
-
-	# Total War Empire
-	desc = {
-		trigger ={
-			event_target:sw22_accused = {
-				sw22_is_total_war_empire = yes
-			}
-		}
-		text =  sw22_crisis.61.desc.4
+		}	
 	}
 
 	picture_event_data = {
-		portrait = event_target:sw22_accused
-		planet_background = event_target:sw22_accused
-		graphical_culture = event_target:sw22_accused
-		city_level = event_target:sw22_accused
-		room = event_target:sw22_accused.ruler
+		room = no_video_feed_room
 	}
 
-	#YES
 	option = {
-		#Reg
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_regular_empire = yes
+		name = sw22_crisis.61.a
+	}
+
+	option = {
+		name = sw22_crisis.61.b
+	}
+}
+
+country_event = {
+	id = sw22_crisis.62
+	title = "sw22_crisis.62.name"
+	desc =  "sw22_crisis.62.desc"
+	picture = GFX_evt_in_the_dark
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = sw22_crisis.63 
+					days = 30
 				}
 			}
-			text =  sw22_crisis_61.1.a
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
+		}	
+	}
+
+	option = {
+		name = sw22_crisis.62.a
+	}
+}
+
+country_event = {
+	id = sw22_crisis.63
+	title = "sw22_crisis.63.name"
+	desc =  "sw22_crisis.63.desc"
+	diplomatic = yes
+	is_triggered_only = yes
+	title = TRANSMISSION
+
+	immediate = {
+	}
+
+	picture_event_data = {
+		room = no_video_feed_room
+	}
+
+	option = {
+		name = sw22_crisis.63.a
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = sw22_crisis.71 
+					days = 10
 				}
 			}
-		}
-		#Machine
-		name = {
-			trigger = {
-				from = {
-					event_target:sw22_accused = {
-						is_machine_empire = yes
-					}
+		}	
+	}
+}
+
+country_event = {
+	id = sw22_crisis.71
+	title = "sw22_crisis.71.name"
+	desc =  "sw22_crisis.71.desc"
+	picture = GFX_evt_in_the_dark
+	is_triggered_only = yes
+
+	immediate = {
+		random_galaxy_planet = {
+			limit = {
+				has_owner = yes
+				owner = { 
+					is_ai = yes
+					is_fallen_empire = no
+					is_primitive = no
 				}
+				is_colony = yes
+				NOT = { has_planet_flag = sw_worm_attacked_this_planet }
 			}
-			text =  sw22_crisis_61.2.a
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
-			}
-		}
-		#Hive
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_hive_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.3.a
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
-			}
-		}
-		#MeanGang
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					sw22_is_total_war_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.4.a
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
+			set_planet_flag = sw_worm_attacked_this_planet
+			this = { save_event_target_as = sw_planet_attack_warning }
+			owner = { save_event_target_as = sw_country_attack_warning }
+			owner = {
+				start_situation = {
+					type = situation_worm_attack
+					target = root
 				}
 			}
 		}
 	}
 
-	#NO
 	option = {
-		#REG
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_regular_empire = yes
+		name = sw22_crisis.71.a
+		hidden_effect = {
+			owner = {
+				country_event = {
+					id = sw22_crisis.72 
+					days = 10
 				}
 			}
-			text =  sw22_crisis_61.1.b
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
+		}	
+	}
+}
+
+country_event = {
+	id = sw22_crisis.72
+	title = "sw22_crisis.72.name"
+	desc =  "sw22_crisis.72.desc"
+	picture = GFX_evt_in_the_dark
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_fallen_empire = no
+				is_primitive = no
 			}
-		}
-		#MACHINE
-		name = {
-			trigger = {
-				from = {
-					event_target:sw22_accused = {
-						is_machine_empire = yes
-					}
-				}
-			}
-			text =  sw22_crisis_61.2.b
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
+			start_situation = {
+				type = situation_search_for_the_worm_folk
+				target = root
 			}
 		}
-		#HIVE
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					is_hive_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.3.b
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
-			}
-		}
-		#MEANGANG
-		name = {
-			trigger = {
-				event_target:sw22_accused = {
-					sw22_is_total_war_empire = yes
-				}
-			}
-			text =  sw22_crisis_61.4.b
-			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = { has_global_flag = sw22_worm_assult_begin }
-					}
-					set_global_flag = sw22_worm_assult_begin 
-				}
-			}
-		}
+		#every_country = {
+		#	limit = {
+		#		is_ai = no
+		#		is_fallen_empire = no
+		#		is_primitive = no
+		#	}
+		#	random_galaxy_planet = {
+		#		limit = {
+		#			has_owner = yes
+		#			is_colony = yes
+		#			NOT = { has_planet_flag = sw_worm_attacked_this_planet }
+		#		}
+		#		set_planet_flag = sw_worm_attacked_this_planet
+		#		this = { save_event_target_as = sw_planet_attack_warning_player }
+		#		owner = {
+		#			start_situation = {
+		#				type = situation_worm_attack
+		#				target = root
+		#			}
+		#		}
+		#	}
+		#}
+	}
+
+	option = {
+		name = sw22_crisis.72.a
 	}
 }
