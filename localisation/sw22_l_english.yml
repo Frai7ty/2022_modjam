@@ -65,7 +65,7 @@
  sw22_situation.0.desc: "A mature sleeper worm has awoken on [Root.GetName] and our forces are scrambling to respond."
 
  sw22_situation.1.name: "Wormling Attack"
- sw22_situation.1.desc: "The Sleeper Worm has shed a legion of attack wormlings that are attacking planet side."
+ sw22_situation.1.desc: "The Sleeper Worm has shed a legion of attack wormlings that are attacking the planet."
  sw22_situation.1.a: "We must defend [Root.GetName]."
 
  sw22_situation.2.name: "Ecological Damage"
@@ -73,30 +73,30 @@
  sw22_situation.2.a: "This can't be good."
 
  sw22_situation.3.name: "Wormling Attack & Damage"
- sw22_situation.3.desc: "The Worm surfaced in a new part of [Root.GetName] and immediatly shed a legion of attack wormlings. The local area is both dealing with the creatures and the ecological fallout."
+ sw22_situation.3.desc: "The Worm surfaced in a new part of [Root.GetName] and immediately shed a legion of attack wormlings. The local area is both dealing with the creatures and the ecological fallout."
  sw22_situation.3.a: "Horrific."
 
  sw22_situation.4.name:0 "Ecological Collapse"
- sw22_situation.4.desc:0 "The Sleeper Worm has completely destoryed the ecosystem of [Root.GetName], and returning it to it's former glory will take consierable commitmint."
+ sw22_situation.4.desc:0 "The Sleeper Worm has completely destroyed the ecosystem of [Root.GetName], and returning it to its former glory will take considerable commitment."
  sw22_situation.4.a: "By the Shroud..."
 
  # Situation Local
  situation_worm_attack:0 "Sleeper Worm Attack"
- situation_worm_attack_desc:0 "[FROM.GetName] is under attack from a sleeper worm. This ongoing situation demands special attension."
+ situation_worm_attack_desc:0 "[Target.GetName] is under attack from a sleeper worm. This ongoing situation demands special attention."
  situation_worm_attack_type:0 "Sleeper Worm Attack"
- situation_sw22_worm_attack_worms_win_tooltip: "By deafeating the worm we will save this planet from being destoryed by the Sleeper Worm."
+ situation_sw22_worm_attack_worms_win_tooltip: "By defeating the worm we will save this planet from being destroyed."
  situation_sw22_worm_attack_worms_lose_tooltip: "Ecosystem Destroyed"
  situation_sw22_worm_attack_ended_tooltip: "Victory"
  sw22_worm_attack_keep_contained: "Contain the Worm"
  sw22_worm_attack_keep_contained_tooltip: "While expensive, using advanced drilling and seismic mines we should be able to box the worm in its current area for a time."
- sw22_worm_attack_early_bird:0 "Early Bird Protocal"
+ sw22_worm_attack_early_bird:0 "Early Bird Protocol"
  sw22_worm_attack_early_bird_tooltip: "Our advanced understanding of the Worms will allow us to stop the worm from spreading to other areas."
  sw22_worm_containment_easy: "Local Forces "
  sw22_worm_containment_hard: "RENAME_ME"
  sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
  worm_attack_1:0 "Worm Victory Close at Hand"
  worm_attack_2:0 "Underground Warfare"
- worm_attack_3:0 "Planet Destruction Immament"
+ worm_attack_3:0 "Planet Destruction Immanent"
 
  #Non Event Local
  worm_army:0 "Bio-Attack Worm"
@@ -138,6 +138,8 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
+
+
 
 
 

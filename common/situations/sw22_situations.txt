@@ -6,7 +6,7 @@ situation_worm_attack = {
 	fail_icon = GFX_situation_outcome_positive
 	
 	on_start = {
-		set_situation_locked = yes
+		#set_situation_locked = yes
 	}
 	
 	on_progress_complete = { # Worms Win
@@ -56,17 +56,17 @@ situation_worm_attack = {
 		}
 	}
 	
-	monthly_progress =  {
-		base = 5
+	monthly_progress = {
+		base = -10
 		modifier = {
-			add = -6
-			desc = sw22_worm_containment_easy
-			current_situation_approach = sw22_worm_attack_keep_contained 
+			add = 5
+			desc = sw22_worm_containment_hard
+			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = -15
-			desc = sw22_worm_containment_hard
-			current_situation_approach = sw22_worm_attack_early_bird
+			add = 8
+			desc = sw22_worm_containment_easy
+			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 	}
 
@@ -86,7 +86,15 @@ situation_worm_attack = {
 		on_select = {
 			custom_tooltip = sw22_worm_attack_keep_contained_tooltip
 		}
-	
+		ai_weight = {
+			base = 10
+		}
+		resources = {
+			category = situations
+			upkeep = {
+				energy = 25
+			}
+		}
 	}
 
 	approach = {
@@ -95,6 +103,15 @@ situation_worm_attack = {
 		icon_background = GFX_situation_approach_bg_green
 		on_select = {
 			custom_tooltip = sw22_worm_attack_early_bird_tooltip
+		}
+		ai_weight = {
+			base = 100
+		}
+		resources = {
+			category = situations
+			upkeep = {
+				energy = 50
+			}
 		}
 		potential = {
 			owner = {
