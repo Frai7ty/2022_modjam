@@ -1,9 +1,9 @@
 situation_worm_attack = {
 	picture = GFX_evt_in_the_dark
-	complete_icon_frame = GFX_situation_outcome_frame_green
-	complete_icon = GFX_situation_outcome_positive
-	fail_icon_frame = GFX_situation_outcome_frame_red
-	fail_icon = GFX_situation_outcome_negative
+	complete_icon_frame =  GFX_situation_outcome_frame_red
+	complete_icon =  GFX_situation_outcome_negative
+	fail_icon_frame = GFX_situation_outcome_frame_green
+	fail_icon = GFX_situation_outcome_positive
 	
 	on_start = {
 		#set_situation_locked = yes
