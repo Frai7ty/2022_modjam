@@ -24,9 +24,9 @@ situation_worm_attack = {
 
 	on_monthly = {
 		random_events = {
-			50 = 0
-			25 = sw22_situation_events.1 # Worm Attack
-			25 = sw22_situation_events.2 # Worm Deposit
+			60 = 0
+			20 = sw22_situation_events.1 # Worm Attack
+			20 = sw22_situation_events.2 # Worm Deposit
 		}
 	}
 

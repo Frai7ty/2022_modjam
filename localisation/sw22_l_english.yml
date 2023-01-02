@@ -58,50 +58,61 @@
  sw22_crisis_61.3.b: "What does it have to gain?"
 
  sw22_crisis.61.desc.4: "We are not responsible for the attacks on your worlds.\n\nWe wish we were.\n\nNever communicate with us ever again, filthy alien scum."
- sw22_crisis_61.4.a: "This should have been expected this."
+ sw22_crisis_61.4.a: "This should have been expected."
  sw22_crisis_61.4.b: "Ok if not them, then who?"
 
- sw22_situation.0.name: "REPLACE ME"
- sw22_situation.0.desc: "REPLACE ME"
+ sw22_situation.0.name: "Wormcon 1"
+ sw22_situation.0.desc: "A mature sleeper worm has awoken on [Root.GetName] and our forces are scrambling to respond."
 
- sw22_situation.1.name: "REPLACE ME"
- sw22_situation.1.desc: "REPLACE ME"
- sw22_situation.1.a: "We must defend!"
+ sw22_situation.1.name: "Wormling Attack"
+ sw22_situation.1.desc: "The Sleeper Worm has shed a legion of attack wormlings that are attacking planet side."
+ sw22_situation.1.a: "We must defend [Root.GetName]."
 
- sw22_situation.2.name: "REPLACE ME"
- sw22_situation.2.desc: "REPLACE ME"
- sw22_situation.2.a: "This can't be good"
+ sw22_situation.2.name: "Ecological Damage"
+ sw22_situation.2.desc: "The worm has moved on to another part of [Root.GetName], causing widespread ecological damage."
+ sw22_situation.2.a: "This can't be good."
 
- sw22_situation.3.name: "REPLACE ME"
- sw22_situation.3.desc: "REPLACE ME"
- sw22_situation.3.a: "REPLACE ME"
+ sw22_situation.3.name: "Wormling Attack & Damage"
+ sw22_situation.3.desc: "The Worm surfaced in a new part of [Root.GetName] and immediatly shed a legion of attack wormlings. The local area is both dealing with the creatures and the ecological fallout."
+ sw22_situation.3.a: "Horrific."
+
+ sw22_situation.4.name:0 "Ecological Collapse"
+ sw22_situation.4.desc:0 "The Sleeper Worm has completely destoryed the ecosystem of [Root.GetName], and returning it to it's former glory will take consierable commitmint."
+ sw22_situation.4.a: "By the Shroud..."
 
  # Situation Local
- situation_sw22_worm_attack_worms_win_tooltip: "REPLACE ME"
- situation_sw22_worm_attack_worms_lose_tooltip: "REPLACE ME"
- situation_sw22_worm_attack_ended_tooltip: "REPLACE ME"
- 
- sw22_worm_attack_keep_contained: "REPLACE ME"
- sw22_worm_attack_keep_contained_tooltip: "REPLACE ME"
- 
- sw22_worm_attack_early_bird_tooltip: "REPLACE ME"
- 
+ situation_worm_attack:0 "Sleeper Worm Attack"
+ situation_worm_attack_desc:0 "[FROM.GetName] is under attack from a sleeper worm. This ongoing situation demands special attension."
+ situation_worm_attack_type:0 "Sleeper Worm Attack"
+ situation_sw22_worm_attack_worms_win_tooltip: "By deafeating the worm we will save this planet from being destoryed by the Sleeper Worm."
+ situation_sw22_worm_attack_worms_lose_tooltip: "Ecosystem Destroyed"
+ situation_sw22_worm_attack_ended_tooltip: "Victory"
+ sw22_worm_attack_keep_contained: "Contain the Worm"
+ sw22_worm_attack_keep_contained_tooltip: "While expensive, using advanced drilling and seismic mines we should be able to box the worm in its current area for a time."
+ sw22_worm_attack_early_bird:0 "Early Bird Protocal"
+ sw22_worm_attack_early_bird_tooltip: "Our advanced understanding of the Worms will allow us to stop the worm from spreading to other areas."
+ sw22_worm_containment_easy: "Local Forces "
+ sw22_worm_containment_hard: "RENAME_ME"
+ sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
+ worm_attack_1:0 "Worm Victory Close at Hand"
+ worm_attack_2:0 "Underground Warfare"
+ worm_attack_3:0 "Planet Destruction Immament"
 
- sw22_worm_containment_easy: "REPLACE ME"
- sw22_worm_containment_hard: "REPLACE ME"
- 
  #Non Event Local
  worm_army:0 "Bio-Attack Worm"
  worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
- sw22_d_damage_1:0 "REPLACE_ME"
- sw22_d_damage_1_desc:0 "REPLACE_ME"
- sw22_d_damage_2:0 "REPLACE_ME"
- sw22_d_damage_2_desc:0 "REPLACE_ME"
- sw22_d_damage_3:0 "REPLACE_ME"
- sw22_d_damage_3_desc:0 "REPLACE_ME"
+ sw22_d_damage_1:0 "Worm Damage"
+ sw22_d_damage_1_desc:0 "This planet has Worm Damage!"#TODO
+ sw22_d_damage_2:0 "Worm Damage"
+ sw22_d_damage_2_desc:0 "This planet has Worm Damage!"#TODO
+ sw22_d_damage_3:0 "Worm Damage"
+ sw22_d_damage_3_desc:0 "This planet has Worm Damage!"#TODO
+ sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
+ sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
- sw22_relic_worm_mom_active_tooltip:0 "REPLACE_ME" #TODO
+ sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please." #TODO
+ sw22_operation_plant_attack_worm:0 "Plant Sleeper Worm"
 
  # Operation Local
  sw22_worm_operation.1.name: "REPLACE ME"
@@ -127,3 +138,6 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
+
+
+
