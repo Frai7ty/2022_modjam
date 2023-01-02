@@ -35,6 +35,9 @@ situation_worm_attack = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_red
 			end = 25
+			target_modifier = {
+				planet_stability_add = -10
+			}
 		}
 		
 		worm_attack_2 = {
@@ -43,6 +46,9 @@ situation_worm_attack = {
 			end = 75
 			on_first_enter = {
 				situation_event = { id = sw22_situation_events.3 }
+			}
+			target_modifier = {
+				planet_stability_add = -25
 			}
 		}
 
@@ -53,19 +59,22 @@ situation_worm_attack = {
 			on_first_enter = {
 				situation_event = { id = sw22_situation_events.4 }
 			}
+			target_modifier = {
+				planet_stability_add = -50
+			}
 		}
 	}
 	
 	monthly_progress = {
-		base = -10
+		base = -4
 		modifier = {
-			add = 5
-			desc = sw22_worm_containment_hard
+			add = 2
+			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = 8
-			desc = sw22_worm_containment_easy
+			add = 4
+			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 	}
@@ -76,6 +85,9 @@ situation_worm_attack = {
 		icon_background = GFX_situation_approach_bg_red
 		on_select = {
 			custom_tooltip = deficit_approach_do_nothing_tooltip
+		}
+		target_modifier = {
+			biological_pop_happiness = -0.25
 		}
 	}
 
@@ -94,6 +106,9 @@ situation_worm_attack = {
 			upkeep = {
 				energy = 25
 			}
+		}
+		target_modifier = {
+			biological_pop_happiness = -0.10
 		}
 	}
 
