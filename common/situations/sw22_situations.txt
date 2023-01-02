@@ -104,7 +104,7 @@ situation_worm_attack = {
 		resources = {
 			category = situations
 			upkeep = {
-				energy = 25
+				energy = 20
 			}
 		}
 		target_modifier = {
@@ -125,13 +125,130 @@ situation_worm_attack = {
 		resources = {
 			category = situations
 			upkeep = {
-				energy = 50
+				energy = 30
 			}
 		}
 		potential = {
 			owner = {
 				has_technology = sw22_tech_early_bird
 			}
+		}
+	}
+}
+
+situation_search_for_the_worm_folk = {
+	picture = GFX_evt_in_the_dark
+	complete_icon_frame =  GFX_situation_outcome_frame_blue
+	complete_icon =  GFX_situation_outcome_unknown
+	fail_icon_frame = GFX_situation_outcome_frame_red
+	fail_icon = GFX_situation_outcome_negative
+	
+	on_start = {
+		#TODO - Event 
+	}
+	
+	on_progress_complete = { # We Find the Worm Folk
+		custom_tooltip = situation_sw22_search_for_the_worm_folk_found_tooltip
+		hidden_effect = { 
+			destroy_situation = this 
+			situation_event = { id = situation.110 }
+		}
+	}
+
+	#on_fail = { # Worms Win
+	#	Can't Fail
+	#}
+
+	start_value = 0
+	progress_direction = monodirectional
+
+	on_monthly = {
+		#random_events = {
+		#	60 = 0
+		#	20 = sw22_situation_events.1 # Worm Attack
+		#	20 = sw22_situation_events.2 # Worm Deposit
+		#}
+	}
+
+	stages = {
+		search_for_the_worm_folk_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_blue
+			end = 200
+		}
+
+		search_for_the_worm_folk_2 = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_blue
+			end = 500
+			on_first_enter = {
+				situation_event = { id = sw22_situation_events.101 }
+			}
+		}
+
+		search_for_the_worm_folk_3 = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_blue
+			end = 1000
+			on_first_enter = {
+				situation_event = { id = sw22_situation_events.4 }
+			}
+		}
+	}
+	
+	monthly_progress = {
+		base = 0
+		modifier = {
+			add = 1
+			desc = sw22_search_for_the_worm_folk_light
+			current_situation_approach = sw22_search_for_the_worm_folk_light
+		}
+		modifier = {
+			add = 2
+			desc = sw22_search_for_the_worm_folk_medium
+			current_situation_approach = sw22_search_for_the_worm_folk_medium 
+		}
+		modifier = {
+			add = 4
+			desc = sw22_search_for_the_worm_folk_medium_heavy
+			current_situation_approach = sw22_search_for_the_worm_folk_medium_heavy 
+		}
+	}
+
+	approach = {
+		name = sw22_search_for_the_worm_folk_light
+		icon = GFX_situation_approach_shrug
+		icon_background = GFX_situation_approach_bg_red
+		on_select = {
+			custom_tooltip = sw22_search_for_the_worm_folk_light_tooltip
+		}
+		modifier = {
+			all_technology_research_speed = -0.05
+			country_energy_produces_mult = -0.05
+		}
+	}
+	approach = {
+		name = sw22_search_for_the_worm_folk_medium
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_yellow
+		on_select = {
+			custom_tooltip = sw22_search_for_the_worm_folk_medium_tooltip
+		}
+		modifier = {
+			all_technology_research_speed = -0.1
+			country_energy_produces_mult = -0.1
+		}
+	}
+	approach = {
+		name = sw22_search_for_the_worm_folk_medium_heavy
+		icon = GFX_situation_approach_energy_credits
+		icon_background = GFX_situation_approach_bg_green
+		on_select = {
+			custom_tooltip = sw22_search_for_the_worm_folk_medium_heavy_tooltip
+		}
+		modifier = {
+			all_technology_research_speed = -0.2
+			country_energy_produces_mult = -0.2
 		}
 	}
 }
