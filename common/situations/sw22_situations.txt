@@ -1,22 +1,22 @@
 situation_worm_attack = {
 	picture = GFX_evt_in_the_dark
-	complete_icon_frame = GFX_situation_outcome_frame_red
-	complete_icon = GFX_situation_outcome_negative
-	fail_icon_frame = GFX_situation_outcome_frame_green
-	fail_icon = GFX_situation_outcome_positive
+	complete_icon_frame = GFX_situation_outcome_frame_green
+	complete_icon = GFX_situation_outcome_positive
+	fail_icon_frame = GFX_situation_outcome_frame_red
+	fail_icon = GFX_situation_outcome_negative
 	
 	on_start = {
 		#set_situation_locked = yes
 	}
 	
-	on_progress_complete = { # Worms Win
-		custom_tooltip = situation_sw22_worm_attack_worms_win_tooltip
-		hidden_effect = { destroy_situation = this }	
-	}
-
-	on_fail = { # Worms Lose
+	on_progress_complete = { # Worms Lose
 		custom_tooltip = situation_sw22_worm_attack_worms_lose_tooltip
 		hidden_effect = { destroy_situation = this }
+	}
+
+	on_fail = { # Worms Win
+		custom_tooltip = situation_sw22_worm_attack_worms_win_tooltip
+		hidden_effect = { destroy_situation = this }	
 	}
 
 	start_value = 50
@@ -66,14 +66,14 @@ situation_worm_attack = {
 	}
 	
 	monthly_progress = {
-		base = -4
+		base = 4
 		modifier = {
-			add = 2
+			add = -2
 			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = 4
+			add = -4
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
