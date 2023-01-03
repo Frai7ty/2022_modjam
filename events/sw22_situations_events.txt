@@ -175,6 +175,7 @@ planet_event = {  # Worm Attack + Deposit
 	}
 }
 
+#Lose Agaist Worm
 planet_event = {  # Tomb World Time
 	id = sw22_situation.4 
 	title = "sw22_situation.4.name"
@@ -234,3 +235,22 @@ planet_event = {  # Tomb World Time
 		name = sw22_situation.1.a
 	}
 }
+
+#Worm Attack Random Events
+#Wormling Army
+
+#Wormling Army x2
+
+#Eco Damage Minor
+
+#Eco Damage Major
+
+#Army Minor Victory
+
+#Army Major Victory
+
+#Worm Minor Victory
+
+#Worm Major Victory
+
+#Worm Dies Naturally
