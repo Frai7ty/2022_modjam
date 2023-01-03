@@ -284,6 +284,7 @@ planet_event = {
 			species = last_created_species
 			type = "wormling_army"
 		}
+	}
 		
 
 	option = {
@@ -339,6 +340,7 @@ planet_event = {
 			species = last_created_species
 			type = "wormling_army"
 		}
+	}
 		
 
 	option = {
@@ -348,7 +350,7 @@ planet_event = {
 }
 
 #Eco Damage Minor
-planet_event = { # Worm Deposit
+planet_event = { 
 	id = sw22_situation.1.3
 	title = "sw22_situation.1.3.name"
 	desc = "sw22_situation.1.3.desc"
@@ -381,7 +383,7 @@ planet_event = { # Worm Deposit
 }
 
 #Eco Damage Major
-planet_event = { # Worm Deposit
+planet_event = { 
 	id = sw22_situation.1.4
 	title = "sw22_situation.1.4.name"
 	desc = "sw22_situation.1.4.desc"
@@ -419,11 +421,101 @@ planet_event = { # Worm Deposit
 }
 
 #Army Minor Victory
+situation_event = {
+	id = sw22_situation.1.5
+	title = "sw22_situation.1.5.name"
+	desc = "sw22_situation.1.5.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	is_triggered_only = yes
+	situation = this
+	location = target
+
+	immediate = {
+		add_situation_progress = -5
+	}
+
+	option = {
+		name = sw22_situation.1.5.a
+	}
+}
 
 #Army Major Victory
+situation_event = {
+	id = sw22_situation.1.6
+	title = "sw22_situation.1.6.name"
+	desc = "sw22_situation.1.6.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	is_triggered_only = yes
+	situation = this
+	location = target
+
+	immediate = {
+		add_situation_progress = -10
+	}
+
+	option = {
+		name = sw22_situation.1.6.a
+	}
+}
 
 #Worm Minor Victory
+situation_event = {
+	id = sw22_situation.1.7
+	title = "sw22_situation.1.7.name"
+	desc = "sw22_situation.1.7.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	is_triggered_only = yes
+	situation = this
+	location = target
+
+	immediate = {
+		add_situation_progress = 5
+	}
+
+	option = {
+		name = sw22_situation.1.7.a
+	}
+}
 
 #Worm Major Victory
+situation_event = {
+	id = sw22_situation.1.8
+	title = "sw22_situation.1.8.name"
+	desc = "sw22_situation.1.8.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	is_triggered_only = yes
+	situation = this
+	location = target
+
+	immediate = {
+		add_situation_progress = 10
+	}
+
+	option = {
+		name = sw22_situation.1.8.a
+	}
+}
 
 #Worm Dies Naturally
+situation_event = {
+	id = sw22_situation.1.9
+	title = "sw22_situation.1.9.name"
+	desc = "sw22_situation.1.9.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	is_triggered_only = yes
+	situation = this
+	location = target
+
+	after = {
+		destroy_situation = this
+	}
+
+	option = {
+		name = sw22_situation.1.9.a
+	}
+}
