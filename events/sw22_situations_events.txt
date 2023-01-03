@@ -23,7 +23,7 @@ planet_event = { # on_action trigger
 	}
 
 	immediate = {
-		set_planet_flag = worm_attack
+		set_planet_flag = sw_22_worm_attack
 	}
 
 	option = {

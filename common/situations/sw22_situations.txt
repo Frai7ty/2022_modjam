@@ -11,12 +11,18 @@ situation_worm_attack = {
 	
 	on_progress_complete = { # Worms Lose
 		custom_tooltip = situation_sw22_worm_attack_worms_lose_tooltip
-		hidden_effect = { destroy_situation = this }
+		hidden_effect = { 
+			destroy_situation = this 
+			remove_planet_flag = sw_22_worm_attack
+		}
 	}
 
 	on_fail = { # Worms Win
 		custom_tooltip = situation_sw22_worm_attack_worms_win_tooltip
-		hidden_effect = { destroy_situation = this }	
+		hidden_effect = { 
+			destroy_situation = this
+			remove_planet_flag = sw_22_worm_attack 
+		}	
 	}
 
 	start_value = 50
