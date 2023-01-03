@@ -52,12 +52,12 @@
 
  # Event 6.2 Follow Up 1
  sw22_crisis.62.name:0 "A Tense Galaxy"
- sw22_crisis.62.desc:0 "It's been six months from sudden attacks from the Molonoids and no empire can confirm that they have heard any further demands from them. Were the attacks some kind of elaborate hoax? The galactic community is on edge as empires argue about how to best deal with the Molonoid threat once it surfaces."
+ sw22_crisis.62.desc:0 "It's been six months since sudden attacks from the Molonoids and no empire can confirm that they have heard any further demands from them. Were the attacks some kind of elaborate hoax? The galactic community is on edge as empires argue about how to best deal with the Molonoid threat once it surfaces."
  sw22_crisis.62.a:0 "What is going on?"
 
  # Event 6.3 Follow Up 2 (Crisis Begins)
  sw22_crisis.63.name:0 "It Starts"
- sw22_crisis.63.desc:0 "We had hoped it wouldn't have come to this but your defiance can not be allowed as we will not accept the seeds of rebellion to grow.\n\nUntil all empires have submitted there will escalating amounts of worm attacks on inhabited planets. Once your empire has submitted then attacks will cease.\n\nAs you've already been in touch with our representatives so you know where to reach out to when you're done digging your own graves.\n\nWe look forward to a time after this shakey start and we can work together to build the foundations of lasting interplanetary peace with the rightful rulers of the galaxy in charge."
+ sw22_crisis.63.desc:0 "We had hoped it wouldn't have come to this but your defiance can not be allowed as we will not accept the seeds of rebellion to grow.\n\nUntil all empires have submitted there will escalating amounts of worm attacks on inhabited planets. Once your empire has submitted then attacks will cease.\n\nAs you've already been in touch with our representatives so you know where to reach out to when you're done digging your own graves.\n\nWe look forward to a time after this shaky start and we can work together to build the foundations of lasting interplanetary peace with the rightful rulers of the galaxy in charge."
  sw22_crisis.63.a:0 "You haven't sent anyone, what is going on?"
 
  # Event 7.1 - Let Loose the Worms of War
@@ -89,8 +89,7 @@
  sw22_situation.4.desc:0 "The Sleeper Worm has completely destroyed the ecosystem of [Root.GetName], and returning it to its former glory will take considerable commitment."
  sw22_situation.4.a: "By the Shroud..."
 
-
- # Situation Local
+ #Situation - Worm Attack 
  situation_worm_attack:0 "Sleeper Worm Attack"
  situation_worm_attack_desc:0 "[Target.GetName] is under attack from a sleeper worm. Without extra support the planet's ecosystem will be destroyed."
  situation_worm_attack_type:0 "Sleeper Worm Attack"
@@ -165,6 +164,8 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
+
+
 
 
 

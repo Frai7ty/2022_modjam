@@ -386,28 +386,6 @@ country_event = {
 				target = root
 			}
 		}
-		#every_country = {
-		#	limit = {
-		#		is_ai = no
-		#		is_fallen_empire = no
-		#		is_primitive = no
-		#	}
-		#	random_galaxy_planet = {
-		#		limit = {
-		#			has_owner = yes
-		#			is_colony = yes
-		#			NOT = { has_planet_flag = sw_worm_attacked_this_planet }
-		#		}
-		#		set_planet_flag = sw_worm_attacked_this_planet
-		#		this = { save_event_target_as = sw_planet_attack_warning_player }
-		#		owner = {
-		#			start_situation = {
-		#				type = situation_worm_attack
-		#				target = root
-		#			}
-		#		}
-		#	}
-		#}
 	}
 
 	option = {
