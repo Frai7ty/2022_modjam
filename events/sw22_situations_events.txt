@@ -42,8 +42,6 @@ planet_event = { # on_action trigger
 	}
 }
 
-
-
 planet_event = { # Worm Attack
 	id = sw22_situation.1
 	title = "sw22_situation.1.name"
