@@ -238,12 +238,185 @@ planet_event = {  # Tomb World Time
 
 #Worm Attack Random Events
 #Wormling Army
+planet_event = {
+	id = sw22_situation.1.1
+	title = "sw22_situation.1.1.name"
+	desc = "sw22_situation.1.1.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	location = ROOT
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+		has_ground_combat = no
+		is_occupied_flag = no
+	}
+
+	trigger = {
+		has_planet_flag = worm_attack
+	}
+
+	immediate = {
+		create_country = {
+			name = "NAME_Attacking_Worms"
+			type = faction
+			effect = {
+				establish_communications_no_message = root.owner
+				establish_contact = { who = root.owner location = root.solar_system }
+			}
+		}
+		create_species = {
+			name = "NAME_Attack_Worms"
+			class = random_non_machine
+			portrait = random
+			traits = random
+		}
+		create_army = {
+			name = "NAME_attack_worms"
+			owner = last_created_country
+			species = last_created_species
+			type = "wormling_army"
+		}
+		create_army = {
+			name = "NAME_attack_worms"
+			owner = last_created_country
+			species = last_created_species
+			type = "wormling_army"
+		}
+		
+
+	option = {
+		name = sw22_situation.1.1.a
+	}
+
+}
 
 #Wormling Army x2
+planet_event = {
+	id = sw22_situation.1.2
+	title = "sw22_situation.1.2.name"
+	desc = "sw22_situation.1.2.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	location = ROOT
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+		has_ground_combat = no
+		is_occupied_flag = no
+	}
+
+	trigger = {
+		has_planet_flag = worm_attack
+	}
+
+	immediate = {
+		create_country = {
+			name = "NAME_Attacking_Worms"
+			type = faction
+			effect = {
+				establish_communications_no_message = root.owner
+				establish_contact = { who = root.owner location = root.solar_system }
+			}
+		}
+		create_species = {
+			name = "NAME_Attack_Worms"
+			class = random_non_machine
+			portrait = random
+			traits = random
+		}
+		create_army = {
+			name = "NAME_attack_worms"
+			owner = last_created_country
+			species = last_created_species
+			type = "wormling_army"
+		}
+		create_army = {
+			name = "NAME_attack_worms"
+			owner = last_created_country
+			species = last_created_species
+			type = "wormling_army"
+		}
+		
+
+	option = {
+		name = sw22_situation.1.2.a
+	}
+
+}
 
 #Eco Damage Minor
+planet_event = { # Worm Deposit
+	id = sw22_situation.1.3
+	title = "sw22_situation.1.3.name"
+	desc = "sw22_situation.1.3.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	location = ROOT
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+		has_ground_combat = no
+		is_occupied_flag = no
+	}
+
+	trigger = {
+		has_planet_flag = worm_attack
+	}
+
+	immediate = {
+		random_list = {
+			50 = { add_deposit = sw22_d_damage_1 }
+			30 = { add_deposit = sw22_d_damage_2 }
+			20 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+
+	option = {
+		name = sw22_situation.1.3.a
+	}
+}
 
 #Eco Damage Major
+planet_event = { # Worm Deposit
+	id = sw22_situation.1.4
+	title = "sw22_situation.1.4.name"
+	desc = "sw22_situation.1.4.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_air_raid_siren
+	location = ROOT
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+		has_ground_combat = no
+		is_occupied_flag = no
+	}
+
+	trigger = {
+		has_planet_flag = worm_attack
+	}
+
+	immediate = {
+		random_list = {
+			50 = { add_deposit = sw22_d_damage_1 }
+			30 = { add_deposit = sw22_d_damage_2 }
+			20 = { add_deposit = sw22_d_damage_3 }
+		}
+		random_list = {
+			50 = { add_deposit = sw22_d_damage_1 }
+			30 = { add_deposit = sw22_d_damage_2 }
+			20 = { add_deposit = sw22_d_damage_3 }
+		}
+	}
+
+	option = {
+		name = sw22_situation.1.4.a
+	}
+}
 
 #Army Minor Victory
 
