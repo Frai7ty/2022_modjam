@@ -24,16 +24,16 @@ situation_worm_attack = {
 
 	on_monthly = {
 		random_events = {
-			40 = 0
+			39 = 0
 			10 = sw22_situation.1.1 # Wormling Attack
 			5 = sw22_situation.1.2 # Wormling Attack Big
 			10 = sw22_situation.1.3 # Eco Damage
 			5 = sw22_situation.1.4 # Eco Damage Big
-			5 = sw22_situation.1.5 # Amry Wins
+			10 = sw22_situation.1.5 # Amry Wins
 			5 = sw22_situation.1.6 # Army Wins Big
-			5 = sw22_situation.1.7 # Worm Wins 
+			10 = sw22_situation.1.7 # Worm Wins 
 			5 = sw22_situation.1.8 # Worm Wins Big
-			5 = sw22_situation.1.9 # Worm Dies
+			1 = sw22_situation.1.9 # Worm Dies
 		}
 	}
 
