@@ -97,9 +97,9 @@
  sw22_situation.1.8.name:0 "REPLACE_ME"
  sw22_situation.1.8.desc:0 "REPLACE_ME"
  sw22_situation.1.8.a:0 "REPLACE_ME"
- sw22_situation.1.9.name:0 "REPLACE_ME"
+ sw22_situation.1.9.name:0 "The Worm Is Dead"
  sw22_situation.1.9.desc:0 "REPLACE_ME"
- sw22_situation.1.9.a:0 ""
+ sw22_situation.1.9.a:0 "Lucky."
 
  #Situation - Worm Attack 
  situation_worm_attack:0 "Sleeper Worm Attack"
