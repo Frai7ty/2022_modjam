@@ -1,0 +1,23 @@
+sw22_tech_early_bird = { # Helps kill those pesky worms
+	cost = @tier5cost3
+	area = society
+	tier = 3
+	is_rare = yes
+	is_reverse_engineerable = no
+    start_tech = no
+	category = { military_theory }
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 500
+		}
+	}
+}

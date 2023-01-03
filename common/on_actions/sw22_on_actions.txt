@@ -4,9 +4,14 @@ on_game_start = {
 	}
 }
 
+on_monthly_pulse = { 
+	events = {
+		sw22_situation.0
+	}
+}
+
 on_five_year_pulse = {
 	events = {
 		midgame_crisis_trigger.1
-		sw22_situation.0
 	}
 }
