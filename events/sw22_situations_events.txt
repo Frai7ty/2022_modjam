@@ -519,3 +519,71 @@ situation_event = {
 		name = sw22_situation.1.9.a
 	}
 }
+
+# Seach for Molodian System Events
+situation_event = {
+	id = sw22_situation.2.2.1
+	title = "sw22_situation.2.2.1.name"
+	desc = "sw22_situation.2.2.1.desc"
+	picture = GFX_evt_alien_nature
+	is_triggered_only = yes
+	situation = this
+
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					has_global_flag = sw22_molodian_system_discovered
+					has_country_flag = vultaum_system
+				}
+			}
+			country_event = { id = sw22_situation.2.2.2 }
+		}
+		else_if = {
+			limit = {
+				has_global_flag = sw22_molodian_system_discovered
+			}
+		}
+		country_event = { id = sw22_situation.2.2.3 }
+	}
+	
+	after = {
+		destroy_situation = this
+	}
+	
+}
+
+country_event = {
+	id = sw22_situation.2.2.2
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = sw22_molodian_system_discovered
+		set_country_flag = sw22_molodian_system
+
+		random_system_within_border = {
+			save_event_target_as = sw22_molodian_spawn_system
+		}
+
+		event_target:sw22_molodian_spawn_system = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "sw22_molodian_system"
+			}
+		}
+		if = {
+			limit = { last_created_system = { NOT = { has_hyperlane_to = prev } } }
+			add_hyperlane = {
+				from = this
+				to = last_created_system
+			}
+		}
+		else = {
+			add_extra_hyperlane_to_spawned_system_effect = yes
+		}
+	}
+}
