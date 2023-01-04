@@ -129,9 +129,16 @@ sw22_molodian_system = {
 	}
 
 	planet = {
+		count = 1
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 60
+	}
+
+	planet = {
 		name = "NAME_Molonara"
 		class = "pc_nuked"
-		orbit_distance = 80
+		orbit_distance = 30
 		orbit_angle = 76
 		size = 25
 		has_ring = yes
@@ -144,7 +151,7 @@ sw22_molodian_system = {
 				location = THIS
 			}
 			add_modifier = {
-				modifier = "molonoid_homeworld"
+				modifier = "sw22_molodian_homeworld"
 				days = -1
 			}
 			clear_deposits = yes
@@ -158,27 +165,11 @@ sw22_molodian_system = {
 			add_deposit = sw22_d_damage_1
 			add_deposit = sw22_d_damage_1
 		}
-
-		moon = {
-			name = "NAME_Molonara_Ia"
-			class = "pc_molten"
-			size = 7
-			orbit_distance = 8
-			orbit_angle = 210
-			has_ring = no
-		}
-		moon = {
-			name = "NAME_Molonara_Ib"
-			class = "pc_molten"
-			size = 5
-			orbit_distance = 8
-			orbit_angle = 95
-			has_ring = no
-		}
 	}
 
 	planet = {
 		count = 4
+		class = random_non_colonizable
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 
