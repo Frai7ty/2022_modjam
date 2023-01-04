@@ -239,9 +239,9 @@ planet_event = {  # Tomb World Time
 #Worm Attack Random Events
 #Wormling Army
 planet_event = {
-	id = sw22_situation.1.1
-	title = "sw22_situation.1.1.name"
-	desc = "sw22_situation.1.1.desc"
+	id = sw22_situation.1_1
+	title = "sw22_situation.1_1.name"
+	desc = "sw22_situation.1_1.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	location = ROOT
@@ -288,16 +288,16 @@ planet_event = {
 		
 
 	option = {
-		name = sw22_situation.1.1.a
+		name = sw22_situation.1_1.a
 	}
 
 }
 
 #Wormling Army x2
 planet_event = {
-	id = sw22_situation.1.2
-	title = "sw22_situation.1.2.name"
-	desc = "sw22_situation.1.2.desc"
+	id = sw22_situation.1_2
+	title = "sw22_situation.1_2.name"
+	desc = "sw22_situation.1_2.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	location = ROOT
@@ -344,16 +344,16 @@ planet_event = {
 		
 
 	option = {
-		name = sw22_situation.1.2.a
+		name = sw22_situation.1_2.a
 	}
 
 }
 
 #Eco Damage Minor
 planet_event = { 
-	id = sw22_situation.1.3
-	title = "sw22_situation.1.3.name"
-	desc = "sw22_situation.1.3.desc"
+	id = sw22_situation.1_3
+	title = "sw22_situation.1_3.name"
+	desc = "sw22_situation.1_3.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	location = ROOT
@@ -378,15 +378,15 @@ planet_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.3.a
+		name = sw22_situation.1_3.a
 	}
 }
 
 #Eco Damage Major
 planet_event = { 
-	id = sw22_situation.1.4
-	title = "sw22_situation.1.4.name"
-	desc = "sw22_situation.1.4.desc"
+	id = sw22_situation.1_4
+	title = "sw22_situation.1_4.name"
+	desc = "sw22_situation.1_4.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	location = ROOT
@@ -416,15 +416,15 @@ planet_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.4.a
+		name = sw22_situation.1_4.a
 	}
 }
 
 #Army Minor Victory
 situation_event = {
-	id = sw22_situation.1.5
-	title = "sw22_situation.1.5.name"
-	desc = "sw22_situation.1.5.desc"
+	id = sw22_situation.1_5
+	title = "sw22_situation.1_5.name"
+	desc = "sw22_situation.1_5.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
@@ -436,15 +436,15 @@ situation_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.5.a
+		name = sw22_situation.1_5.a
 	}
 }
 
 #Army Major Victory
 situation_event = {
-	id = sw22_situation.1.6
-	title = "sw22_situation.1.6.name"
-	desc = "sw22_situation.1.6.desc"
+	id = sw22_situation.1_6
+	title = "sw22_situation.1_6.name"
+	desc = "sw22_situation.1_6.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
@@ -456,15 +456,15 @@ situation_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.6.a
+		name = sw22_situation.1_6.a
 	}
 }
 
 #Worm Minor Victory
 situation_event = {
-	id = sw22_situation.1.7
-	title = "sw22_situation.1.7.name"
-	desc = "sw22_situation.1.7.desc"
+	id = sw22_situation.1_7
+	title = "sw22_situation.1_7.name"
+	desc = "sw22_situation.1_7.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
@@ -476,15 +476,15 @@ situation_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.7.a
+		name = sw22_situation.1_7.a
 	}
 }
 
 #Worm Major Victory
 situation_event = {
-	id = sw22_situation.1.8
-	title = "sw22_situation.1.8.name"
-	desc = "sw22_situation.1.8.desc"
+	id = sw22_situation.1_8
+	title = "sw22_situation.1_8.name"
+	desc = "sw22_situation.1_8.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
@@ -496,15 +496,15 @@ situation_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.8.a
+		name = sw22_situation.1_8.a
 	}
 }
 
 #Worm Dies Naturally
 situation_event = {
-	id = sw22_situation.1.9
-	title = "sw22_situation.1.9.name"
-	desc = "sw22_situation.1.9.desc"
+	id = sw22_situation.1_9
+	title = "sw22_situation.1_9.name"
+	desc = "sw22_situation.1_9.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
@@ -516,16 +516,16 @@ situation_event = {
 	}
 
 	option = {
-		name = sw22_situation.1.9.a
+		name = sw22_situation.1_9.a
 	}
 }
 
 # Seach for Molodian System Events
 # Check to see if system has been found
 situation_event = {
-	id = sw22_situation.2.2.1
-	title = "sw22_situation.2.2.1.name"
-	desc = "sw22_situation.2.2.1.desc"
+	id = sw22_situation.2_2_1
+	title = "sw22_situation.2_2_1.name"
+	desc = "sw22_situation.2_2_1.desc"
 	picture = GFX_evt_alien_nature
 	is_triggered_only = yes
 	situation = this
@@ -538,14 +538,14 @@ situation_event = {
 					has_country_flag = sw22_molodian_system
 				}
 			}
-			country_event = { id = sw22_situation.2.2.2 }
+			country_event = { id = sw22_situation.2_2_2 }
 		}
 		else_if = {
 			limit = {
 				has_global_flag = sw22_molodian_system_discovered
 			}
 		}
-		country_event = { id = sw22_situation.2.2.3 }
+		country_event = { id = sw22_situation.2_2_3 }
 	}
 	
 	after = {
@@ -556,7 +556,7 @@ situation_event = {
 
 # Spawn System (Found First)
 country_event = {
-	id = sw22_situation.2.2.2
+	id = sw22_situation.2_2_2
 	hide_window = yes
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -587,28 +587,28 @@ country_event = {
 		else = {
 			add_extra_hyperlane_to_spawned_system_effect = yes
 		}
-		country_event = { id = sw22_situation.2.2.4 days = 2 }
+		country_event = { id = sw22_situation.2_2_4 days = 2 }
 	}
 }
 
 # System Not found First
 country_event = {
-	id = sw22_situation.2.2.3
+	id = sw22_situation.2_2_3
 	hide_window = yes
 
 	is_triggered_only = yes
 
 	immediate = {
 		set_country_flag = sw22_molodian_system_to_slow
-		country_event = { id = sw22_situation.2.2.6 days = 2 }		
+		country_event = { id = sw22_situation.2_2_6 days = 2 }		
 	}
 }
 
 # Molodian Homeworld Discovered
 country_event = {
-	id = sw22_situation.2.2.4
-	title = "sw22_situation.2.2.4.name"
-	desc = "sw22_situation.2.2.4.desc"
+	id = sw22_situation.2_2_4
+	title = "sw22_situation.2_2_4.name"
+	desc = "sw22_situation.2_2_4.desc"
 	picture = GFX_evt_federation_fleet
 	location = event_target:sw22_molodian_system
 
@@ -624,7 +624,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "situation.2.2.4.a"
+		name = "situation.2_2_4.a"
 		begin_event_chain = {
 			event_chain = "sw22_molodian_homeworld_chain"
 			target = ROOT
@@ -641,9 +641,9 @@ country_event = {
 
 # Molodian Homeworld
 ship_event = {
-	id = sw22_situation.2.2.5
-	title = "sw22_situation.2.2.5.name"
-	desc = "sw22_situation.2.2.5.desc"
+	id = sw22_situation.2_2_5
+	title = "sw22_situation.2_2_5.name"
+	desc = "sw22_situation.2_2_5.desc"
 	picture = GFX_evt_archaeological_dig
 	location = from
 
@@ -703,10 +703,10 @@ ship_event = {
 
 # Someone else got there first
 ship_event = {
-	id = sw22_situation.2.2.6
-	title = "sw22_situation.2.2.6.name"
+	id = sw22_situation.2_2_6
+	title = "sw22_situation.2_2_6.name"
 
-	desc = "sw22_situation.2.2.6.desc.a"
+	desc = "sw22_situation.2_2_6.desc.a"
 
 	location = from
 	picture = GFX_evt_archaeological_dig

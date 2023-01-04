@@ -1,0 +1,194 @@
+
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### Vultaum Home System
+sw22_molodian_system = {
+	name = "NAME_Molonara"
+	class = "sc_b"
+	flags = { sw22_molodian_system }
+
+	planet = {		
+		init_effect = {
+			create_ambient_object = {
+				type = "large_debris_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "large_debris_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "large_debris_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "large_debris_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "medium_debris_02_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "medium_debris_02_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+			create_ambient_object = {
+				type = "small_debris_object"
+				entity_offset_height = { min = -0 max = -25 }
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 45
+					angle = random
+				}
+			}
+		}
+		name = "NAME_Aqen"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+
+	planet = {
+		name = "NAME_Molonara"
+		class = "pc_nuked"
+		orbit_distance = 80
+		orbit_angle = 76
+		size = 25
+		has_ring = yes
+		flags = { sw22_molodian_homeworld }
+
+		init_effect = {
+			prevent_anomaly = yes
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
+			add_modifier = {
+				modifier = "molonoid_homeworld"
+				days = -1
+			}
+			clear_deposits = yes
+			add_deposit = sw22_d_damage_3
+			add_deposit = sw22_d_damage_3
+			add_deposit = sw22_d_damage_3
+			add_deposit = sw22_d_damage_2
+			add_deposit = sw22_d_damage_2
+			add_deposit = sw22_d_damage_2
+			add_deposit = sw22_d_damage_1
+			add_deposit = sw22_d_damage_1
+			add_deposit = sw22_d_damage_1
+		}
+
+		moon = {
+			name = "NAME_Molonara_Ia"
+			class = "pc_molten"
+			size = 7
+			orbit_distance = 8
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Molonara_Ib"
+			class = "pc_molten"
+			size = 5
+			orbit_distance = 8
+			orbit_angle = 95
+			has_ring = no
+		}
+	}
+
+	planet = {
+		count = 4
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 2 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+}
