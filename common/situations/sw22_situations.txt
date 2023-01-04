@@ -164,7 +164,7 @@ situation_search_for_the_worm_folk = {
 		custom_tooltip = situation_sw22_search_for_the_worm_folk_found_tooltip
 		hidden_effect = { 
 			destroy_situation = this 
-			situation_event = { id = sw22_situation.2.2.1 }
+			situation_event = { id = sw22_situation.221 }
 		}
 	}
 

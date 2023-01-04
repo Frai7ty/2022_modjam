@@ -528,6 +528,7 @@ situation_event = {
 	desc = "sw22_situation.221.desc"
 	picture = GFX_evt_alien_nature
 	is_triggered_only = yes
+	hide_window = yes
 	situation = this
 
 	immediate = {
