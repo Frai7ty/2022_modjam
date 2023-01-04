@@ -176,7 +176,7 @@ sw22_molodian_system = {
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 2 }
+			count = { min = 0 max = 1 }
 			class = random_non_colonizable
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
