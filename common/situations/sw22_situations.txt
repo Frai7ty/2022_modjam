@@ -12,7 +12,7 @@ situation_worm_attack = {
 	on_progress_complete = { # Worms Lose
 		custom_tooltip = situation_sw22_worm_attack_worms_lose_tooltip
 		hidden_effect = { 
-			situation_event = { id = sw22_situation.4 }
+			situation_event = { id = sw22_situation.4  }
 		}
 	}
 

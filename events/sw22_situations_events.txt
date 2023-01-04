@@ -177,7 +177,7 @@ planet_event = { # on_action trigger
 
 #Lose Agaist Worm
 situation_event = {  # Tomb World Time
-	id = sw22_situation.4 
+	id = sw22_situation.4
 	title = "sw22_situation.4.name"
 	desc = "sw22_situation.4.desc"
 	picture = GFX_evt_tomb_world
