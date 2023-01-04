@@ -6,7 +6,7 @@
 ### Vultaum Home System
 sw22_molodian_system = {
 	name = "NAME_Molonara"
-	class = "sc_b"
+	class = "sc_k"
 	flags = { sw22_molodian_system }
 
 	planet = {		

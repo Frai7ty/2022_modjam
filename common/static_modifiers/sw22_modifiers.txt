@@ -1,7 +1,5 @@
 sw22_molodian_homeworld = {
-	pop_environment_tolerance = -0.10
-	biological_pop_happiness = -0.20
-	lithoid_pop_happiness = -0.20
+	planet_max_districts_add = 10
 	planet_jobs_food_produces_mult = -0.50
 	district_farming_max = -10
 	district_mining_max = 10

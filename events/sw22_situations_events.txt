@@ -176,7 +176,7 @@ planet_event = {  # Worm Attack + Deposit
 }
 
 #Lose Agaist Worm
-planet_event = {  # Tomb World Time
+situation_event = {  # Tomb World Time
 	id = sw22_situation.4 
 	title = "sw22_situation.4.name"
 	desc = "sw22_situation.4.desc"
@@ -205,30 +205,6 @@ planet_event = {  # Tomb World Time
 				establish_contact = { who = root.owner location = root.solar_system }
 			}
 		}
-		create_species = {
-			name = "NAME_Attack_Worms"
-			class = random_non_machine
-			portrait = random
-			traits = random
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "worm_army"
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "worm_army"
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "worm_army"
-		}
 	}
 
 	option = {
@@ -238,7 +214,7 @@ planet_event = {  # Tomb World Time
 
 #Worm Attack Random Events
 #Wormling Army
-planet_event = {
+situation_event = {
 	id = sw22_situation.11
 	title = "sw22_situation.11.name"
 	desc = "sw22_situation.11.desc"
@@ -294,7 +270,7 @@ planet_event = {
 }
 
 #Wormling Army x2
-planet_event = {
+situation_event = {
 	id = sw22_situation.12
 	title = "sw22_situation.12.name"
 	desc = "sw22_situation.12.desc"
@@ -350,7 +326,7 @@ planet_event = {
 }
 
 #Eco Damage Minor
-planet_event = { 
+situation_event = { 
 	id = sw22_situation.13
 	title = "sw22_situation.13.name"
 	desc = "sw22_situation.13.desc"
@@ -383,7 +359,7 @@ planet_event = {
 }
 
 #Eco Damage Major
-planet_event = { 
+situation_event = { 
 	id = sw22_situation.14
 	title = "sw22_situation.14.name"
 	desc = "sw22_situation.14.desc"
