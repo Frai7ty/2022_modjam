@@ -176,12 +176,12 @@ planet_event = { # on_action trigger
 #	}
 
 #Lose Agaist Worm
-planet_event = {  # Tomb World Time
+situation_event = {  # Tomb World Time
 	id = sw22_situation.4 
 	title = "sw22_situation.4.name"
 	desc = "sw22_situation.4.desc"
-	picture = GFX_evt_alien_nature
-	show_sound = event_air_raid_siren
+	picture = GFX_evt_tomb_world
+	show_sound = event_bad_omen
 	is_triggered_only = yes
 	situation = this
 	location = target
