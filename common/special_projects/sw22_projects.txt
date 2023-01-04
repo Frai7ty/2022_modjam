@@ -1,0 +1,33 @@
+special_project = {
+	key = "SW22_MOLODIAN_HOMEWORLD_PROJECT"
+	event_chain = "sw22_molodian_homeworld_chain"
+	cost = 0
+	days_to_research = 30
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+
+	event_scope = ship_event
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		#skill = 5
+	}
+
+	on_success = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = sw22_molodian_homeworld_found }
+				FROM = { is_colony = no }
+			}
+			ship_event = { id = sw22_situation.2.2.5 }
+		}
+		else = {
+			ship_event = { id = sw22_situation.2.2.6 }
+		}
+	}
+
+	on_fail = {
+	}
+}

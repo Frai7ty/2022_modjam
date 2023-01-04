@@ -341,11 +341,11 @@ country_event = {
 					is_primitive = no
 				}
 				is_colony = yes
-				NOT = { has_planet_flag = sw_worm_attacked_this_planet }
+				NOT = { has_planet_flag = sw22_worm_attacked_this_planet }
 			}
-			set_planet_flag = sw_worm_attacked_this_planet
-			this = { save_event_target_as = sw_planet_attack_warning }
-			owner = { save_event_target_as = sw_country_attack_warning }
+			set_planet_flag = sw22_worm_attacked_this_planet
+			this = { save_event_target_as = sw22_planet_attack_warning }
+			owner = { save_event_target_as = sw22_country_attack_warning }
 			owner = {
 				start_situation = {
 					type = situation_worm_attack
