@@ -521,6 +521,7 @@ situation_event = {
 }
 
 # Seach for Molodian System Events
+# Check to see if system has been found
 situation_event = {
 	id = sw22_situation.2.2.1
 	title = "sw22_situation.2.2.1.name"
@@ -534,7 +535,7 @@ situation_event = {
 			limit = {
 				NOR = {
 					has_global_flag = sw22_molodian_system_discovered
-					has_country_flag = vultaum_system
+					has_country_flag = sw22_molodian_system
 				}
 			}
 			country_event = { id = sw22_situation.2.2.2 }
@@ -553,6 +554,7 @@ situation_event = {
 	
 }
 
+# Spawn System (Found First)
 country_event = {
 	id = sw22_situation.2.2.2
 	hide_window = yes
@@ -585,5 +587,133 @@ country_event = {
 		else = {
 			add_extra_hyperlane_to_spawned_system_effect = yes
 		}
+		country_event = { id = sw22_situation.2.2.4 days = 2 }
+	}
+}
+
+# System Not found First
+country_event = {
+	id = sw22_situation.2.2.3
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = sw22_molodian_system_to_slow
+		country_event = { id = sw22_situation.2.2.6 days = 2 }		
+	}
+}
+
+# Molodian Homeworld Discovered
+country_event = {
+	id = sw22_situation.2.2.4
+	title = "sw22_situation.2.2.4.name"
+	desc = "sw22_situation.2.2.4.desc"
+	picture = GFX_evt_federation_fleet
+	location = event_target:sw22_molodian_system
+
+	immediate = {
+		random_system = {
+			limit = { has_star_flag = sw22_molodian_system }
+			save_event_target_as = sw22_molodian_system
+			root = { set_visited = prev }
+			random_system_planet = {
+				limit = { has_planet_flag = sw22_molodian_homeworld }
+				save_event_target_as = sw22_molodian_homeworld
+			}
+		}
+	}
+	option = {
+		name = "situation.2.2.4.a"
+		begin_event_chain = {
+			event_chain = "sw22_molodian_homeworld_chain"
+			target = ROOT
+		}
+		event_target:sw22_molodian_homeworld  = {
+			enable_special_project = {
+				name = "SW22_MOLODIAN_HOMEWORLD_PROJECT"
+				location = event_target:sw22_molodian_homeworld 
+				owner = ROOT
+			}
+		}
+	}
+}
+
+# Molodian Homeworld
+ship_event = {
+	id = sw22_situation.2.2.5
+	title = "sw22_situation.2.2.5.name"
+	desc = "sw22_situation.2.2.5.desc"
+	picture = GFX_evt_archaeological_dig
+	location = from
+
+	is_triggered_only = yes
+
+	trigger = {
+		fromfrom = { has_planet_flag = sw22_molodian_homeworld }
+		owner = {
+			is_ai = no
+			has_country_flag = sw22_molodian_system
+		}
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = sw22_molodian_homeworld_found
+			set_global_flag = sw22_molodian_homeworld_found
+			if = {
+				limit = { has_event_chain = "sw22_molodian_homeworld_chain" }
+				end_event_chain = "sw22_molodian_homeworld_chain"
+			}
+		}
+	}
+
+	option ={
+		name = "FASCINATING"
+		owner = {
+			add_relic = sw22_r_worm_mom
+			large_artifact_reward = yes
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 120
+				min = 240
+				max = 9999
+			}
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+	}
+}
+
+# Someone else got there first
+ship_event = {
+	id = sw22_situation.2.2.6
+	title = "sw22_situation.2.2.6.name"
+
+	desc = "sw22_situation.2.2.6.desc.a"
+
+	location = from
+	picture = GFX_evt_archaeological_dig
+
+	is_triggered_only = yes
+
+	option = {
+		name = "UNFORTUNATE"
 	}
 }
