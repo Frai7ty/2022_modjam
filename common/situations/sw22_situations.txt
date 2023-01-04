@@ -12,9 +12,7 @@ situation_worm_attack = {
 	on_progress_complete = { # Worms Lose
 		custom_tooltip = situation_sw22_worm_attack_worms_lose_tooltip
 		hidden_effect = { 
-			destroy_situation = this 
-			target = { remove_planet_flag = sw_22_worm_attack }
-			planet_event = { id = sw22_situation.4 }
+			situation_event = { id = sw22_situation.4 }
 		}
 	}
 
@@ -31,15 +29,15 @@ situation_worm_attack = {
 
 	on_monthly = {
 		random_events = {
-			39 = 0
-			10 = sw22_situation.11 # Wormling Attack
-			5 = sw22_situation.12 # Wormling Attack Big
+			500 = 0
+			#10 = sw22_situation.11 # Wormling Attack
+			#10 = sw22_situation.12 # Wormling Attack Big
 			10 = sw22_situation.13 # Eco Damage
-			5 = sw22_situation.14 # Eco Damage Big
+			10 = sw22_situation.14 # Eco Damage Big
 			10 = sw22_situation.15 # Amry Wins
-			5 = sw22_situation.16 # Army Wins Big
+			10 = sw22_situation.16 # Army Wins Big
 			10 = sw22_situation.17 # Worm Wins 
-			5 = sw22_situation.18 # Worm Wins Big
+			10 = sw22_situation.18 # Worm Wins Big
 			1 = sw22_situation.19 # Worm Dies
 		}
 	}
@@ -77,15 +75,14 @@ situation_worm_attack = {
 	}
 	
 	monthly_progress = {
-		base = 4
+		base = 0
 		modifier = {
-			add = -2
+			add = 2
 			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
-			default = yes
 		}
 		modifier = {
-			add = -4
+			add = 0
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
@@ -95,6 +92,7 @@ situation_worm_attack = {
 		name = sw22_worm_attack_do_nothing
 		icon = GFX_situation_approach_this_is_fine
 		icon_background = GFX_situation_approach_bg_red
+		default = yes
 		on_select = {
 			custom_tooltip = deficit_approach_do_nothing_tooltip
 		}

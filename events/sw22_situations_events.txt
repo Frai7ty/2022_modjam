@@ -42,7 +42,7 @@ planet_event = { # on_action trigger
 	}
 }
 
-planet_event = { # Worm Attack
+#	planet_event = { # Worm Attack
 	id = sw22_situation.1
 	title = "sw22_situation.1.name"
 	desc = "sw22_situation.1.desc"
@@ -87,9 +87,9 @@ planet_event = { # Worm Attack
 	option = {
 		name = sw22_situation.1.a
 	}
-}
-
-planet_event = { # Worm Deposit
+#	}
+#	
+#	planet_event = { # Worm Deposit
 	id = sw22_situation.2
 	title = "sw22_situation.2.name"
 	desc = "sw22_situation.2.desc"
@@ -120,9 +120,9 @@ planet_event = { # Worm Deposit
 		name = sw22_situation.2.a
 	}
 
-}
-
-planet_event = {  # Worm Attack + Deposit
+#	}
+#	
+#	planet_event = {  # Worm Attack + Deposit
 	id = sw22_situation.3
 	title = "sw22_situation.3.name"
 	desc = "sw22_situation.3.desc"
@@ -173,42 +173,35 @@ planet_event = {  # Worm Attack + Deposit
 	option = {
 		name = sw22_situation.3.a
 	}
-}
+#	}
 
 #Lose Agaist Worm
-situation_event = {  # Tomb World Time
+planet_event = {  # Tomb World Time
 	id = sw22_situation.4 
 	title = "sw22_situation.4.name"
 	desc = "sw22_situation.4.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
-	location = ROOT
 	is_triggered_only = yes
-
-	pre_triggers = {
-		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
-	}
-
-	trigger = {
-		has_planet_flag = worm_attack
-	}
+	situation = this
+	location = target
 
 	immediate = {
-		change_pc = pc_nuked
-		create_country = {
-			name = "NAME_Attacking_Worms"
-			type = faction
-			effect = {
-				establish_communications_no_message = root.owner
-				establish_contact = { who = root.owner location = root.solar_system }
-			}
+		target = {
+			remove_planet_flag = sw_22_worm_attack 
+			change_pc = pc_nuked
 		}
 	}
 
 	option = {
 		name = sw22_situation.1.a
+		tooltip = {
+			target = { change_pc = pc_nuked }
+		}
+	}
+
+	after = {
+		destroy_situation = this 
 	}
 }
 
@@ -220,45 +213,26 @@ situation_event = {
 	desc = "sw22_situation.11.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
-	location = ROOT
 	is_triggered_only = yes
-
-	pre_triggers = {
-		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
-	}
-
-	trigger = {
-		has_planet_flag = worm_attack
-	}
+	situation = this
+	location = target
 
 	immediate = {
-		create_country = {
-			name = "NAME_Attacking_Worms"
-			type = faction
-			effect = {
-				establish_communications_no_message = root.owner
-				establish_contact = { who = root.owner location = root.solar_system }
+		target = {
+			create_country = {
+				name = "NAME_Attacking_Worms"
+				type = faction
+				effect = {
+					establish_communications_no_message = root.owner
+					establish_contact = { who = root.owner location = root.solar_system }
+				}
 			}
-		}
-		create_species = {
-			name = "NAME_Attack_Worms"
-			class = random_non_machine
-			portrait = random
-			traits = random
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "wormling_army"
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "wormling_army"
+			create_species = {
+				name = "NAME_Attack_Worms"
+				class = random_non_machine
+				portrait = random
+				traits = random
+			}
 		}
 	}
 		
@@ -276,45 +250,38 @@ situation_event = {
 	desc = "sw22_situation.12.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
-	location = ROOT
 	is_triggered_only = yes
-
-	pre_triggers = {
-		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
-	}
-
-	trigger = {
-		has_planet_flag = worm_attack
-	}
+	situation = this
+	location = target
 
 	immediate = {
-		create_country = {
-			name = "NAME_Attacking_Worms"
-			type = faction
-			effect = {
-				establish_communications_no_message = root.owner
-				establish_contact = { who = root.owner location = root.solar_system }
+		target = {
+			create_country = {
+				name = "NAME_Attacking_Worms"
+				type = faction
+				effect = {
+					establish_communications_no_message = root.owner
+					establish_contact = { who = root.owner location = root.solar_system }
+				}
 			}
-		}
-		create_species = {
-			name = "NAME_Attack_Worms"
-			class = random_non_machine
-			portrait = random
-			traits = random
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "wormling_army"
-		}
-		create_army = {
-			name = "NAME_attack_worms"
-			owner = last_created_country
-			species = last_created_species
-			type = "wormling_army"
+			create_species = {
+				name = "NAME_Attack_Worms"
+				class = random_non_machine
+				portrait = random
+				traits = random
+			}
+			create_army = {
+				name = "NAME_attack_worms"
+				owner = last_created_country
+				species = last_created_species
+				type = "wormling_army"
+			}
+			create_army = {
+				name = "NAME_attack_worms"
+				owner = last_created_country
+				species = last_created_species
+				type = "wormling_army"
+			}
 		}
 	}
 		
@@ -332,24 +299,18 @@ situation_event = {
 	desc = "sw22_situation.13.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
-	location = ROOT
 	is_triggered_only = yes
-
-	pre_triggers = {
-		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
-	}
-
-	trigger = {
-		has_planet_flag = worm_attack
-	}
+	situation = this
+	location = target
 
 	immediate = {
-		random_list = {
-			50 = { add_deposit = sw22_d_damage_1 }
-			30 = { add_deposit = sw22_d_damage_2 }
-			20 = { add_deposit = sw22_d_damage_3 }
+		add_situation_progress = 5
+		target = {
+			random_list = {
+				50 = { add_deposit = sw22_d_damage_1 }
+				30 = { add_deposit = sw22_d_damage_2 }
+				20 = { add_deposit = sw22_d_damage_3 }
+			}
 		}
 	}
 
@@ -365,29 +326,23 @@ situation_event = {
 	desc = "sw22_situation.14.desc"
 	picture = GFX_evt_alien_nature
 	show_sound = event_air_raid_siren
-	location = ROOT
 	is_triggered_only = yes
-
-	pre_triggers = {
-		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
-	}
-
-	trigger = {
-		has_planet_flag = worm_attack
-	}
+	situation = this
+	location = target
 
 	immediate = {
-		random_list = {
-			50 = { add_deposit = sw22_d_damage_1 }
-			30 = { add_deposit = sw22_d_damage_2 }
-			20 = { add_deposit = sw22_d_damage_3 }
-		}
-		random_list = {
-			50 = { add_deposit = sw22_d_damage_1 }
-			30 = { add_deposit = sw22_d_damage_2 }
-			20 = { add_deposit = sw22_d_damage_3 }
+		add_situation_progress = 5
+		target = {
+			random_list = {
+				50 = { add_deposit = sw22_d_damage_1 }
+				30 = { add_deposit = sw22_d_damage_2 }
+				20 = { add_deposit = sw22_d_damage_3 }
+			}
+			random_list = {
+				50 = { add_deposit = sw22_d_damage_1 }
+				30 = { add_deposit = sw22_d_damage_2 }
+				20 = { add_deposit = sw22_d_damage_3 }
+			}
 		}
 	}
 

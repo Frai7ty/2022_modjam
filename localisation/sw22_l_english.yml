@@ -98,7 +98,7 @@
  sw22_situation.18.desc:0 "Our local forces suffered a curshing defeat in the last worm surface, allowing it to roam free for a considerable amount of time."
  sw22_situation.18.a:0 "Unfortunate"
  sw22_situation.19.name:0 "The Worm Is Dead"
- sw22_situation.19.desc:0 "REPLACE_ME"
+ sw22_situation.19.desc:0 "By some fluke the worm appears to have died of natural causes, this planet is safe!"
  sw22_situation.19.a:0 "Lucky."
  sw22_situation.221.name:0 "REPLACE_ME"
  sw22_situation.221.desc:0 "REPLACE_ME"
@@ -169,6 +169,8 @@
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
  sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please." #TODO
  sw22_operation_plant_attack_worm:0 "Plant Sleeper Worm"
+ sw22_tech_early_bird:0 "Early Bird Protocal"
+ sw22_tech_early_bird_desc:0 "We must research a way to both detect and effecticly combat any worms on our worlds."
 
  # Operation Local
  sw22_worm_operation.1.name: "REPLACE ME"
