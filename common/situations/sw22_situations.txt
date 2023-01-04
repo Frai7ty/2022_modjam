@@ -25,11 +25,14 @@ situation_worm_attack = {
 	}
 
 	start_value = 50
-	progress_direction = monodirectional
+
+	progress_direction = bidirectional
+	complete_category = negative
+	fail_category = positive
 
 	on_monthly = {
 		random_events = {
-			500 = 0
+			400 = 0
 			#10 = sw22_situation.11 # Wormling Attack
 			#10 = sw22_situation.12 # Wormling Attack Big
 			10 = sw22_situation.13 # Eco Damage
@@ -82,7 +85,7 @@ situation_worm_attack = {
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = 0
+			add = 1
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}

@@ -181,15 +181,18 @@ situation_event = {  # Tomb World Time
 	title = "sw22_situation.4.name"
 	desc = "sw22_situation.4.desc"
 	picture = GFX_evt_tomb_world
-	show_sound = event_bad_omen
 	is_triggered_only = yes
-	situation = this
 	location = target
+	situation = this
+	show_sound = event_bad_omen
 
 	immediate = {
 		target = {
-			remove_planet_flag = sw_22_worm_attack 
 			change_pc = pc_nuked
+			remove_planet_flag = sw_22_worm_attack 
+			remove_all_buildings = yes
+			set_planet_flag = nuked_planet_anomalies_disabled
+			destroy_colony = yes
 		}
 	}
 
@@ -201,7 +204,7 @@ situation_event = {  # Tomb World Time
 	}
 
 	after = {
-		destroy_situation = this 
+		destroy_situation = this
 	}
 }
 
