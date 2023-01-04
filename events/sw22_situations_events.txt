@@ -610,7 +610,9 @@ country_event = {
 	title = "sw22_situation.224.name"
 	desc = "sw22_situation.224.desc"
 	picture = GFX_evt_federation_fleet
+	fire_only_once = yes
 	location = event_target:sw22_molodian_system
+	
 
 	immediate = {
 		random_system = {
