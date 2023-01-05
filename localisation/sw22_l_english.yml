@@ -46,7 +46,7 @@
 
  # Event 6.1
  sw22_crisis.61.name:0 "The Truth Surfaces"
- sw22_crisis.61.desc:0 "Surface dwellers of the galaxy; we hope you enjoyed our little display.\n\nWe are the Molonoids, but you can refer to us simply as your new Overlords. Our ancient and advanced empire seeded all of your worlds with our advanced bio-worms long before your people or your creators had tools. The worm you experienced was nothing more than a juvenile, it's size does not even begun to compare to the full grown worms slumbering under your feet even now.\n\nYou all have two choices: Submit or be destroyed.\n\nA representative from our empire will be reaching out shortly to discuss the terms of your surrender."
+ sw22_crisis.61.desc:0 "Surface dwellers of the galaxy; we hope you enjoyed our little display.\n\nWe are the Molonoids, but you can refer to us simply as your new Overlords. Our ancient and advanced empire seeded all of your worlds with our advanced Bio-Worms long before your people or your creators had tools. The worm you experienced was nothing more than a juvenile, it's size does not even begun to compare to the full grown worms slumbering under your feet even now.\n\nYou all have two choices: Submit or be destroyed.\n\nA representative from our empire will be reaching out shortly to discuss the terms of your surrender."
  sw22_crisis.61.a:0 "How dare they!"
  sw22_crisis.61.b:0 "Did they hang up on us?"
 
@@ -62,7 +62,7 @@
 
  # Event 7.1 - Let Loose the Worms of War
  sw22_crisis.71.name:0 "Cry Havoc, and Let Loose the Worms of War"
- sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw_planet_attack_warning.GetName] which is part of [sw_country_attack_warning.GetName] has reported a sleeper worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
+ sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw_planet_attack_warning.GetName] which is part of [sw_country_attack_warning.GetName] has reported a Bio-Worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
  sw22_crisis.71.a:0 "It begins. Hopefully we don't get hit next."
  
  # Event 7.2 - 
@@ -71,7 +71,7 @@
  sw22_crisis.72.a:0 "Excellent"
 
  sw22_situation.0.name: "Wormcon 1"
- sw22_situation.0.desc: "A sleeper worm has awoken deep under the surface of [Root.GetName]. Our forces are scrambling to respond.."
+ sw22_situation.0.desc: "A Bio-Worm has awoken deep under the surface of [Root.GetName]. Our forces are scrambling to respond.."
  sw22_situation.3.name:0 "Worm Defeated"
  sw22_situation.3.desc:0 "With the worm defeated the planet is finally safe, as long as they haven't planted a second worm on this world. The carcass will provide us with lots of parts to research."
  sw22_situation.4.name:0 "Ecosystem Destroyed"
@@ -109,25 +109,25 @@
  sw22_situation.222.name:0 "Molonoids Uncovered"
  sw22_situation.222.desc:0 "We have been able to unlock the signal pattern and discovered the location of the Molonoid homeworld! We should send a fleet immediately to stop their attacks."
  sw22_situation.224.name:0 "Dug to Death"
- sw22_situation.224.desc:0 "It appears that the subterranean Molonoids suffered the same fate to which they subjected the galaxy to; planetary death by sleeper worm. Geological scans show hundreds of tunnels under the surface, many of which connect to the runs of their cave cities. How or why the worms got loose and turned on their masters is unclear, but it clearly happened a century or two ago. We have prepared a special project to explore the ruins."
+ sw22_situation.224.desc:0 "It appears that the subterranean Molonoids suffered the same fate to which they subjected the galaxy to; planetary death by Bio-Worms. Geological scans show hundreds of tunnels under the surface, many of which connect to the runs of their cave cities. How or why the worms got loose and turned on their masters is unclear, but it clearly happened a century or two ago. We have prepared a special project to explore the ruins."
  situation.224.a:0 "At least they got what they deserved."
  sw22_situation.225.name:0 "One Lab Remains"
  sw22_situation.225.desc:0 "The worms completely destroyed most of the planet and its infrastructure, but we were able to find one high security lab that was still functioning. Inside was all the information needed to solve the mysteries of the attack. They had set up a fail safe if they were ever attacked, setting off the worms via automated systems, although they clearly didn't expect the attack to come from their own planet. Inside we also found a living 'Matri-Worm', the highly advanced bioengineered responsible for birthing the attack worms."
  sw22_situation.226.name:0 "Beaten"
  sw22_situation.226.desc:0 "The GETNAME have already discovered the homeworld of the Molonoids and shut down the worms. It appears they were destroyed by their own creations centuries ago and automated systems awoke the worms all over the galaxy. Other than that GETNAME is being vague about what else they found on the surface. "
  sw22_situation.226.a:0 "Do they have the power to make worms?"
- SW22_MOLODIAN_HOMEWORLD_PROJECT:0 "REPLACE_ME"
+ SW22_MOLODIAN_HOMEWORLD_PROJECT:0 "The Molodian Homeworld"
 
  #Home System
  NAME_Molonara:0 "Molonara"
  NAME_Aqen:0 "Aqen"
  sw22_molodian_homeworld:0 "Molonoid Homeworld"
- sw22_molodian_homeworld_desc:0 "Destroyed by the very weapons they created, this planet stands as a testament to the failures of hubris. Before they starved to death they cut large holes and tunnels throughout the underworld of the planet leaving tons of space for mining and habitation."
+ sw22_molodian_homeworld_desc:0 "Destroyed by the very weapons they created, this planesleepert stands as a testament to the failures of hubris. Before they starved to death they cut large holes and tunnels throughout the underworld of the planet leaving tons of space for mining and habitation."
 
  #Situation - Worm Attack 
- situation_worm_attack:0 "Sleeper Worm Attack"
- situation_worm_attack_desc:0 "[Target.GetName] is under attack from a sleeper worm. Without extra support the planet's ecosystem will be destroyed."
- situation_worm_attack_type:0 "Sleeper Worm Attack"
+ situation_worm_attack:0 "Bio-Worm Attack"
+ situation_worm_attack_desc:0 "[Target.GetName] is under attack from a Bio-Worm. Without extra support the planet's ecosystem will be destroyed."
+ situation_worm_attack_type:0 "Bio-Worm Worm Attack"
  situation_worm_attack_monthly_change_tooltip:0 "[Target.GetName] will progress towards destruction or salvation based on our selected §YApproach§!."
  situation_sw22_worm_attack_worms_win_tooltip: "The only way to save this planet from being destroyed is to kill the advanced worm bio-weapon that is attacking it."
  situation_sw22_worm_attack_worms_lose_tooltip: "If we cannot stop the work in time, the planet's ecosystem will be destroyed rendering it uninhabitable."
@@ -146,7 +146,7 @@
 
  #Situation - Search for the Worm Folk
  situation_search_for_the_worm_folk:0 "Search for the Molonoids"
- situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleepers, worm bio-weapon they planted on our planets generations ago. We will search them out and stop them."
+ situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleeper Bio-Worm weapons they planted on our planets generations ago. We will search them out and stop them."
  situation_search_for_the_worm_folk_type:0 "Search for the Molonoids"
  situation_sw22_search_for_the_worm_folk_found_tooltip:0 "We uncover clues to stop the Molonoid attacks or die trying."
  sw22_search_for_the_worm_folk_light:0 "Limited Funding"
@@ -165,23 +165,23 @@
  wormling_army:0 "Wormling Army"
  wormling_army_desc:0 "Smaller wormlings that the Bio-Attack Worm sheds off. They're really bad, don't let them get ya!"
  sw22_d_damage_1:0 "Bio-Worm Eco-Damage"
- sw22_d_damage_1_desc:0 "Posined by a bio-worm, the soil of this world is not longer able to support any sort of ecosystem."
+ sw22_d_damage_1_desc:0 "Posined by a Bio-Worm, the soil of this world is not longer able to support any sort of ecosystem."
  sw22_d_damage_2:0 "Bio-Worm Borehole"
- sw22_d_damage_2_desc:0 "Caused by the movement of a bio-worm, this part of the planet is full of crevases and sinkholes making it uninhabitable."
+ sw22_d_damage_2_desc:0 "Caused by the movement of a Bio-Worm, this part of the planet is full of crevases and sinkholes making it uninhabitable."
  sw22_d_damage_3:0 "Destoryed City"
- sw22_d_damage_3_desc:0 "A bio-worm surfaced here, destorying the settlement. It's eco-damage makes it hard to repair the damage."
+ sw22_d_damage_3_desc:0 "A Bio-Worm surfaced here, destorying the settlement. It's eco-damage makes it hard to repair the damage."
  sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
  sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currenlty unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
- sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please." #TODO
- sw22_operation_plant_attack_worm:0 "Plant Sleeper Worm"
+ sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please."
+ sw22_operation_plant_attack_worm:0 "Plant Bio-Worm"
  sw22_tech_early_bird:0 "Early Bird Protocol"
- sw22_tech_early_bird_desc:0 "We must research a way to both detect and effectively combat any worms on our worlds."
- sw22_tech_repair_damage:0 "REPLACE"
- sw22_tech_repair_damage_desc:0 "REPLACE"
- sw22_tech_exploit_damage:0 "REPLACE"
- sw22_tech_exploit_damage_desc:0 "REPLACE"
+ sw22_tech_early_bird_desc:0 "Using what we current know about the Bio-Worms, we should be able to develop a system to effectively attack them and better defend our colonies."
+ sw22_tech_repair_damage:0 "Bio-Worm Damage Revitalization Project"
+ sw22_tech_repair_damage_desc:0 "With the crisis over, we should be able to repair the damage done to our worlds by the Bio-Worm."
+ sw22_tech_exploit_damage:0 "Bio-Worm Damage Utilization Projects"
+ sw22_tech_exploit_damage_desc:0 "The repaired areas left behind by the Bio-Worm attacks actually present some unique opportunities, exploring them may prove fruitful."
 
  # Operation Local
  sw22_worm_operation.1.name: "REPLACE ME"
