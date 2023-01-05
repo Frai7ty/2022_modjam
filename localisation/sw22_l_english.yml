@@ -88,7 +88,7 @@
  sw22_situation.13.desc:0 "The worm has caused enough damage to the ecosystem below the surface that part of the planet can now be considered uninhabitable."
  sw22_situation.13.a:0 "Terrible."
  sw22_situation.14.name:0 "Devastated Ecosystem"
- sw22_situation.14.desc:0 "The worm has caused considerable damage to the ecosystem below the surface that parts of the planet can now be considered uninhabitable.
+ sw22_situation.14.desc:0 "The worm has caused considerable damage to the ecosystem below the surface that parts of the planet can now be considered uninhabitable."
  sw22_situation.14.a:0 "Devastating"
  sw22_situation.15.name:0 "Military Victory"
  sw22_situation.15.desc:0 "Our local forces were able to catch the worm in a counterattack, forcing it to crawl back into some existing holes and stopping its ability to attack any new areas for the time being ."
@@ -114,8 +114,8 @@
  sw22_situation.225.name:0 "One Lab Remains"
  sw22_situation.225.desc:0 "The worms completely destroyed most of the planet and its infrastructure, but we were able to find one high security lab that was still functioning. Inside was all the information needed to solve the mysteries of the attack. They had set up a fail safe if they were ever attacked, setting off the worms via automated systems, although they clearly didn't expect the attack to come from their own planet. Inside we also found a living 'Matri-Worm', the highly advanced bioengineered responsible for birthing the attack worms."
  sw22_situation.226.name:0 "Beaten"
- sw22_situation.226.desc:0 "The [X.Getname] have already discovered the homeworld of the Molonoids and shut down the worms. It appears they were destroyed by their own creations centuries ago and automated systems awoke the worms all over the galaxy. Other than that [X.Getname] is being vague about what else they found on the surface. "
-Sw22_situation.226..a:0 "Do they have the power to make worms?"
+ sw22_situation.226.desc:0 "The GETNAME have already discovered the homeworld of the Molonoids and shut down the worms. It appears they were destroyed by their own creations centuries ago and automated systems awoke the worms all over the galaxy. Other than that GETNAME is being vague about what else they found on the surface. "
+ sw22_situation.226.a:0 "Do they have the power to make worms?"
  SW22_MOLODIAN_HOMEWORLD_PROJECT:0 "REPLACE_ME"
 
  #Home System
