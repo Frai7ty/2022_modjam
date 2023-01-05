@@ -122,7 +122,7 @@
  NAME_Molonara:0 "Molonara"
  NAME_Aqen:0 "Aqen"
  sw22_molodian_homeworld:0 "Molonoid Homeworld"
- sw22_molodian_homeworld_desc:0 "Destroyed by the very weapons they created, this planesleepert stands as a testament to the failures of hubris. Before they starved to death they cut large holes and tunnels throughout the underworld of the planet leaving tons of space for mining and habitation."
+ sw22_molodian_homeworld_desc:0 "Destroyed by the very weapons they created, this planet stands as a testament to the failures of hubris. Before they starved to death they cut large holes and tunnels throughout the underworld of the planet leaving tons of space for mining and habitation."
 
  #Situation - Worm Attack 
  situation_worm_attack:0 "Bio-Worm Attack"
@@ -165,13 +165,13 @@
  wormling_army:0 "Wormling Army"
  wormling_army_desc:0 "Smaller wormlings that the Bio-Attack Worm sheds off. They're really bad, don't let them get ya!"
  sw22_d_damage_1:0 "Bio-Worm Eco-Damage"
- sw22_d_damage_1_desc:0 "Posined by a Bio-Worm, the soil of this world is not longer able to support any sort of ecosystem."
+ sw22_d_damage_1_desc:0 "Poisoned by a Bio-Worm, the soil of this world is not longer able to support any sort of ecosystem."
  sw22_d_damage_2:0 "Bio-Worm Borehole"
- sw22_d_damage_2_desc:0 "Caused by the movement of a Bio-Worm, this part of the planet is full of crevases and sinkholes making it uninhabitable."
- sw22_d_damage_3:0 "Destoryed City"
- sw22_d_damage_3_desc:0 "A Bio-Worm surfaced here, destorying the settlement. It's eco-damage makes it hard to repair the damage."
+ sw22_d_damage_2_desc:0 "Caused by the movement of a Bio-Worm, this part of the planet is full of crevasses and sinkholes making it uninhabitable."
+ sw22_d_damage_3:0 "Destroyed City"
+ sw22_d_damage_3_desc:0 "A Bio-Worm surfaced here, destroying the settlement. It's eco-damage makes it hard to repair the damage."
  sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
- sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currenlty unknown."
+ sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currently unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
  sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please."
@@ -182,6 +182,9 @@
  sw22_tech_repair_damage_desc:0 "With the crisis over, we should be able to repair the damage done to our worlds by the Bio-Worm."
  sw22_tech_exploit_damage:0 "Bio-Worm Damage Utilization Projects"
  sw22_tech_exploit_damage_desc:0 "The repaired areas left behind by the Bio-Worm attacks actually present some unique opportunities, exploring them may prove fruitful."
+
+ sw22_molodian_homeworld_chain_title:0 "The Molodian Homeworld"
+ sw22_molodian_homeworld_chain_desc:0 "We Must Search for the Molodian Homeworld to stop the Bio-Worms from destroying the galaxy."
 
  # Operation Local
  sw22_worm_operation.1.name: "REPLACE ME"
@@ -207,14 +210,3 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
-
-
-
-
-
-
-
-
-
-
-
