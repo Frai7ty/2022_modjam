@@ -325,9 +325,9 @@ situation_event = {
 # Check to see if system has been found
 situation_event = {
 	id = sw22_situation.221
-	title = "sw22_situation.221.name"
-	desc = "sw22_situation.221.desc"
-	picture = GFX_evt_alien_nature
+	# title = "sw22_situation.221.name"
+	# desc = "sw22_situation.221.desc"
+	# picture = GFX_evt_alien_nature
 	is_triggered_only = yes
 	hide_window = yes
 	situation = this
@@ -359,7 +359,9 @@ situation_event = {
 # Spawn System (Found First)
 country_event = {
 	id = sw22_situation.222
-	hide_window = yes
+	title = "sw22_situation.222.name"
+	desc = "sw22_situation.222.desc"
+	picture = GFX_evt_alien_nature
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -509,7 +511,6 @@ ship_event = {
 ship_event = {
 	id = sw22_situation.226
 	title = "sw22_situation.226.name"
-
 	desc = "sw22_situation.226.desc.a"
 
 	location = from
