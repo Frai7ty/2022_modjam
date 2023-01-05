@@ -79,12 +79,12 @@ situation_worm_attack = {
 	monthly_progress = {
 		base = 0
 		modifier = {
-			add = 2
+			add = 1
 			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = 0
+			add = -1
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
@@ -94,7 +94,6 @@ situation_worm_attack = {
 		name = sw22_worm_attack_do_nothing
 		icon = GFX_situation_approach_this_is_fine
 		icon_background = GFX_situation_approach_bg_red
-		default = yes
 		on_select = {
 			custom_tooltip = deficit_approach_do_nothing_tooltip
 		}
@@ -107,11 +106,12 @@ situation_worm_attack = {
 		name = sw22_worm_attack_keep_contained
 		icon = GFX_situation_approach_shrug
 		icon_background = GFX_situation_approach_bg_yellow
+		default = yes
 		on_select = {
 			custom_tooltip = sw22_worm_attack_keep_contained_tooltip
 		}
 		ai_weight = {
-			base = 10
+			base = 1
 		}
 		resources = {
 			category = situations
