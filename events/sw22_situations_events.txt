@@ -120,7 +120,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 5
+		add_situation_progress = 6
 		target = {
 			random_list = {
 				50 = { add_deposit = sw22_d_damage_1 }
@@ -147,7 +147,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 5
+		add_situation_progress = 12
 		target = {
 			random_list = {
 				50 = { add_deposit = sw22_d_damage_1 }
@@ -219,7 +219,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 5
+		add_situation_progress = 6
 	}
 
 	option = {
@@ -239,7 +239,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 10
+		add_situation_progress = 12
 	}
 
 	option = {
