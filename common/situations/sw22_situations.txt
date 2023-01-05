@@ -19,8 +19,6 @@ situation_worm_attack = {
 	on_fail = { # Worms Win
 		custom_tooltip = situation_sw22_worm_attack_worms_win_tooltip
 		hidden_effect = { 
-			destroy_situation = this
-			remove_planet_flag = sw_22_worm_attack 
 			situation_event = { id = sw22_situation.3  }
 		}	
 	}

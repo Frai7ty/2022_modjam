@@ -64,6 +64,9 @@ situation_event = {  # Party Time
 				max = @tier3researchmax
 			}
 		}
+		target = {
+			remove_planet_flag = sw_22_worm_attack
+		}
 	}
 
 	after = {
@@ -244,7 +247,7 @@ situation_event = {
 }
 
 #Worm Dies Naturally
-sw22_situation = {
+situation_event = {
 	id = sw22_situation.19
 	title = "sw22_situation.19.name"
 	desc = "sw22_situation.19.desc"
@@ -254,15 +257,15 @@ sw22_situation = {
 	situation = this
 	location = target
 
-	after = {
-		destroy_situation = this
-	}
-
 	option = {
 		name = sw22_situation.19.a
 		hidden_effect = {
 			situation_event = { id = sw22_situation.3  }
 		}
+	}
+
+	after = {
+		destroy_situation = this
 	}
 }
 
@@ -336,6 +339,10 @@ country_event = {
 			add_extra_hyperlane_to_spawned_system_effect = yes
 		}
 		country_event = { id = sw22_situation.224 days = 2 }
+	}
+
+	option = {
+
 	}
 }
 
@@ -456,7 +463,7 @@ ship_event = {
 country_event = {
 	id = sw22_situation.226
 	title = "sw22_situation.226.name"
-	desc = "sw22_situation.226.desc.a"
+	desc = "sw22_situation.226.desc"
 
 	location = from
 	picture = GFX_evt_archaeological_dig
