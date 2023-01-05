@@ -92,6 +92,7 @@ situation_event = {  # Tomb World Time
 			remove_all_buildings = yes
 			set_planet_flag = nuked_planet_anomalies_disabled
 			destroy_colony = yes
+			remove_planet_flag = sw_22_worm_attack
 		}
 	}
 
@@ -424,6 +425,9 @@ ship_event = {
 				end_event_chain = "sw22_molodian_homeworld_chain"
 			}
 		}
+		has_global_flag = sw22_fired
+		has_global_flag = sw22_worm_assult_begin
+		end_crisis_sw22 = yes
 	}
 
 	option ={
@@ -472,5 +476,16 @@ country_event = {
 
 	option = {
 		name = "UNFORTUNATE"
+	}
+}
+
+situation_event = {
+	id = sw22_situation.99
+	hide_window = yes
+	is_triggered_only = yes
+
+	after = {
+		destroy_situation = situation_search_for_the_worm_folk
+		destroy_situation = situation_worm_attack
 	}
 }

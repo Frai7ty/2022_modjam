@@ -392,3 +392,15 @@ country_event = {
 		name = sw22_crisis.72.a
 	}
 }
+
+country_event = { # WE ALL WON!
+	id = sw22_crisis.99
+	title = "sw22_crisis.99.name"
+	desc =  "sw22_crisis.9.desc"
+	picture = GFX_evt_in_the_dark
+	is_triggered_only = yes
+
+	option = {
+		name = sw22_crisis.99.a
+	}
+}

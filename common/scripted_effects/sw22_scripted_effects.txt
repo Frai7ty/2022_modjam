@@ -13,3 +13,12 @@ begin_crisis_sw22= {
 		country_event = { id = sw22_crisis.1 }
 	}
 }
+
+end_crisis_sw22 = {
+	remove_global_flag = sw22_in_progress 				# must be removed when crisis is resolved
+	remove_global_flag = midgame_crisis_ongoing			# must be removed when crisis is resolved
+	every_country = {
+		situation_event = { id = sw22_situation.99}
+		country_event = { id = sw22_crisis.99 } 
+	}
+}
