@@ -34,11 +34,42 @@ planet_event = { # on_action trigger
 				target = root
 			}
 		}
-		hidden_effect = {
-			planet_event = {
-				id = sw22_situation.1
+	}
+}
+
+#Win Agaist Worm
+situation_event = {  # Party Time
+	id = sw22_situation.3
+	title = "sw22_situation.3.name"
+	desc = "sw22_situation.3.desc"
+	picture = GFX_evt_crisis_defeated
+	is_triggered_only = yes
+	location = target
+	situation = this
+	show_sound = event_celebration
+
+	option = {
+		name = EXCELLENT
+		owner = {
+			add_relic = sw22_r_worm_mom
+			large_artifact_reward = yes
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 120
+				min = 240
+				max = 9999
+			}
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
 			}
 		}
+	}
+
+	after = {
+		destroy_situation = this
 	}
 }
 
@@ -64,7 +95,7 @@ situation_event = {  # Tomb World Time
 	}
 
 	option = {
-		name = sw22_situation.1.a
+		name = sw22_situation.4.a
 		tooltip = {
 			target = { change_pc = pc_nuked }
 		}
@@ -226,7 +257,7 @@ situation_event = {
 	id = sw22_situation.15
 	title = "sw22_situation.15.name"
 	desc = "sw22_situation.15.desc"
-	picture = GFX_evt_alien_nature
+	picture = GFX_evt_victorious_army
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
 	situation = this
@@ -246,7 +277,7 @@ situation_event = {
 	id = sw22_situation.16
 	title = "sw22_situation.16.name"
 	desc = "sw22_situation.16.desc"
-	picture = GFX_evt_alien_nature
+	picture = GFX_evt_victorious_army
 	show_sound = event_air_raid_siren
 	is_triggered_only = yes
 	situation = this
@@ -302,7 +333,7 @@ situation_event = {
 }
 
 #Worm Dies Naturally
-situation_event = {
+sw22_situation.3 = {
 	id = sw22_situation.19
 	title = "sw22_situation.19.name"
 	desc = "sw22_situation.19.desc"
@@ -318,6 +349,9 @@ situation_event = {
 
 	option = {
 		name = sw22_situation.19.a
+		hidden_effect = {
+			situation_event = { id = sw22_situation.3  }
+		}
 	}
 }
 

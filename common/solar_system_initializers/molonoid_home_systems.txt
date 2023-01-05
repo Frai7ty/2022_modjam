@@ -182,4 +182,16 @@ sw22_molodian_system = {
 			orbit_distance = 5
 		}
 	}
+
+	init_effect = {
+		if = {
+			limit = { is_inside_nebula = no }
+			create_nebula = {
+				radius = 25
+				effect = {
+					set_star_flag = salvager_nebula
+				}
+			}
+		}
+	}
 }

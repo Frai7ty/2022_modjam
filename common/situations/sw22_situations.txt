@@ -21,6 +21,7 @@ situation_worm_attack = {
 		hidden_effect = { 
 			destroy_situation = this
 			remove_planet_flag = sw_22_worm_attack 
+			situation_event = { id = sw22_situation.3  }
 		}	
 	}
 
