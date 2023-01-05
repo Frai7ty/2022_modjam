@@ -129,6 +129,10 @@
  sw22_molodian_homeworld:0 "Molonoid Homeworld"
  sw22_molodian_homeworld_desc:0 "Destroyed by the very weapons they created, this planet stands as a testament to the failures of hubris. Before they starved to death they cut large holes and tunnels throughout the underworld of the planet leaving tons of space for mining and habitation."
 
+ #Notification Message
+ MESSAGE_SW22_WORM_MESSAGE_TYPE_TITLE:0 "Bio-Worm Attack"
+ MESSAGE_SW22_WORM:0 "$PLANET|Y$ inside the $EMPIRE|Y$ has reported being under attack from a Bio-Worm."
+
  #Situation - Worm Attack 
  situation_worm_attack:0 "Bio-Worm Attack"
  situation_worm_attack_desc:0 "[Target.GetName] is under attack from a Bio-Worm. Without extra support the planet's ecosystem will be destroyed."

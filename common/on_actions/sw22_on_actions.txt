@@ -6,7 +6,7 @@ on_game_start = {
 
 on_monthly_pulse = { 
 	events = {
-		sw22_situation.0
+		sw22_situation.1
 	}
 }
 
