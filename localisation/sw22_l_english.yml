@@ -62,12 +62,12 @@
 
  # Event 7.1 - Let Loose the Worms of War
  sw22_crisis.71.name:0 "Cry Havoc, and Let Loose the Worms of War"
- sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw_planet_attack_warning.GetName] which is part of [sw_country_attack_warning.GetName] has reported a Bio-Worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
+ sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw22_planet_attack_warning.GetName] which is part of [sw22_planet_attack_warning.GetName] has reported a Bio-Worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
  sw22_crisis.71.a:0 "It begins. Hopefully we don't get hit next."
  
  # Event 7.2 - 
  sw22_crisis.72.name:0 "We Must Dig Ourselves Out Of This Mess"
- sw22_crisis.72.desc:0 "With this most recent attack on [sw_planet_attack_warning.GetName] it's become clear that the Molonoids must be stopped. We need to both search out where the Molonoid are operating from and stop them, but also, and more pressingly, we need to figure out how to combat the powerful and impervious Bio-Worms."
+ sw22_crisis.72.desc:0 "With this most recent attack on [sw22_planet_attack_warning.GetName] it's become clear that the Molonoids must be stopped. We need to both search out where the Molonoid are operating from and stop them, but also, and more pressingly, we need to figure out how to combat the powerful and impervious Bio-Worms."
  sw22_crisis.72.a:0 "Excellent"
 
  sw22_situation.0.name: "Wormcon 1"
@@ -105,6 +105,11 @@
  sw22_situation.19.name:0 "The Worm Is Dead"
  sw22_situation.19.desc:0 "By a stroke of luck the worm appears to have died of natural causes. This planet is safe for the time being."
  sw22_situation.19.a:0 "Lucky."
+
+ #End Event
+ sw22_crisis.99.name:0 "The Worms Are Bruied"
+ sw22_crisis.99.desc:0 "Finding the Molodian homeworld and shutting down the worms has made the galaxy a safer place."
+ sw22_crisis.99.a:0 "Peace at last?"
 
  sw22_situation.222.name:0 "Molonoids Uncovered"
  sw22_situation.222.desc:0 "We have been able to unlock the signal pattern and discovered the location of the Molonoid homeworld! We should send a fleet immediately to stop their attacks."

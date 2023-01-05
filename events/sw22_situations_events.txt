@@ -12,12 +12,10 @@ planet_event = { # on_action trigger
 
 	pre_triggers = {
 		has_owner = yes
-		has_ground_combat = no
-		is_occupied_flag = no
 	}
 
 	trigger = {
-		NOT = { has_planet_flag = sw22_worm_attack }
+		NOT = { has_planet_flag = sw_22_worm_attack }
 		has_global_flag = sw22_fired
 		has_global_flag = sw22_worm_assult_begin
 	}

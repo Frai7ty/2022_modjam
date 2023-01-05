@@ -386,6 +386,7 @@ country_event = {
 				target = root
 			}
 		}
+		set_global_flag = sw22_worm_assult_begin
 	}
 
 	option = {
