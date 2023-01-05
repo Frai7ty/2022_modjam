@@ -364,24 +364,23 @@ situation_event = {
 	# picture = GFX_evt_alien_nature
 	is_triggered_only = yes
 	hide_window = yes
-	situation = this
 
 	immediate = {
 		if = {
 			limit = {
 				NOR = {
 					has_global_flag = sw22_molodian_system_discovered
-					has_country_flag = sw22_molodian_system
+					owner = { has_country_flag = sw22_molodian_system }
 				}
 			}
-			country_event = { id = sw22_situation.222 }
+			owner = { country_event = { id = sw22_situation.222 } }
 		}
 		else_if = {
 			limit = {
 				has_global_flag = sw22_molodian_system_discovered
 			}
+			owner = { country_event = { id = sw22_situation.223 } }
 		}
-		country_event = { id = sw22_situation.223 }
 	}
 	
 	after = {
@@ -450,6 +449,7 @@ country_event = {
 	picture = GFX_evt_federation_fleet
 	fire_only_once = yes
 	location = event_target:sw22_molodian_system
+	is_triggered_only = yes
 	
 
 	immediate = {
