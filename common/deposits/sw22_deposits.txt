@@ -19,7 +19,7 @@ sw22_d_damage_1 = {
 		}
 	}
 
-	prerequisites = { "sw22_tech_worm_cleanup" }
+	prerequisites = { "sw22_tech_repair_damage" }
 }
 
 # Damaged Enviroment - Soil Erosion 
@@ -43,7 +43,7 @@ sw22_d_damage_2 = {
 		}
 	}
 
-	prerequisites = { "sw22_tech_worm_cleanup" }
+	prerequisites = { "sw22_tech_repair_damage" }
 }
 
 # Damaged Enviroment - Toxic City
@@ -67,7 +67,7 @@ sw22_d_damage_3 = {
 		}
 	}
 
-	prerequisites = { "sw22_tech_worm_cleanup" }
+	prerequisites = { "sw22_tech_repair_damage" }
 }
 
 # Damaged Enviroment - Pre-Event

@@ -164,14 +164,14 @@
  worm_army_desc:0 "One gargantuan, bio-engineered attack worm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean, they cause extreme amounts of planetary damage in their wake."
  wormling_army:0 "Wormling Army"
  wormling_army_desc:0 "Smaller wormlings that the Bio-Attack Worm sheds off. They're really bad, don't let them get ya!"
- sw22_d_damage_1:0 "Worm Damage"
- sw22_d_damage_1_desc:0 "This planet has Worm Damage!"#TODO
- sw22_d_damage_2:0 "Worm Damage"
- sw22_d_damage_2_desc:0 "This planet has Worm Damage!"#TODO
- sw22_d_damage_3:0 "Worm Damage"
- sw22_d_damage_3_desc:0 "This planet has Worm Damage!"#TODO
+ sw22_d_damage_1:0 "Bio-Worm Eco-Damage"
+ sw22_d_damage_1_desc:0 "Posined by a bio-worm, the soil of this world is not longer able to support any sort of ecosystem."
+ sw22_d_damage_2:0 "Bio-Worm Borehole"
+ sw22_d_damage_2_desc:0 "Caused by the movement of a bio-worm, this part of the planet is full of crevases and sinkholes making it uninhabitable."
+ sw22_d_damage_3:0 "Destoryed City"
+ sw22_d_damage_3_desc:0 "A bio-worm surfaced here, destorying the settlement. It's eco-damage makes it hard to repair the damage."
  sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
- sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is unknown."
+ sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currenlty unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As the worm is a marvel of modern science, studying it will accelerate biological research."
  sw22_relic_worm_mom_active_tooltip:0 "Momma, give me a baby worm please." #TODO
