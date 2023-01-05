@@ -41,7 +41,7 @@ event = { # on_action trigger
 
 	immediate = {
 		random_list = {
-			33 = {
+			25 = {
 				random_galaxy_planet = {
 					limit = {
 						has_owner = yes
@@ -50,14 +50,18 @@ event = { # on_action trigger
 							is_primitive = no
 						}
 						is_colony = yes
-						NOT = { has_planet_flag = sw_22_worm_attack }
+						is_artificial = no
+						NOT = { 
+							has_planet_flag = sw_22_worm_attack 
+							has_planet_flag = sw_22_worm_already_got_this_one
+						}
 					}
 					planet_event = {
 						id = sw22_situation.0
 					}
 				}
 			}
-			66 = {	
+			75 = {	
 			}
 		}
 	}
@@ -73,6 +77,7 @@ planet_event = { # on_action trigger
 
 	immediate = {
 		set_planet_flag = sw_22_worm_attack
+		set_planet_flag = sw_22_worm_already_got_this_one
 	}
 
 	option = {

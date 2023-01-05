@@ -147,6 +147,7 @@
  sw22_worm_attack_early_bird_tooltip: "Our advanced understanding of the Worms will allow us to stop the worm from spreading to other areas."
  sw22_worm_containment_do_nothing: "Local Forces Attack"
  sw22_worm_containment_contained: "Worm Containment Protocol"
+ sw22_worm_containment_early_bird:0 "Early Bird Protocol"
  sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
  sw22_worm_attack_do_nothing_tooltip:0 "Local Forces will attempt to cope without extra resources. At best they can hope to slow down the Worm slightly."
  worm_attack_1:0 "Worm Victory Close at Hand"
@@ -154,6 +155,7 @@
  worm_attack_3:0 "Planet Destruction Imminent"
 
  #Situation - Search for the Worm Folk
+ situation_search_for_the_worm_folk_monthly_change_tooltip:0 "We will attempt to dicover the location of the Molodians so they can be stopped."
  situation_search_for_the_worm_folk:0 "Search for the Molonoids"
  situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleeper Bio-Worm weapons they planted on our planets generations ago. We will search them out and stop them."
  situation_search_for_the_worm_folk_type:0 "Search for the Molonoids"

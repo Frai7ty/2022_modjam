@@ -1,3 +1,5 @@
+namespace = sw22_worm_operation
+
 espionage_operation_event = {
 	id = sw22_worm_operation.1
 	title = sw22_worm_operation.1.name
@@ -16,6 +18,7 @@ espionage_operation_event = {
 	id = sw22_worm_operation.2
 	title = sw22_worm_operation.2.name
 	desc = sw22_worm_operation.2.desc
+	picture = GFX_evt_inhabited_solar_system
 	location = target.capital_scope
 	is_triggered_only = yes
 
@@ -29,6 +32,7 @@ espionage_operation_event = {
 	id = sw22_worm_operation.3
 	title = sw22_worm_operation.3.name
 	desc = sw22_worm_operation.3.desc
+	picture = GFX_evt_inhabited_solar_system
 	location = target.capital_scope
 	is_triggered_only = yes
 

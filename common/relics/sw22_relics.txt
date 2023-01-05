@@ -34,8 +34,10 @@ sw22_r_worm_mom = {
 		custom_tooltip = sw22_relic_worm_mom_active_tooltip
 		custom_tooltip = relic_triumph_cooldown
 		hidden_effect = {
-			modifier = "relic_activation_cooldown"
-			days = @triumph_duration
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
 		}
 		set_country_flag = not_activated_sw22_worm_mom
 		set_timed_country_flag = { flag = sw22_relic_worm_mom_active days = @triumph_duration }

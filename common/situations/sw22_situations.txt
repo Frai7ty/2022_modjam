@@ -116,7 +116,7 @@ situation_worm_attack = {
 			custom_tooltip = sw22_worm_attack_keep_contained_tooltip
 		}
 		ai_weight = {
-			base = 1
+			base = 10
 		}
 		resources = {
 			category = situations
@@ -236,9 +236,6 @@ situation_search_for_the_worm_folk = {
 		name = sw22_search_for_the_worm_folk_light
 		icon = GFX_situation_approach_shrug
 		icon_background = GFX_situation_approach_bg_red
-		ai_weight = {
-			base = 50
-		}
 		on_select = {
 			custom_tooltip = sw22_search_for_the_worm_folk_light_tooltip
 		}
