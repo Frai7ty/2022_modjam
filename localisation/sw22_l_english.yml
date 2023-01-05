@@ -178,6 +178,10 @@
  sw22_operation_plant_attack_worm:0 "Plant Sleeper Worm"
  sw22_tech_early_bird:0 "Early Bird Protocol"
  sw22_tech_early_bird_desc:0 "We must research a way to both detect and effectively combat any worms on our worlds."
+ sw22_tech_repair_damage:0 "REPLACE"
+ sw22_tech_repair_damage_desc:0 "REPLACE"
+ sw22_tech_exploit_damage:0 "REPLACE"
+ sw22_tech_exploit_damage_desc:0 "REPLACE"
 
  # Operation Local
  sw22_worm_operation.1.name: "REPLACE ME"

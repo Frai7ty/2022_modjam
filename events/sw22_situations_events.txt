@@ -51,8 +51,6 @@ situation_event = {  # Party Time
 	option = {
 		name = EXCELLENT
 		owner = {
-			add_relic = sw22_r_worm_mom
-			large_artifact_reward = yes
 			add_monthly_resource_mult = {
 				resource = unity
 				value = 120
@@ -104,93 +102,6 @@ situation_event = {  # Tomb World Time
 	after = {
 		destroy_situation = this
 	}
-}
-
-#Worm Attack Random Events
-#Wormling Army
-situation_event = {
-	id = sw22_situation.11
-	title = "sw22_situation.11.name"
-	desc = "sw22_situation.11.desc"
-	picture = GFX_evt_alien_nature
-	show_sound = event_air_raid_siren
-	is_triggered_only = yes
-	situation = this
-	location = target
-
-	immediate = {
-		target = {
-			create_country = {
-				name = "NAME_Attacking_Worms"
-				type = faction
-				effect = {
-					establish_communications_no_message = root.owner
-					establish_contact = { who = root.owner location = root.solar_system }
-				}
-			}
-			create_species = {
-				name = "NAME_Attack_Worms"
-				class = random_non_machine
-				portrait = random
-				traits = random
-			}
-		}
-	}
-		
-
-	option = {
-		name = sw22_situation.11.a
-	}
-
-}
-
-#Wormling Army x2
-situation_event = {
-	id = sw22_situation.12
-	title = "sw22_situation.12.name"
-	desc = "sw22_situation.12.desc"
-	picture = GFX_evt_alien_nature
-	show_sound = event_air_raid_siren
-	is_triggered_only = yes
-	situation = this
-	location = target
-
-	immediate = {
-		target = {
-			create_country = {
-				name = "NAME_Attacking_Worms"
-				type = faction
-				effect = {
-					establish_communications_no_message = root.owner
-					establish_contact = { who = root.owner location = root.solar_system }
-				}
-			}
-			create_species = {
-				name = "NAME_Attack_Worms"
-				class = random_non_machine
-				portrait = random
-				traits = random
-			}
-			create_army = {
-				name = "NAME_attack_worms"
-				owner = last_created_country
-				species = last_created_species
-				type = "wormling_army"
-			}
-			create_army = {
-				name = "NAME_attack_worms"
-				owner = last_created_country
-				species = last_created_species
-				type = "wormling_army"
-			}
-		}
-	}
-		
-
-	option = {
-		name = sw22_situation.12.a
-	}
-
 }
 
 #Eco Damage Minor
@@ -333,7 +244,7 @@ situation_event = {
 }
 
 #Worm Dies Naturally
-sw22_situation.3 = {
+sw22_situation = {
 	id = sw22_situation.19
 	title = "sw22_situation.19.name"
 	desc = "sw22_situation.19.desc"
@@ -542,7 +453,7 @@ ship_event = {
 }
 
 # Someone else got there first
-ship_event = {
+country_event = {
 	id = sw22_situation.226
 	title = "sw22_situation.226.name"
 	desc = "sw22_situation.226.desc.a"
