@@ -84,9 +84,14 @@ situation_worm_attack = {
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = -1
+			add = -0.5
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
+		}
+		modifier = {
+			add = -2
+			desc = sw22_worm_containment_early_bird
+			current_situation_approach = sw22_worm_attack_early_bird 
 		}
 	}
 
