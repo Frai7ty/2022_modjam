@@ -8,15 +8,9 @@ planet_event = { # on_action trigger
 	show_sound = event_red_alert
 	is_triggered_only = yes
 
-	location = root
-
-	pre_triggers = {
-		has_owner = yes
-	}
-
 	trigger = {
 		NOT = { has_planet_flag = sw_22_worm_attack }
-		has_global_flag = sw22_fired
+		#has_global_flag = sw22_fired
 		has_global_flag = sw22_worm_assult_begin
 	}
 
