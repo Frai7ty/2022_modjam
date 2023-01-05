@@ -32,7 +32,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.21
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -43,7 +43,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.31
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -73,7 +73,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.22
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -102,7 +102,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.23
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -131,7 +131,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.41
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -161,7 +161,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.32
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -190,7 +190,7 @@ planet_event = {
 		hidden_effect = {
 			planet_event = {
 				id = sw22_crisis.41
-				days = 90
+				days = 60 random = 60
 			}
 		}
 	}
@@ -213,7 +213,7 @@ planet_event = {
 			owner = { set_country_flag = we_know_who_wormed_us }
 			planet_event = {
 				id = sw22_crisis.51
-				days = 90
+				days = 180
 			}
 		}
 	}
@@ -234,7 +234,7 @@ planet_event = {
 			owner = {
 				country_event = {
 					id = sw22_crisis.61 
-					days = 30
+					days = 180
 				}
 			}
 		}
@@ -254,7 +254,7 @@ country_event = {
 			owner = {
 				country_event = {
 					id = sw22_crisis.62 
-					days = 5 #TODO
+					days = 180
 				}
 			}
 		}	
@@ -285,7 +285,7 @@ country_event = {
 			owner = {
 				country_event = {
 					id = sw22_crisis.63 
-					days = 30
+					days = 180
 				}
 			}
 		}	
@@ -317,7 +317,7 @@ country_event = {
 			owner = {
 				country_event = {
 					id = sw22_crisis.71 
-					days = 10
+					days = 90 random = 90
 				}
 			}
 		}	
@@ -361,7 +361,7 @@ country_event = {
 			owner = {
 				country_event = {
 					id = sw22_crisis.72 
-					days = 10
+					days = 90 random = 90
 				}
 			}
 		}	
