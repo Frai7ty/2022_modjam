@@ -1,4 +1,4 @@
 name="Sleeper Worms"
 version="1"
 picture="thumbnail.png"
-supported_version="3.6"
+supported_version="3.6.*"
