@@ -38,6 +38,16 @@ sw22_r_worm_mom = {
 				modifier = "relic_activation_cooldown"
 				days = @triumph_duration
 			}
+			capital_scope = {
+				while = {
+					create_army = {
+						owner = root.owner
+						species = owner.species 
+						type = worm_army
+					}
+					count = 1
+				}
+			}
 		}
 		set_country_flag = not_activated_sw22_worm_mom
 		set_timed_country_flag = { flag = sw22_relic_worm_mom_active days = @triumph_duration }
