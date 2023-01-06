@@ -642,7 +642,15 @@ situation_event = {
 	trigger = {
 		has_leviathans = yes
 		exists = event_target:curator_enclave_country
-		owner = { has_communications = event_target:curator_enclave_country }
+		owner = { 
+			has_communications = event_target:curator_enclave_country 
+			NOT = { has_country_flag = sw22_curator_deal }
+		}
+	}
+	immediate = {
+		owner = {
+			set_country_flag = sw22_curator_deal
+		}
 	}
 
 	#Deal
@@ -671,12 +679,19 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
 	trigger = {
 		has_leviathans = yes
 		exists = event_target:caravaneer_home_country
-		owner = { has_communications = event_target:caravaneer_home_country }
+		owner = { 
+			has_communications = event_target:caravaneer_home_country 
+			NOT = { has_country_flag = sw22_caravaneer_deal }
+		}
+	}
+	immediate = {
+		owner = {
+			set_country_flag = sw22_caravaneer_deal
+		}
 	}
 
 	#Deal
@@ -705,14 +720,21 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
+	trigger = {
+		owner = { 
+			NOT = { has_country_flag = sw22_personal_galactic_hero }
+		}
+	}
 	immediate = {
-		add_situation_progress = 25
+		owner = {
+			set_country_flag = sw22_personal_galactic_hero
+		}
 	}
 
 	option = {
 		name = sw22_situation.302.a
+		add_situation_progress = 25
 	}
 }
 #Good Decryption
@@ -725,14 +747,21 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
+	trigger = {
+		owner = { 
+			NOT = { has_country_flag = sw22_decryptgood }
+		}
+	}
 	immediate = {
-		add_situation_progress = 25
+		owner = {
+			set_country_flag = sw22_decryptgood
+		}
 	}
 
 	option = {
 		name = sw22_situation.303.a
+		add_situation_progress = 25
 	}
 }
 #Bad Decryption
@@ -745,14 +774,21 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
+	trigger = {
+		owner = { 
+			NOT = { has_country_flag = sw22_decryptbad }
+		}
+	}
 	immediate = {
-		add_situation_progress = -25
+		owner = {
+			set_country_flag = sw22_decryptbad
+		}
 	}
 
 	option = {
 		name = sw22_situation.304.a
+		add_situation_progress = -25
 	}
 }
 #Stolen Research
@@ -765,14 +801,21 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
+	trigger = {
+		owner = { 
+			NOT = { has_country_flag = sw22_research_theft }
+		}
+	}
 	immediate = {
-		add_situation_progress = -50
+		owner = {
+			set_country_flag = sw22_research_theft
+		}
 	}
 
 	option = {
 		name = sw22_situation.305.a
+		add_situation_progress = -50
 	}
 }
 #Pro-Worm Protests (Regular Only)
@@ -785,11 +828,16 @@ situation_event = {
 	is_triggered_only = yes
 	situation = this
 	location = target
-	fire_only_once = yes
 
 	trigger = {
-		owner = {
+		owner = { 
 			is_regular_empire = yes
+			NOT = { has_country_flag = sw22_worm_cult }
+		}
+	}
+	immediate = {
+		owner = {
+			set_country_flag = sw22_worm_cult
 		}
 	}
 
