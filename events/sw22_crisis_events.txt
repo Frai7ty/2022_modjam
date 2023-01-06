@@ -353,8 +353,10 @@ country_event = {
 
 	option = {
 		name = sw22_crisis.71.a
-		every_country = {
-			country_event = { id = sw22_crisis.72 days = 2 }
+		hidden_effect = {
+			every_country = {
+				country_event = { id = sw22_crisis.72 days = 15 }
+			}
 		}
 	}
 }

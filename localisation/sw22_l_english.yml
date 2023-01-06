@@ -68,7 +68,7 @@
  # Event 7.2 - 
  sw22_crisis.72.name:0 "We Must Dig Ourselves Out Of This Mess"
  sw22_crisis.72.desc:0 "With this most recent attack on [sw22_planet_attack_warning.GetName] it's become clear that the Molonoids must be stopped. We need to both search out where the Molonoid are operating from and stop them, but also, and more pressingly, we need to figure out how to combat the powerful and impervious Bio-Worms."
- sw22_crisis.72.a:0 "Excellent"
+ sw22_crisis.72.a:0 "Turn over every lead!"
 
  sw22_situation.0.name: "Wormcon 1"
  sw22_situation.0.desc: "A Bio-Worm has awoken deep under the surface of [Root.GetName]. Our forces are scrambling to respond.."
