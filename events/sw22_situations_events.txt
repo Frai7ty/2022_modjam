@@ -455,7 +455,7 @@ country_event = {
 
 	immediate = {
 		set_country_flag = sw22_molodian_system_to_slow
-		country_event = { id = sw22_situation.226 days = 2 }		
+		ship_event = { id = sw22_situation.226 days = 2 }		
 	}
 }
 

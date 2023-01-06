@@ -25,6 +25,7 @@ planet_event = {
 	desc = "sw22_crisis.11.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Ignore it, leads to 2a
 	option = {
@@ -57,6 +58,7 @@ planet_event = {
 	desc = "sw22_crisis.21.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Add Damage Deposit
 	immediate = {
@@ -86,6 +88,7 @@ planet_event = {
 	desc = "sw22_crisis.22.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Add Damage Deposit
 	immediate = {
@@ -115,6 +118,7 @@ planet_event = {
 	desc = "sw22_crisis.23.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Add Damage Deposit
 	immediate = {
@@ -145,6 +149,7 @@ planet_event = {
 	desc = "sw22_crisis.31.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Add Damage Deposit
 	immediate = {
@@ -174,6 +179,7 @@ planet_event = {
 	desc = "sw22_crisis.32.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	# Add Damage Deposit
 	immediate = {
@@ -204,7 +210,7 @@ planet_event = {
 	desc = "sw22_crisis.41.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
-
+	location = root
 
 	# Leads to 5a
 	option = {
@@ -227,6 +233,7 @@ planet_event = {
 	desc = "sw22_crisis.51.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	option = {
 		name = sw22_crisis.51.a
@@ -279,6 +286,7 @@ country_event = {
 	desc =  "sw22_crisis.62.desc"
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
+	location = root
 
 	immediate = {
 		hidden_effect = {
@@ -314,10 +322,8 @@ country_event = {
 	option = {
 		name = sw22_crisis.63.a
 		hidden_effect = {
-			owner = {
-				country_event = {
-					id = sw22_crisis.71 days = 90 random = 90
-				}
+			country_event = {
+				id = sw22_crisis.71
 			}
 		}	
 	}
