@@ -187,7 +187,7 @@ situation_search_for_the_worm_folk = {
 			sw22_situation.99
 		}	
 		random_events = {
-			1 = 0
+			600 = 0
 			10 = sw22_situation.300
 			10 = sw22_situation.301
 			10 = sw22_situation.302
