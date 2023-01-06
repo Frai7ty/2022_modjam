@@ -31,7 +31,7 @@ sw22_operation_plant_attack_worm = {
 
 	potential = {
 		owner = {
-			has_country_flag = sw22_relic_worm_mom_active
+			has_relic = sw22_r_worm_mom
 		}
 	}
 	allow = {

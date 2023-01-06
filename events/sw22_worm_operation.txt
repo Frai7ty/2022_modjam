@@ -43,11 +43,21 @@ espionage_operation_event = {
 	option = {
 		name = LAUNCH_OPERATION
 		hidden_effect = {
+			create_country = {
+				name = "NAME_Attack_Worms"
+				type = faction
+				effect = {
+					establish_communications_no_message = root.owner
+				}
+			}
 			target = {
 				set_country_flag = sw22_worm_operation
-				create_army = {
-					owner = prev
-					type = worm_army
+				capital_scope = {
+					create_army = {
+						name = "NAME_Assult_Worms"
+						owner = last_created_country
+						type = "worm_army"
+					}
 				}
 			}
 		}
