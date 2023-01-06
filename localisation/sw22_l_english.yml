@@ -62,7 +62,7 @@
 
  # Event 7.1 - Let Loose the Worms of War
  sw22_crisis.71.name:0 "Cry Havoc, and Let Loose the Worms of War"
- sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw22_planet_attack_warning.GetName] which is part of [sw22_planet_attack_warning.GetName] has reported a Bio-Worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
+ sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw22_planet_attack_warning.GetName] which is part of [sw22_country_attack_warning.GetName] has reported a Bio-Worm, dozens of times larger than the ones part of the initial attacks, has started to breach the surface. None of their weaponry is having any effect on the creature. Unless they can find a way to stop the worm, it could destroy the planet."
  sw22_crisis.71.a:0 "It begins. Hopefully we don't get hit next."
  
  # Event 7.2 - 

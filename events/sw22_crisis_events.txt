@@ -343,10 +343,10 @@ country_event = {
 				has_owner = yes
 				owner = { 
 					is_ai = yes
-					is_fallen_empire = no
-					is_primitive = no
+					is_country_type = default
 				}
-				is_colony = yes
+				#is_colony = yes 
+				is_artificial = no
 				NOT = { has_planet_flag = sw22_worm_attacked_this_planet }
 			}
 			set_planet_flag = sw22_worm_attacked_this_planet
@@ -381,6 +381,7 @@ country_event = {
 	picture = GFX_evt_in_the_dark
 	is_triggered_only = yes
 	fire_only_once = yes
+	location = from
 
 	immediate = {
 		every_country = {
