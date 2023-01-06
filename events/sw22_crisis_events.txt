@@ -59,6 +59,7 @@ planet_event = {
 	# Add Damage Deposit
 	immediate = {
 		add_deposit = sw22_d_damage_mystery
+		add_planet_devastation = 25
 	}
 
 	# Leads to 2b
@@ -83,6 +84,7 @@ planet_event = {
 	# Add Damage Deposit
 	immediate = {
 		add_deposit = sw22_d_damage_mystery
+		add_planet_devastation = 25
 	}	
 
 	#Leads to 2c
@@ -107,6 +109,7 @@ planet_event = {
 	# Add Damage Deposit
 	immediate = {
 		add_deposit = sw22_d_damage_mystery
+		add_planet_devastation = 25
 	}
 
 	#Leads to 4c
@@ -132,6 +135,7 @@ planet_event = {
 	# Add Damage Deposit
 	immediate = {
 		add_deposit = sw22_d_damage_mystery
+		add_planet_devastation = 25
 	}
 
 	# Leads to 3b
@@ -156,6 +160,7 @@ planet_event = {
 	# Add Damage Deposit
 	immediate = {
 		add_deposit = sw22_d_damage_mystery
+		add_planet_devastation = 25
 	}
 	
 	# Leads to 4a
@@ -200,6 +205,10 @@ country_event = {
 	is_triggered_only = yes
 	location = root
 
+	trigger = {
+		is_ai = no
+	}
+
 	option = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
@@ -216,6 +225,10 @@ country_event = {
 	is_triggered_only = yes
 	show_sound = event_radio_chatter
 	title = TRANSMISSION
+
+	trigger = {
+		is_ai = no
+	}
 
 	immediate = {
 		every_galaxy_planet = {
@@ -258,6 +271,10 @@ country_event = {
 	is_triggered_only = yes
 	location = root
 
+	trigger = {
+		is_ai = no
+	}
+
 	immediate = {
 	}
 
@@ -285,6 +302,10 @@ country_event = {
 		room = no_video_feed_room
 	}
 
+	trigger = {
+		is_ai = no
+	}
+
 	option = {
 		name = sw22_crisis.63.a
 		hidden_effect = {
@@ -301,6 +322,10 @@ country_event = {
 	show_sound = event_announcement
 	#location = root
 	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
 
 	immediate = {
 		random_galaxy_planet = {
