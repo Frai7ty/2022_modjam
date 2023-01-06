@@ -51,7 +51,7 @@ event = { # on_action trigger
 						}
 						is_colony = yes
 						is_artificial = no
-						NOT = { 
+						NOR = { 
 							has_planet_flag = sw_22_worm_attack 
 							has_planet_flag = sw_22_worm_already_got_this_one
 						}
