@@ -23,7 +23,8 @@ planet_event = {
 	id = sw22_crisis.11
 	title = "sw22_crisis.11.name"
 	desc = "sw22_crisis.11.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_burning_settlement
+	show_sound = event_ground_battle
 	is_triggered_only = yes
 	location = root
 
@@ -56,7 +57,8 @@ planet_event = {
 	id = sw22_crisis.21 #2a
 	title = "sw22_crisis.21.name"
 	desc = "sw22_crisis.21.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_tomb_world
+	show_sound = event_wind_ruins
 	is_triggered_only = yes
 	location = root
 
@@ -87,6 +89,7 @@ planet_event = {
 	title = "sw22_crisis.22.name"
 	desc = "sw22_crisis.22.desc"
 	picture = GFX_evt_in_the_dark
+	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
 
@@ -117,6 +120,7 @@ planet_event = {
 	title = "sw22_crisis.23.name"
 	desc = "sw22_crisis.23.desc"
 	picture = GFX_evt_in_the_dark
+	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
 
@@ -147,7 +151,8 @@ planet_event = {
 	id = sw22_crisis.31 #3a
 	title = "sw22_crisis.31.name"
 	desc = "sw22_crisis.31.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_decryption
+	show_sound = event_default
 	is_triggered_only = yes
 	location = root
 
@@ -178,6 +183,7 @@ planet_event = {
 	title = "sw22_crisis.32.name"
 	desc = "sw22_crisis.32.desc"
 	picture = GFX_evt_in_the_dark
+	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
 
@@ -208,7 +214,8 @@ planet_event = {
 	id = sw22_crisis.41
 	title = "sw22_crisis.41.name"
 	desc = "sw22_crisis.41.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_victorious_army
+	show_sound = event_ground_battle
 	is_triggered_only = yes
 	location = root
 
