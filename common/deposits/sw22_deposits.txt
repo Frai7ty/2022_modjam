@@ -91,5 +91,5 @@ sw22_d_damage_mystery = {
 	#	}
 	#}
 
-	prerequisites = { "sw22_tech_worm_cleanup" }
+	#prerequisites = { "sw22_tech_worm_cleanup" }
 }
