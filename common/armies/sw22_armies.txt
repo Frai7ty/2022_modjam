@@ -25,41 +25,6 @@ worm_army = {
 	}
 
 	potential_country = {
-		has_country_flag = sw22_relic_worm_mom_active
-	}
-
-	potential = {
-		custom_tooltip = {
-			planet = { is_capital = yes }
-		}
-	}
-}
-# Small Worm Army
-wormling_army = {
-	damage = 1.00
-	health = 1.00
-	has_morale = no
-	morale_damage = 5
-	collateral_damage = 5
-	war_exhaustion = 2.5
-	time = 60
-	has_species = no
-	icon = GFX_army_type_machine_assault #placeholder
-
-	resources = {
-		category = armies
-		cost = {
-			energy = 100
-		}
-	}
-
-	potential_country = {
-		has_country_flag = sw22_relic_worm_mom_active
-	}
-
-	potential = {
-		custom_tooltip = {
-			planet = { is_capital = yes }
-		}
+		always = no
 	}
 }
