@@ -123,6 +123,10 @@
  sw22_situation.226.a:0 "Do they have the power to make worms?"
  SW22_MOLODIAN_HOMEWORLD_PROJECT:0 "The Molodian Homeworld"
 
+ sw22_situation.101.name:0 "Early Bird Protocol"
+ sw22_situation.101.desc.:0 "Our study of the Bio-Worms and their techniques combined with lessons learnt from the armies attacks on the worms, has giving us a few useful techniques for combating them. Althought costly it should speed up the time it takes to destory the worms on our worlds."
+ sw22_situation.101.a:0 "Some good news."
+
  #Home System
  NAME_Molonara:0 "Molonara"
  NAME_Aqen:0 "Aqen"
