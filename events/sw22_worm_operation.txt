@@ -6,7 +6,6 @@ espionage_operation_event = {
 	desc = sw22_worm_operation.1.desc
 	location = target.capital_scope
 	picture = GFX_evt_inhabited_solar_system
-
 	is_triggered_only = yes
 
 	option = {
