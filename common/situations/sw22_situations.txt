@@ -191,26 +191,26 @@ situation_search_for_the_worm_folk = {
 		search_for_the_worm_folk_1 = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_blue
-			end = 200
+			end = 250
 		}
 
 		search_for_the_worm_folk_2 = {
 			icon = GFX_situation_stage_2
 			icon_background = GFX_situation_stage_frame_blue
-			end = 500
+			end = 750
 			on_first_enter = {
-				situation_event = { id = sw22_situation_events.101 }
+				situation_event = { id = sw22_situation.101 }
 			}
 		}
 
-		search_for_the_worm_folk_3 = {
-			icon = GFX_situation_stage_3
-			icon_background = GFX_situation_stage_frame_blue
-			end = 1000
-			#on_first_enter = {
-			#	situation_event = { id = sw22_situation_events.4 }
-			#}
-		}
+		#	search_for_the_worm_folk_3 = {
+		#		icon = GFX_situation_stage_3
+		#		icon_background = GFX_situation_stage_frame_blue
+		#		end = 1000
+		#		#on_first_enter = {
+				#	situation_event = { id = sw22_situation_events.4 }
+				#}
+		#	}
 	}
 	
 	monthly_progress = {
