@@ -41,7 +41,7 @@ event = { # on_action trigger
 
 	immediate = {
 		random_list = {
-			33 = {
+			30 = {
 				random_galaxy_planet = {
 					limit = {
 						has_owner = yes
@@ -61,7 +61,7 @@ event = { # on_action trigger
 					}
 				}
 			}
-			66 = {	
+			70 = {	
 			}
 		}
 	}
@@ -484,13 +484,14 @@ country_event = {
 # Molodian Homeworld Discovered
 country_event = {
 	id = sw22_situation.224
-	title = "sw22_situation.224.name"
-	desc = "sw22_situation.224.desc"
-	picture = GFX_evt_federation_fleet
-	show_sound = event_mystic_reveal
+	#title = "sw22_situation.224.name"
+	#desc = "sw22_situation.224.desc"
+	#picture = GFX_evt_federation_fleet
+	#show_sound = event_mystic_reveal
 	fire_only_once = yes
 	location = event_target:sw22_molodian_system
 	is_triggered_only = yes
+	hide_window = yes
 	
 
 	immediate = {
@@ -503,13 +504,6 @@ country_event = {
 				save_event_target_as = sw22_molodian_homeworld
 			}
 		}
-	}
-	option = {
-		name = "situation.224.a"
-		begin_event_chain = {
-			event_chain = "sw22_molodian_homeworld_chain"
-			target = ROOT
-		}
 		event_target:sw22_molodian_homeworld  = {
 			enable_special_project = {
 				name = "SW22_MOLODIAN_HOMEWORLD_PROJECT"
@@ -518,6 +512,13 @@ country_event = {
 			}
 		}
 	}
+	#option = {
+	#	name = "situation.224.a"
+	#	begin_event_chain = {
+	#		event_chain = "sw22_molodian_homeworld_chain"
+	#		target = ROOT
+	#	}
+	#}
 }
 
 # Molodian Homeworld
