@@ -147,7 +147,7 @@
  sw22_worm_attack_early_bird_tooltip: "Our advanced understanding of the Worms will allow us to stop the worm from spreading to other areas."
  sw22_worm_containment_do_nothing: "Local Forces Attack"
  sw22_worm_containment_contained: "Worm Containment Protocol"
- sw22_worm_containment_early_bird:0 "Early Bird Protocol"
+ sw22_worm_containment_early_bird: "Early Bird Protocol"
  sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
  sw22_worm_attack_do_nothing_tooltip:0 "Local Forces will attempt to cope without extra resources. At best they can hope to slow down the Worm slightly."
  worm_attack_1:0 "Worm Victory Close at Hand"

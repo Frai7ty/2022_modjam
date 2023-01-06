@@ -351,6 +351,26 @@ situation_event = {
 	}
 }
 
+situation_event = {
+	id = sw22_situation.101
+	title = "sw22_situation.101.name"
+	desc = "sw22_situation.101.desc"
+	picture = GFX_evt_alien_nature
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		owner = {
+			add_research_option = sw22_tech_early_bird
+		}
+	}
+
+	option = {
+		name = sw22_situation.101.a
+	}
+	
+}
+
 # Seach for Molodian System Events
 # Check to see if system has been found
 situation_event = {
