@@ -235,6 +235,8 @@
  sw22_operation_plant_attack_worm: "Plant Attack Worm"
  sw22_operation_plant_attack_worm_desc: "Now that we have the 'Matri-Worm' we have the means to smuggle an Attack Worm unto a planet. We just need to decide whose capital we wish to infest."
 
+ sw22_operation_plant_attack_worm_on_success: "Now that we have the 'Matri-Worm' we have the means to smuggle an Attack Worm unto a planet. We just need to decide whose capital we wish to infest."
+
  sw22_worm_operation.1.name: "Deep Cover"
  sw22_worm_operation.1.desc: "Our operatives have infiltrated the planetary defenses of [target.GetName] capital. The worm will take time to mature, however, once a suitable location is found to deposit the larva it will grow quickly. At such a time, it must keep safe from discovery. "
 
@@ -244,6 +246,7 @@
  sw22_worm_operation.3.name: "Pulled from Below"
  sw22_worm_operation.3.desc: "Our mission has been successfull. The worm has been planted on [target.GetName] capital. Now we will watch as the Worm Ravages this world."
 
+ 
 # Color List
 # §B thisisblue §!
 # §E thisisteal §!
