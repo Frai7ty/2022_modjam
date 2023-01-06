@@ -192,13 +192,13 @@ situation_search_for_the_worm_folk = {
 		search_for_the_worm_folk_1 = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_blue
-			end = 250
+			end = 300
 		}
 
 		search_for_the_worm_folk_2 = {
 			icon = GFX_situation_stage_2
 			icon_background = GFX_situation_stage_frame_blue
-			end = 750
+			end = 400
 			on_first_enter = {
 				situation_event = { id = sw22_situation.101 }
 			}

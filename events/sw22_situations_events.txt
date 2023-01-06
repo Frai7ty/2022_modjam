@@ -372,17 +372,18 @@ situation_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		owner = {
-			add_research_option = sw22_tech_early_bird
-			add_tech_progress = {
-				tech = sw22_tech_early_bird
-				progress = 0.25
-			}
-		}
 	}
 
 	option = {
 		name = sw22_situation.101.a
+		owner = {
+			give_technology = { tech = sw22_tech_early_bird }
+			#add_research_option = sw22_tech_early_bird
+			#add_tech_progress = {
+			#	tech = sw22_tech_early_bird
+			#	progress = 0.25
+			#}
+		}
 	}	
 }
 
