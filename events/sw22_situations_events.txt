@@ -578,6 +578,7 @@ country_event = {
 	}
 }
 
+
 situation_event = {
 	id = sw22_situation.99
 	hide_window = yes
@@ -590,9 +591,7 @@ situation_event = {
 	}
 
 	after = {
-		owner = {
-			destroy_situation = situation_search_for_the_worm_folk
-			destroy_situation = situation_worm_attack
-		}
+			destroy_situation = this
 	}
 }
+
