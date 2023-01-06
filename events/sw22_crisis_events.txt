@@ -32,10 +32,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.11.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.21
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.21 days = 60 random = 60 }
 		}
 	}
 
@@ -43,10 +40,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.11.b
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.31
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.31 days = 60 random = 60 }
 		}
 	}
 }
@@ -71,10 +65,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.21.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.22
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.22 days = 60 random = 60 }
 		}
 	}
 }
@@ -88,6 +79,7 @@ planet_event = {
 	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
+	fire_only_once = yes
 
 	# Add Damage Deposit
 	immediate = {
@@ -98,10 +90,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.22.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.23
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.23 days = 60 random = 60 }
 		}
 	}
 }
@@ -115,6 +104,7 @@ planet_event = {
 	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
+	fire_only_once = yes
 
 	# Add Damage Deposit
 	immediate = {
@@ -125,10 +115,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.23.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.41
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.41 days = 60 random = 60 }
 		}
 	}
 }
@@ -143,6 +130,7 @@ planet_event = {
 	show_sound = event_default
 	is_triggered_only = yes
 	location = root
+	fire_only_once = yes
 
 	# Add Damage Deposit
 	immediate = {
@@ -153,10 +141,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.31.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.32
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.32 days = 60 random = 60 }
 		}
 	}
 }
@@ -170,6 +155,7 @@ planet_event = {
 	show_sound = event_dig_site
 	is_triggered_only = yes
 	location = root
+	fire_only_once = yes
 
 	# Add Damage Deposit
 	immediate = {
@@ -180,10 +166,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.32.a
 		hidden_effect = {
-			planet_event = {
-				id = sw22_crisis.41
-				days = 60 random = 60
-			}
+			planet_event = { id = sw22_crisis.41 days = 60 random = 60 }
 		}
 	}
 }
@@ -204,10 +187,7 @@ planet_event = {
 		name = sw22_crisis.41.a
 		hidden_effect = {
 			owner = { set_country_flag = we_know_who_wormed_us }
-			planet_event = {
-				id = sw22_crisis.51
-				days = 180
-			}
+			planet_event = { id = sw22_crisis.51 days = 180	}
 		}
 	}
 }
@@ -227,10 +207,7 @@ planet_event = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
 			owner = {
-				country_event = {
-					id = sw22_crisis.61 
-					days = 180
-				}
+				country_event = { id = sw22_crisis.61  days = 180 }
 			}
 		}
 	}
@@ -244,16 +221,9 @@ country_event = {
 	is_triggered_only = yes
 	show_sound = event_radio_chatter
 	title = TRANSMISSION
+	fire_only_once = yes
 
 	immediate = {
-		hidden_effect = {
-			owner = {
-				country_event = {
-					id = sw22_crisis.62 
-					days = 180
-				}
-			}
-		}
 		every_galaxy_planet = {
 			limit = {
 				has_deposit = sw22_d_damage_mystery
@@ -272,10 +242,16 @@ country_event = {
 
 	option = {
 		name = sw22_crisis.61.a
+		hidden_effect = {
+			country_event = { id = sw22_crisis.62 days = 180 }
+		}
 	}
 
 	option = {
 		name = sw22_crisis.61.b
+		hidden_effect = {
+			country_event = { id = sw22_crisis.62 days = 180 }
+		}
 	}
 }
 
@@ -287,20 +263,16 @@ country_event = {
 	show_sound = event_default
 	is_triggered_only = yes
 	location = root
+	fire_only_once = yes
 
 	immediate = {
-		hidden_effect = {
-			owner = {
-				country_event = {
-					id = sw22_crisis.63 
-					days = 180
-				}
-			}
-		}	
 	}
 
 	option = {
 		name = sw22_crisis.62.a
+		hidden_effect = {
+			country_event = { id = sw22_crisis.63 days = 60	}
+		}	
 	}
 }
 
@@ -312,6 +284,7 @@ country_event = {
 	is_triggered_only = yes
 	show_sound = event_radio_chatter
 	title = TRANSMISSION
+	fire_only_once = yes
 
 	immediate = {
 	}
@@ -323,9 +296,7 @@ country_event = {
 	option = {
 		name = sw22_crisis.63.a
 		hidden_effect = {
-			country_event = {
-				id = sw22_crisis.71
-			}
+			country_event = { id = sw22_crisis.71 days = 2 }
 		}	
 	}
 }
@@ -336,8 +307,9 @@ country_event = {
 	desc =  "sw22_crisis.71.desc"
 	picture = GFX_evt_crisis_declared
 	show_sound = event_announcement
-	location = root
+	#location = root
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
 		random_galaxy_planet = {
@@ -365,14 +337,9 @@ country_event = {
 
 	option = {
 		name = sw22_crisis.71.a
-		hidden_effect = {
-			owner = {
-				country_event = {
-					id = sw22_crisis.72 
-					days = 90 random = 90
-				}
-			}
-		}	
+		every_country = {
+			country_event = { id = sw22_crisis.72 days = 2 }
+		}
 	}
 }
 
@@ -384,7 +351,7 @@ country_event = {
 	show_sound = event_bad_omen
 	is_triggered_only = yes
 	fire_only_once = yes
-	location = from
+	location = root
 
 	immediate = {
 		every_country = {
