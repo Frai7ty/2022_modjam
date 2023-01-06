@@ -180,11 +180,9 @@ situation_search_for_the_worm_folk = {
 	progress_direction = monodirectional
 
 	on_monthly = {
-		#random_events = {
-		#	60 = 0
-		#	20 = sw22_situation_events.1 # Worm Attack
-		#	20 = sw22_situation_events.2 # Worm Deposit
-		#}
+		hidden_effect = { 
+			situation_event = { id = sw22_situation.99 }
+		}	
 	}
 
 	stages = {

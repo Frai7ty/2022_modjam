@@ -583,6 +583,12 @@ situation_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
+	triggeer = {
+		NOT = {
+			has_global_flag = sw22_in_progress 	
+		}
+	}
+
 	after = {
 		destroy_situation = situation_search_for_the_worm_folk
 		destroy_situation = situation_worm_attack
