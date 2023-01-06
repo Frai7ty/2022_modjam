@@ -182,15 +182,16 @@ planet_event = {
 	option = {
 		name = sw22_crisis.41.a
 		hidden_effect = {
-			owner = { set_country_flag = we_know_who_wormed_us }
-			planet_event = { id = sw22_crisis.51 days = 180	}
+			owner = {
+				country_event = { id = sw22_crisis.51 days = 180	}
+			}
 		}
 	}
 }
 
 # They Hit Everyone
 #5a
-planet_event = {
+country_event = {
 	id = sw22_crisis.51
 	title = "sw22_crisis.51.name"
 	desc = "sw22_crisis.51.desc"
@@ -202,9 +203,7 @@ planet_event = {
 	option = {
 		name = sw22_crisis.51.a
 		hidden_effect = {
-			owner = {
-				country_event = { id = sw22_crisis.61  days = 180 }
-			}
+			country_event = { id = sw22_crisis.61  days = 180 }
 		}
 	}
 }
