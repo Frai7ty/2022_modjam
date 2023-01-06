@@ -583,7 +583,7 @@ situation_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	triggeer = {
+	trigger = {
 		NOT = {
 			has_global_flag = sw22_in_progress 	
 		}
