@@ -197,6 +197,8 @@
  sw22_tech_repair_damage_desc:0 "With the crisis over, we should be able to repair the damage done to our worlds by the Bio-Worm."
  sw22_tech_exploit_damage:0 "Bio-Worm Damage Utilization Projects"
  sw22_tech_exploit_damage_desc:0 "The repaired areas left behind by the Bio-Worm attacks actually present some unique opportunities, exploring them may prove fruitful."
+ TECH_UNLOCK_EARLY_BIRD_TITLE:0 "Early Bird Protocol"
+ TECH_UNLOCK_EARLY_BIRD_DESC:0 "A series of techniques and battle plans to effectivaly combat Bio-Worms that awaken under our planets."
 
  sw22_molodian_homeworld_chain_title:0 "The Molodian Homeworld"
  sw22_molodian_homeworld_chain_desc:0 "We Must Search for the Molodian Homeworld to stop the Bio-Worms from destroying the galaxy."
