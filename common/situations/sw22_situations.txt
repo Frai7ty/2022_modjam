@@ -30,6 +30,9 @@ situation_worm_attack = {
 	fail_category = positive
 
 	on_monthly = {
+		event = {
+			sw22_situation.99
+		}
 		random_events = {
 			400 = 0
 			#10 = sw22_situation.11 # Wormling Attack
@@ -180,7 +183,7 @@ situation_search_for_the_worm_folk = {
 	progress_direction = monodirectional
 
 	on_monthly = {
-		hidden_effect = { 
+		event = { 
 			situation_event = { id = sw22_situation.99 }
 		}	
 	}
