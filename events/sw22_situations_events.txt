@@ -129,6 +129,12 @@ situation_event = {  # Party Time
 	location = target
 	situation = this
 
+	immediate = {
+		target = {
+			remove_planet_flag = sw_22_worm_attack
+		}
+	}
+
 	option = {
 		name = EXCELLENT
 		owner = {
@@ -144,9 +150,6 @@ situation_event = {  # Party Time
 				min = @tier3researchmin
 				max = @tier3researchmax
 			}
-		}
-		target = {
-			remove_planet_flag = sw_22_worm_attack
 		}
 	}
 
