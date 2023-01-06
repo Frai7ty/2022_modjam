@@ -64,11 +64,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	# Leads to 2b
@@ -95,11 +91,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}	
 
 	#Leads to 2c
@@ -126,11 +118,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	#Leads to 4c
@@ -158,11 +146,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	# Leads to 3b
@@ -189,11 +173,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 	
 	# Leads to 4a
@@ -238,7 +218,8 @@ planet_event = {
 	id = sw22_crisis.51
 	title = "sw22_crisis.51.name"
 	desc = "sw22_crisis.51.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_board_meeting
+	show_sound = event_default
 	is_triggered_only = yes
 	location = root
 
@@ -261,6 +242,7 @@ country_event = {
 	desc =  "sw22_crisis.61.desc"
 	diplomatic = yes
 	is_triggered_only = yes
+	show_sound = event_radio_chatter
 	title = TRANSMISSION
 
 	immediate = {
@@ -291,7 +273,8 @@ country_event = {
 	id = sw22_crisis.62
 	title = "sw22_crisis.62.name"
 	desc =  "sw22_crisis.62.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_smear_campaign
+	show_sound = event_default
 	is_triggered_only = yes
 	location = root
 
@@ -317,6 +300,7 @@ country_event = {
 	desc =  "sw22_crisis.63.desc"
 	diplomatic = yes
 	is_triggered_only = yes
+	show_sound = event_radio_chatter
 	title = TRANSMISSION
 
 	immediate = {
@@ -340,7 +324,8 @@ country_event = {
 	id = sw22_crisis.71
 	title = "sw22_crisis.71.name"
 	desc =  "sw22_crisis.71.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_crisis_declared
+	show_sound = event_announcement
 	location = root
 	is_triggered_only = yes
 
@@ -385,7 +370,8 @@ country_event = {
 	id = sw22_crisis.72
 	title = "sw22_crisis.72.name"
 	desc =  "sw22_crisis.72.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_deficit
+	show_sound = event_bad_omen
 	is_triggered_only = yes
 	fire_only_once = yes
 	location = from
@@ -413,7 +399,8 @@ country_event = { # WE ALL WON!
 	id = sw22_crisis.99
 	title = "sw22_crisis.99.name"
 	desc =  "sw22_crisis.99.desc"
-	picture = GFX_evt_in_the_dark
+	picture = GFX_evt_crisis_defeated
+	show_sound = event_celebration
 	is_triggered_only = yes
 
 	option = {
