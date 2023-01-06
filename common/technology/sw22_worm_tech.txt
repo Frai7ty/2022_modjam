@@ -1,5 +1,5 @@
 sw22_tech_early_bird = { # Helps kill those pesky worms
-	cost = @tier5cost3
+	cost = @tier3cost3
 	area = society
 	tier = 3
 	is_rare = yes

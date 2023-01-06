@@ -374,6 +374,10 @@ situation_event = {
 	immediate = {
 		owner = {
 			add_research_option = sw22_tech_early_bird
+			add_tech_progress = {
+				tech = sw22_tech_early_bird
+				progress = 0.25
+			}
 		}
 	}
 
