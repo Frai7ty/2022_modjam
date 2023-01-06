@@ -186,6 +186,16 @@ situation_search_for_the_worm_folk = {
 		events = { 
 			sw22_situation.99
 		}	
+		random_events = {
+			500 = 0
+			10 = sw22_situation.300
+			10 = sw22_situation.301
+			10 = sw22_situation.302
+			10 = sw22_situation.303
+			10 = sw22_situation.304
+			10 = sw22_situation.305
+			10 = sw22_situation.306
+		}
 	}
 
 	stages = {
