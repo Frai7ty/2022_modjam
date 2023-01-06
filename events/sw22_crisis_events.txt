@@ -357,7 +357,7 @@ country_event = {
 			owner = {
 				start_situation = {
 					type = situation_worm_attack
-					target = root
+					target = prev
 				}
 			}
 		}

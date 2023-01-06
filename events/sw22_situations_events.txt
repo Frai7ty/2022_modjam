@@ -197,8 +197,8 @@ situation_event = {
 	picture = GFX_evt_tomb_world
 	show_sound = event_wind_ruins
 	is_triggered_only = yes
+	location = root.target
 	situation = this
-	location = target
 
 	immediate = {
 		add_situation_progress = 6
@@ -225,7 +225,7 @@ situation_event = {
 	show_sound = event_wind_ruins
 	is_triggered_only = yes
 	situation = this
-	location = target
+	location = root.target
 
 	immediate = {
 		add_situation_progress = 12
