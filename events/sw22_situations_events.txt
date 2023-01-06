@@ -580,6 +580,13 @@ ship_event = {
 				min = @tier3researchmin
 				max = @tier3researchmax
 			}
+			hidden_effect = {
+				every_country = {
+					country_event = {
+						id = sw22_crisis.99
+					}
+				}
+			}
 		}
 	}
 }
