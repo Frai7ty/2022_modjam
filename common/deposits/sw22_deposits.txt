@@ -83,6 +83,7 @@ sw22_d_damage_mystery = {
 		planet_max_districts_add = -1
 		habitability_ceil_mult = -0.05
 	}
+	can_be_cleared = { always = no }
 
 	#resources = {
 	#	category = deposit_blockers
