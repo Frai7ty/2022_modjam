@@ -84,12 +84,12 @@ sw22_d_damage_mystery = {
 		habitability_ceil_mult = -0.05
 	}
 
-	resources = {
-		category = deposit_blockers
-		cost = {
-			energy = 500
-		}
-	}
+	#resources = {
+	#	category = deposit_blockers
+	#	cost = {
+	#		energy = 500
+	#	}
+	#}
 
-	#prerequisites = { "sw22_tech_worm_cleanup" }
+	prerequisites = { "sw22_tech_worm_cleanup" }
 }

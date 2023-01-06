@@ -183,7 +183,7 @@
  sw22_d_damage_1_desc:0 "Poisoned by a Bio-Worm, the soil of this world is not longer able to support any sort of ecosystem."
  sw22_d_damage_2:0 "Bio-Worm Borehole"
  sw22_d_damage_2_desc:0 "Caused by the movement of a Bio-Worm, this part of the planet is full of crevasses and sinkholes making it uninhabitable."
- sw22_d_damage_3:0 "Destroyed City"
+ sw22_d_damage_3:0 "Bio-Worm Destroyed City"
  sw22_d_damage_3_desc:0 "A Bio-Worm surfaced here, destroying the settlement. It's eco-damage makes it hard to repair the damage."
  sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
  sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currently unknown."

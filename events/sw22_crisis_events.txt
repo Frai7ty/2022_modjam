@@ -24,7 +24,7 @@ planet_event = {
 	title = "sw22_crisis.11.name"
 	desc = "sw22_crisis.11.desc"
 	picture = GFX_evt_burning_settlement
-	show_sound = event_ground_battle
+	show_sound = event_collapsing_ruins
 	is_triggered_only = yes
 	location = root
 
@@ -252,6 +252,16 @@ country_event = {
 					id = sw22_crisis.62 
 					days = 180
 				}
+			}
+		}
+		every_galaxy_planet = {
+			limit = {
+				has_deposit = sw22_d_damage_mystery
+			}
+			while = {
+				limit = { has_deposit = sw22_d_damage_mystery }
+				remove_deposit = sw22_d_damage_mystery
+				add_deposit = sw22_d_damage_1
 			}
 		}	
 	}
