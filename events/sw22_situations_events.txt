@@ -174,6 +174,7 @@ situation_event = {  # Tomb World Time
 			set_planet_flag = nuked_planet_anomalies_disabled
 			destroy_colony = yes
 			remove_planet_flag = sw_22_worm_attack
+			add_planet_devastation = 100
 		}
 	}
 
@@ -208,6 +209,7 @@ situation_event = {
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
+			add_planet_devastation = 20
 		}
 	}
 
@@ -240,6 +242,7 @@ situation_event = {
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
+			add_planet_devastation = 40
 		}
 	}
 
@@ -261,6 +264,9 @@ situation_event = {
 
 	immediate = {
 		add_situation_progress = -5
+		target = {
+			add_planet_devastation = 5
+		}
 	}
 
 	option = {
@@ -301,6 +307,9 @@ situation_event = {
 
 	immediate = {
 		add_situation_progress = 6
+		target = {
+			add_planet_devastation = 10
+		}
 	}
 
 	option = {
@@ -321,6 +330,9 @@ situation_event = {
 
 	immediate = {
 		add_situation_progress = 12
+		target = {
+			add_planet_devastation = 20
+		}
 	}
 
 	option = {
