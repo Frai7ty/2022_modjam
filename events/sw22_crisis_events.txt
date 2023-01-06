@@ -316,8 +316,7 @@ country_event = {
 		hidden_effect = {
 			owner = {
 				country_event = {
-					id = sw22_crisis.71 
-					days = 90 random = 90
+					id = sw22_crisis.71 days = 90 random = 90
 				}
 			}
 		}	
@@ -329,6 +328,7 @@ country_event = {
 	title = "sw22_crisis.71.name"
 	desc =  "sw22_crisis.71.desc"
 	picture = GFX_evt_in_the_dark
+	location = root
 	is_triggered_only = yes
 
 	immediate = {
