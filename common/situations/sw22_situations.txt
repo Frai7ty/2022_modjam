@@ -265,8 +265,8 @@ situation_search_for_the_worm_folk = {
 			custom_tooltip = sw22_search_for_the_worm_folk_medium_heavy_tooltip
 		}
 		modifier = {
-			all_technology_research_speed = -0.2
-			country_energy_produces_mult = -0.2
+			all_technology_research_speed = -0.25
+			country_energy_produces_mult = -0.25
 		}
 	}
 }
