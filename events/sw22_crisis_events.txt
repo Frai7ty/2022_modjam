@@ -64,11 +64,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	# Leads to 2b
@@ -95,11 +91,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}	
 
 	#Leads to 2c
@@ -126,11 +118,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	#Leads to 4c
@@ -158,11 +146,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 
 	# Leads to 3b
@@ -189,11 +173,7 @@ planet_event = {
 
 	# Add Damage Deposit
 	immediate = {
-		random_list = {
-			33 = { add_deposit = sw22_d_damage_1 }
-			66 = { add_deposit = sw22_d_damage_2 }
-			99 = { add_deposit = sw22_d_damage_3 }
-		}
+		add_deposit = sw22_d_damage_mystery
 	}
 	
 	# Leads to 4a
