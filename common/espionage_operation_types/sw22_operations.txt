@@ -13,7 +13,7 @@
 
 sw22_operation_plant_attack_worm = {
 	categories = { op_cat_sabotage op_cat_military }
-	picture = GFX_evt_stellarites
+	picture = GFX_evt_genetic_modification
 	desc = sw22_operation_plant_attack_worm_desc
 	stages = 3
 
