@@ -30,7 +30,7 @@ sw22_tech_early_bird = { # Helps kill those pesky worms
 }
 
 sw22_tech_repair_damage = {
-	cost = @tier5cost3
+	cost = @tier3cost3
 	area = society
 	tier = 3
 	is_rare = yes
@@ -39,11 +39,27 @@ sw22_tech_repair_damage = {
 	category = { new_worlds }
 
 	potential = {
-		is_regular_empire = yes
+		any_owned_planet = {
+			OR = {
+				has_deposit = sw22_d_damage_1
+				has_deposit = sw22_d_damage_2
+				has_deposit = sw22_d_damage_3
+			}
+		}
 	}
 
 	weight_modifier = {
-		factor = 0
+		factor = 2
+		modifier = {
+			factor = 0
+			any_owned_planet = {
+				NOR = {
+					has_deposit = sw22_d_damage_1
+					has_deposit = sw22_d_damage_2
+					has_deposit = sw22_d_damage_3
+				}
+			}
+		}
 	}
 
 	ai_weight = {
@@ -53,26 +69,26 @@ sw22_tech_repair_damage = {
 	}
 }
 
-sw22_tech_exploit_damage = {
-	cost = @tier5cost3
-	area = society
-	tier = 3
-	is_rare = yes
-	is_reverse_engineerable = no
-    start_tech = no
-	category = { new_worlds }
-
-	potential = {
-		is_regular_empire = yes
-	}
-
-	weight_modifier = {
-		factor = 0
-	}
-
-	ai_weight = {
-		modifier = {
-			factor = 500
-		}
-	}
-}
+	#sw22_tech_exploit_damage = {
+	#	cost = @tier5cost3
+	#	area = society
+	#	tier = 3
+	#	is_rare = yes
+	#	is_reverse_engineerable = no
+	#	start_tech = no
+	#	category = { new_worlds }
+#
+	#	potential = {
+	#		is_regular_empire = yes
+	#	}
+#
+	#	weight_modifier = {
+	#		factor = 0
+	#	}
+#
+	#	ai_weight = {
+	#		modifier = {
+	#			factor = 500
+	#		}
+	#	}
+	#}
