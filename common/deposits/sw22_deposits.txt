@@ -15,14 +15,30 @@ sw22_d_damage_1 = {
 	resources = {
 		category = deposit_blockers
 		cost = {
-			energy = 500
+			energy = 1000
+		}
+	}
+
+	on_cleared = {
+		if = {
+			limit = {
+				exists = owner
+				owner = {
+					has_technology = sw22_tech_repair_damage
+				}
+			}
+			owner = {
+				add_resource = {
+					society_research = 2500
+				}
+			}
 		}
 	}
 
 	prerequisites = { "sw22_tech_repair_damage" }
 }
 
-# Damaged Enviroment - Soil Erosion 
+# Damaged Enviroment - Cave In 
 sw22_d_damage_2 = {
 	icon = d_massive_crevice
 	time = 720 #Crisis blockers are worse then normal deposits
@@ -39,7 +55,23 @@ sw22_d_damage_2 = {
 	resources = {
 		category = deposit_blockers
 		cost = {
-			energy = 500
+			energy = 1000
+		}
+	}
+
+	on_cleared = {
+		if = {
+			limit = {
+				exists = owner
+				owner = {
+					has_technology = sw22_tech_repair_damage
+				}
+			}
+			owner = {
+				add_resource = {
+					minerals = 2500
+				}
+			}
 		}
 	}
 
@@ -63,7 +95,25 @@ sw22_d_damage_3 = {
 	resources = {
 		category = deposit_blockers
 		cost = {
-			energy = 500
+			energy = 1000
+		}
+	}
+
+	on_cleared = {
+		if = {
+			limit = {
+				exists = owner
+				owner = {
+					has_technology = sw22_tech_repair_damage
+				}
+			}
+			owner = {
+				add_resource = {
+					society_research = 1000
+					engineering_research = 1000
+					alloys = 500
+				}
+			}
 		}
 	}
 
