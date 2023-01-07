@@ -215,7 +215,7 @@
  sw22_situation.301.b:0 "This is a scam."
  sw22_situation.302.name:0 "A Little Help"
  sw22_situation.302.desc:0 "A galactic fine goods collector has an old data stick with some information about the Molodians. They are donating it to the sake of the galaxy."
- sw22_situation.302.a:0 ""
+ sw22_situation.302.a:0 "How kind."
  sw22_situation.303.name:0 "Decryption Success"
  sw22_situation.303.desc:0 "Our recent decryption attempts on the Molodian transmission have uncovered some promising leads."
  sw22_situation.303.a:0 "Excellent."
