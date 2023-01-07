@@ -13,7 +13,7 @@
 
  # Event 2
  sw22_crisis.21.name: "The Land Turns to Ash"
- sw22_crisis.21.desc: "c"
+ sw22_crisis.21.desc: "The area directly above the epicenter has started to experience extreme ecological collapse; the soil no longer has any nutrients which has in turn destroyed local plant and animal life. This is highly irregular for earthquakes, something else must be going on."
  sw22_crisis.21.a: "Get to the bottom of this."
 
  sw22_crisis.22.name: "Tunnel Trouble" 
@@ -180,7 +180,7 @@
  sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currently unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago in a Molonoid lab, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As this mother worm is a marvel of bioengineering, studying it will also accelerate biological research."
- sw22_relic_worm_mom_active_tooltip:0 "§HUnlocks Action:§! §G$sw22_operation_plant_attack_worm$§!, granting the ability to planet one §Y$ worm_army$§! on another empire's capital or to use it as a powerful army unit."
+ sw22_relic_worm_mom_active_tooltip:0 "§HUnlocks Army:§! §Y$worm_army$§!, a powerful army unit that causes high amounts of collateral damage on the enemy."
  sw22_operation_plant_attack_worm:0 "Plant Bioworm on Capital"
  sw22_tech_early_bird:0 "Early Bird Protocol"
  sw22_tech_early_bird_desc:0 "Using what we currently know about the bioworms, we will be able to develop a system to effectively attack them and defend our colonies."
