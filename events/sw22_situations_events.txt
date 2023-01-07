@@ -437,6 +437,7 @@ country_event = {
 	immediate = {
 		set_global_flag = sw22_molodian_system_discovered
 		set_country_flag = sw22_molodian_system
+		save_event_target_as = sw22_dug_up_the_molodian_system
 
 		random_system_within_border = {
 			save_event_target_as = sw22_molodian_spawn_system
@@ -464,7 +465,7 @@ country_event = {
 	}
 
 	option = {
-		name = EXCELLENT
+		name = sw22_situation.222.a
 	}
 }
 
