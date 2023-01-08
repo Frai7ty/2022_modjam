@@ -23,6 +23,13 @@ situation_worm_attack = {
 		}	
 	}
 
+	abort_trigger = {
+        OR = {
+            NOT = { exists = target.owner }
+            target.owner = { NOT = { is_same_value = root.owner } }
+        }
+    }
+
 	start_value = 50
 
 	progress_direction = bidirectional

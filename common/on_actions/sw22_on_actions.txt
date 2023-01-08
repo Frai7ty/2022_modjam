@@ -15,3 +15,9 @@ on_five_year_pulse = {
 		midgame_crisis_trigger.1
 	}
 }
+
+#on_planet_transfer = {
+#	events = {
+#		sw22_on_action_events.1
+#	}
+#}
