@@ -9,7 +9,7 @@ worm_army = {
 	time = 720
 	has_species = no
 
-	icon = GFX_army_type_machine_assault #placeholder
+	icon = GFX_army_type_sw22_bioworm_assault #placeholder
 
 	resources = {
 		category = armies

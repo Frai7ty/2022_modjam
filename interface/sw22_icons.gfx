@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sw_army_icons"
+		textureFile = "gfx/interface/planetview/sw_army_icon.dds"
+		noOfFrames = 11
+	}
+
+	spriteType = {
+		name = "GFX_army_type_sw22_bioworm_assault"
+		sprite_sheet_sprite_type = "GFX_sw_army_icons"
+		default_frame = 1
+	}
+}

@@ -240,7 +240,8 @@
 
  sw22_worm_operation.3.name: "Pulled from Below"
  sw22_worm_operation.3.desc: "Our mission was a success. Soon the Worm will be let loose upon the [target.GetName] capital, with us free of blame."
-
+ NAME_Attack_Worms:0 "Bioworm Army"
+ NAME_Assult_Worms:0 "Bioworm Army"
  
 # Color List
 # §B thisisblue §!
