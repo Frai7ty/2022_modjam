@@ -30,7 +30,7 @@ situation_worm_attack = {
         }
     }
 
-	start_value = 50
+	start_value = 25
 
 	progress_direction = bidirectional
 	complete_category = negative
@@ -44,12 +44,12 @@ situation_worm_attack = {
 			400 = 0
 			#10 = sw22_situation.11 # Wormling Attack
 			#10 = sw22_situation.12 # Wormling Attack Big
-			10 = sw22_situation.13 # Eco Damage
-			10 = sw22_situation.14 # Eco Damage Big
-			10 = sw22_situation.15 # Amry Wins
+			#10 = sw22_situation.13 # Eco Damage
+			#10 = sw22_situation.14 # Eco Damage Big
+			15 = sw22_situation.15 # Amry Wins
 			10 = sw22_situation.16 # Army Wins Big
-			10 = sw22_situation.17 # Worm Wins 
-			10 = sw22_situation.18 # Worm Wins Big
+			20 = sw22_situation.17 # Worm Wins 
+			15 = sw22_situation.18 # Worm Wins Big
 			1 = sw22_situation.19 # Worm Dies
 		}
 	}
@@ -58,30 +58,97 @@ situation_worm_attack = {
 		worm_attack_1 = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_red
-			end = 25
-			target_modifier = {
-				planet_stability_add = -10
-				planet_emigration_push_add = 25
-			}
+			end = 30
 		}
 		
 		worm_attack_2 = {
 			icon = GFX_situation_stage_2
 			icon_background = GFX_situation_stage_frame_red
-			end = 75
+			end = 40
 			target_modifier = {
-				planet_stability_add = -20
-				planet_emigration_push_add = 50
+				planet_stability_add = -5
+				planet_emigration_push_add = 10
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
 			}
 		}
 
 		worm_attack_3 = {
 			icon = GFX_situation_stage_3
 			icon_background = GFX_situation_stage_frame_red
-			end = 100
+			end = 50
+			target_modifier = {
+				planet_stability_add = -10
+				planet_emigration_push_add = 20
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
+			}
+		}
+
+		worm_attack_4 = {
+			icon = GFX_situation_stage_4
+			icon_background = GFX_situation_stage_frame_red
+			end = 60
+			target_modifier = {
+				planet_stability_add = -15
+				planet_emigration_push_add = 30
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
+			}
+		}
+
+		worm_attack_5 = {
+			icon = GFX_situation_stage_5
+			icon_background = GFX_situation_stage_frame_red
+			end = 70
+			target_modifier = {
+				planet_stability_add = -20
+				planet_emigration_push_add = 40
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
+			}
+		}
+
+		worm_attack_6 = {
+			icon = GFX_situation_stage_6
+			icon_background = GFX_situation_stage_frame_red
+			end = 80
+			target_modifier = {
+				planet_stability_add = -25
+				planet_emigration_push_add = 50
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
+			}
+		}
+
+		worm_attack_7 = {
+			icon = GFX_situation_stage_7
+			icon_background = GFX_situation_stage_frame_red
+			end = 90
 			target_modifier = {
 				planet_stability_add = -30
+				planet_emigration_push_add = 60
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
+			}
+		}
+
+		worm_attack_8 = {
+			icon = GFX_situation_stage_8
+			icon_background = GFX_situation_stage_frame_red
+			end = 100
+			target_modifier = {
+				planet_stability_add = -50
 				planet_emigration_push_add = 100
+			}
+			on_first_enter = {
+				situation_event = { id = sw22_situation.13 }
 			}
 		}
 	}
@@ -194,14 +261,14 @@ situation_search_for_the_worm_folk = {
 			sw22_situation.99
 		}	
 		random_events = {
-			1000 = 0
-			10 = sw22_situation.300
-			10 = sw22_situation.301
-			10 = sw22_situation.302
-			10 = sw22_situation.303
-			10 = sw22_situation.304
-			10 = sw22_situation.305
-			10 = sw22_situation.306
+			1250 = 0
+			2 = sw22_situation.300
+			2 = sw22_situation.301
+			2 = sw22_situation.302
+			2 = sw22_situation.303
+			2 = sw22_situation.304
+			2 = sw22_situation.305
+			2 = sw22_situation.306
 		}
 	}
 

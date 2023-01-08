@@ -10,6 +10,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_planet = { 
 				set_planet_flag = first_worm 
+				#set_planet_flag = sw_22_worm_already_got_this_one
 				planet_event = { id = sw22_crisis.11 }
 			}
 		}

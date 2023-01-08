@@ -41,7 +41,7 @@ event = { # on_action trigger
 
 	immediate = {
 		random_list = {
-			30 = {
+			33 = {
 				random_galaxy_planet = {
 					limit = {
 						has_owner = yes
@@ -61,7 +61,7 @@ event = { # on_action trigger
 					}
 				}
 			}
-			70 = {	
+			66 = {	
 			}
 		}
 	}
@@ -205,14 +205,14 @@ situation_event = {
 	situation = this
 
 	immediate = {
-		add_situation_progress = 6
+		#add_situation_progress = 6
 		target = {
 			random_list = {
 				50 = { add_deposit = sw22_d_damage_1 }
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
-			add_planet_devastation = 20
+			add_planet_devastation = 10
 		}
 	}
 
@@ -309,7 +309,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 6
+		add_situation_progress = 10
 		target = {
 			add_planet_devastation = 10
 		}
@@ -332,7 +332,7 @@ situation_event = {
 	location = target
 
 	immediate = {
-		add_situation_progress = 12
+		add_situation_progress = 15
 		target = {
 			add_planet_devastation = 20
 		}
