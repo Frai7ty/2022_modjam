@@ -3,33 +3,16 @@ namespace = sw22_on_action_events
 planet_event = {
 	id = sw22_on_action_events.1
 	hide_window = yes
-	location = root
 	is_triggered_only = yes
+
 
 	trigger = {
-		has_planet_flag = sw_22_worm_attack
+		owner = {
+			has_country_flag = sw22_attack_worms_country
+		}
 	}
 
 	immediate = {
-		prev = { destroy_situation = this }
+		change_pc = pc_nuked
 	}	
-}
-
-situation_event = {
-	id = sw22_on_action_events.2
-	location = root
-	is_triggered_only = yes
-	hide_window = yes
-
-	immediate = {
-		fromfrom = {
-			destroy_situation = this
-		}
-		this = {
-			start_situation = {
-				type = situation_worm_attack
-				target = prev
-			}
-		}
-	}
 }

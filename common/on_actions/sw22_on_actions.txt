@@ -16,6 +16,12 @@ on_five_year_pulse = {
 	}
 }
 
+on_planet_conquer = {
+	events = {
+		sw22_on_action_events.1 # Attack Worms eat planet
+	}
+}
+
 #on_planet_transfer = {
 #	events = {
 #		sw22_on_action_events.1
