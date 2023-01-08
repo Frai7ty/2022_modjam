@@ -30,7 +30,7 @@ situation_worm_attack = {
         }
     }
 
-	start_value = 25
+	start_value = 30
 
 	progress_direction = bidirectional
 	complete_category = negative
@@ -41,14 +41,14 @@ situation_worm_attack = {
 			sw22_situation.99
 		}
 		random_events = {
-			400 = 0
+			500 = 0
 			#10 = sw22_situation.11 # Wormling Attack
 			#10 = sw22_situation.12 # Wormling Attack Big
 			#10 = sw22_situation.13 # Eco Damage
-			#10 = sw22_situation.14 # Eco Damage Big
+			10 = sw22_situation.14 # Eco Damage Big
 			15 = sw22_situation.15 # Amry Wins
 			10 = sw22_situation.16 # Army Wins Big
-			20 = sw22_situation.17 # Worm Wins 
+			25 = sw22_situation.17 # Worm Wins 
 			15 = sw22_situation.18 # Worm Wins Big
 			1 = sw22_situation.19 # Worm Dies
 		}
@@ -166,7 +166,7 @@ situation_worm_attack = {
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 		modifier = {
-			add = -2
+			add = -1
 			desc = sw22_worm_containment_early_bird
 			current_situation_approach = sw22_worm_attack_early_bird 
 		}
@@ -254,7 +254,7 @@ situation_search_for_the_worm_folk = {
 	#}
 
 	start_value = 0
-	progress_direction = monodirectional
+	#progress_direction = bidirectional
 
 	on_monthly = {
 		events = { 
@@ -262,13 +262,13 @@ situation_search_for_the_worm_folk = {
 		}	
 		random_events = {
 			1250 = 0
-			2 = sw22_situation.300
-			2 = sw22_situation.301
-			2 = sw22_situation.302
-			2 = sw22_situation.303
-			2 = sw22_situation.304
-			2 = sw22_situation.305
-			2 = sw22_situation.306
+			1 = sw22_situation.300
+			1 = sw22_situation.301
+			1 = sw22_situation.302
+			1 = sw22_situation.303
+			1 = sw22_situation.304
+			1 = sw22_situation.305
+			1 = sw22_situation.306
 		}
 	}
 
@@ -276,7 +276,7 @@ situation_search_for_the_worm_folk = {
 		search_for_the_worm_folk_1 = {
 			icon = GFX_situation_stage_1
 			icon_background = GFX_situation_stage_frame_blue
-			end = 400
+			end = 500
 		}
 
 		search_for_the_worm_folk_2 = {

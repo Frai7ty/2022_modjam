@@ -107,7 +107,7 @@
 
  sw22_situation.222.name:0 "Molonoids Uncovered"
  sw22_situation.222.desc:0 "We have been able to decode the signal pattern and dig up the location of the Molonoid home world! We should send ships immediately to [sw22_molodian_spawn_system.GETNAME]."
- Sw22_situation.222.a:0 "Find the nearest fleet!"
+ sw22_situation.222.a:0 "Find the nearest fleet!"
  sw22_situation.225.name:0 "Dug to Death"
  sw22_situation.225.desc:0 "It appears that the subterranean Molonoids suffered the same fate to which they subjected the galaxy; planetary death by Bioworms. Geological scans show thousands of tunnels under the surface, many of which connect to the runs of their sprawling cave cities. With the level of planetary destruction, it's impossible to determine how or why the bioworms got loose and turned on their masters, but we can determine it happened long before the first bioworm attacks.\n\nWe also found one remaining high-security lab that was still in a functioning state. After a simple description, it's clear the bioworm attacks were merely a glitch in aging and damaged systems; it was never meant to go off without the Molonoids in the control seat. Inside we also found a living 'Matri-Worm', the highly advanced bioengineered responsible for birthing the attack worms."
  sw22_situation.226.name:0 "Beaten"
@@ -185,7 +185,7 @@
  sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currently unknown."
  sw22_r_worm_mom:0 "The Matri-Worm"
  sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago in a Molonoid lab, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As this mother worm is a marvel of bioengineering, studying it will also accelerate biological research."
- sw22_relic_worm_mom_active_tooltip:0 "§HUnlocks Army:§! §Y$worm_army$§!, a powerful army unit that causes high amounts of collateral damage."
+ sw22_relic_worm_mom_active_tooltip:0 "§HBuilds Army:§! §Y$worm_army$§!; a powerful army unit that causes high amounts of collateral damage will be built at our capital."
  sw22_operation_plant_attack_worm:0 "Plant Bioworm on Capital"
  sw22_tech_early_bird:0 "Early Bird Protocol"
  sw22_tech_early_bird_desc:0 "Using what we currently know about the bioworms, we will be able to develop a system to effectively attack them and defend our colonies."
@@ -233,7 +233,7 @@
  sw22_operation_plant_attack_worm_on_success: "The bioworm was successfully planted under the surface of [target.GetName]. Our agents covered their tracks well, so it'll appear as an under-matured bioworm from the Molodians."
 
  sw22_worm_operation.1.name: "Deep Cover"
- sw22_worm_operation.1.desc: "Our operatives have infiltrated the planetary defenses of [target.GetName] capital. The worm will take time to mature, however, once a suitable location is found to deposit the larva it will grow quickly. At such a time, it must keep safe from discovery"
+ sw22_worm_operation.1.desc: "Our operatives have infiltrated the planetary defenses of [target.GetName] capital. The worm will take time to mature and once a suitable location is found to deposit the larva it will grow quickly."
 
  sw22_worm_operation.2.name: "Everything as Planned"
  sw22_worm_operation.2.desc: "The Worm is maturing at a prodigious rate, and our agents assure us that the mission will be successful."

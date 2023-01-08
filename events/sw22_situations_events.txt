@@ -196,13 +196,14 @@ situation_event = {  # Tomb World Time
 #Eco Damage Minor
 situation_event = { 
 	id = sw22_situation.13
-	title = "sw22_situation.13.name"
-	desc = "sw22_situation.13.desc"
-	picture = GFX_evt_tomb_world
-	show_sound = event_wind_ruins
+	#title = "sw22_situation.13.name"
+	#desc = "sw22_situation.13.desc"
+	#picture = GFX_evt_tomb_world
+	#show_sound = event_wind_ruins
 	is_triggered_only = yes
 	location = root.target
 	situation = this
+	hide_window = yes
 
 	immediate = {
 		#add_situation_progress = 6
@@ -212,13 +213,13 @@ situation_event = {
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
-			add_planet_devastation = 10
+			add_planet_devastation = 5
 		}
 	}
 
-	option = {
-		name = sw22_situation.13.a
-	}
+	#option = {
+	#	name = sw22_situation.13.a
+	#}
 }
 
 #Eco Damage Major
@@ -240,12 +241,7 @@ situation_event = {
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
-			random_list = {
-				50 = { add_deposit = sw22_d_damage_1 }
-				30 = { add_deposit = sw22_d_damage_2 }
-				20 = { add_deposit = sw22_d_damage_3 }
-			}
-			add_planet_devastation = 40
+			add_planet_devastation = 20
 		}
 	}
 
