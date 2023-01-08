@@ -147,9 +147,14 @@
  sw22_worm_containment_early_bird: "Early Bird Protocol"
  sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
  sw22_worm_attack_do_nothing_tooltip:0 "Local Forces will attempt to cope without extra resources."
- worm_attack_1:0 "Worm Victory Close at Hand"
+ worm_attack_1:0 "Victory Close at Hand"
  worm_attack_2:0 "Underground Warfare"
- worm_attack_3:0 "Planet Destruction Imminent"
+ worm_attack_3:0 "Underground Warfare"
+ worm_attack_4:0 "Underground Warfare"
+ worm_attack_5:0 "Underground Warfare"
+ worm_attack_6:0 "Underground Warfare"
+ worm_attack_7:0 "Underground Warfare"
+ worm_attack_8:0 "Planet Destruction Imminent"
 
  #Situation - Search for the Worm Folk
  situation_search_for_the_worm_folk_monthly_change_tooltip:0 "We will attempt to discover the location of the Molonoids so they can be stopped."
