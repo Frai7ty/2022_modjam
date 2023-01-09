@@ -2,17 +2,19 @@ namespace = sw22_on_action_events
 
 planet_event = {
 	id = sw22_on_action_events.1
+	location = ROOT
 	hide_window = yes
 	is_triggered_only = yes
 
 
 	trigger = {
-		owner = {
+		FromFrom = {
 			has_country_flag = sw22_attack_worms_country
 		}
 	}
 
 	immediate = {
 		change_pc = pc_nuked
+		add_planet_devastation = 100
 	}	
 }
