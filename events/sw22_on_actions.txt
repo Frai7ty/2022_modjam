@@ -51,12 +51,15 @@ planet_event = {
 	}
 
 	option = {
-		name = sw22_on_action_events.2.a
+		name = sw22_on_action_events.3.a
 		random_country = {
 			limit = {
 				has_relic = sw22_r_worm_mom
 			}
-			add_opinion_modifier = { who = owner modifier = opinion_genocidal }
+			save_event_target_as = sw22_worm_attacker		
+		}
+		fromfrom = {
+			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_genocidal }
 		}
 	}
 }
@@ -94,7 +97,10 @@ planet_event = {
 			limit = {
 				has_relic = sw22_r_worm_mom
 			}
-			add_opinion_modifier = { who = owner modifier = opinion_genocidal }
+			save_event_target_as = sw22_worm_attacker		
+		}
+		fromfrom = {
+			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_genocidal }
 		}
 	}
 
