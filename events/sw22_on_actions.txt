@@ -59,7 +59,7 @@ planet_event = {
 			save_event_target_as = sw22_worm_attacker		
 		}
 		fromfrom = {
-			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_genocidal }
+			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_wormed_us }
 		}
 	}
 }
@@ -100,7 +100,7 @@ planet_event = {
 			save_event_target_as = sw22_worm_attacker		
 		}
 		fromfrom = {
-			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_genocidal }
+			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_wormed_us }
 		}
 	}
 

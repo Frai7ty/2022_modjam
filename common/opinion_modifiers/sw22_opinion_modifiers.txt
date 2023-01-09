@@ -1,0 +1,13 @@
+opinion_wormed_us = {
+	opinion = {
+		base = -1000
+	}
+
+	accumulative = yes
+
+	min = -5000
+
+	decay = {
+		base = 1
+	}
+}
