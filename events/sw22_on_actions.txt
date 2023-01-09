@@ -52,8 +52,11 @@ planet_event = {
 
 	option = {
 		name = sw22_on_action_events.2.a
-		fromfromfrom = {
-			add_opinion_modifier = { who = root.owner modifier = opinion_genocidal }
+		random_country = {
+			limit = {
+				has_relic = sw22_r_worm_mom
+			}
+			add_opinion_modifier = { who = owner modifier = opinion_genocidal }
 		}
 	}
 }
@@ -87,8 +90,11 @@ planet_event = {
 
 	option = {
 		name = sw22_on_action_events.3.a
-		fromfromfrom = {
-			add_opinion_modifier = { who = root.owner modifier = opinion_genocidal }
+		random_country = {
+			limit = {
+				has_relic = sw22_r_worm_mom
+			}
+			add_opinion_modifier = { who = owner modifier = opinion_genocidal }
 		}
 	}
 
