@@ -56,7 +56,7 @@ espionage_operation_event = {
 					create_army = {
 						name = "NAME_Assult_Worms"
 						owner = last_created_country
-						type = "worm_army"
+						type = "worm_army_rogue"
 					}
 				}
 			}

@@ -18,7 +18,13 @@ on_five_year_pulse = {
 
 on_planet_occupied = {
 	events = {
-		sw22_on_action_events.1 # Attack Worms eat planet
+		sw22_on_action_events.1 # Attack Worms starts attack
+	}
+}
+
+on_army_killed_in_combat = {
+	events = {
+		sw22_on_action_events.3 # Attack Worms eat planet
 	}
 }
 

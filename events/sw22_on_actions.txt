@@ -1,9 +1,12 @@
 namespace = sw22_on_action_events
 
+#Worm Amuck
 planet_event = {
 	id = sw22_on_action_events.1
+	title = sw22_on_action_events.1.name
+	desc = sw22_on_action_events.1.desc
 	location = ROOT
-	hide_window = yes
+	#hide_window = yes
 	is_triggered_only = yes
 
 
@@ -14,7 +17,72 @@ planet_event = {
 	}
 
 	immediate = {
+		planet_event = {
+			id = sw22_on_action_events.3
+			days = 1800
+		}
+	}	
+
+	option = {
+		name = sw22_on_action_events.1.a
+	}
+
+}
+
+#Killed the Worm!
+planet_event = {
+	id = sw22_on_action_events.2
+	title = sw22_on_action_events.2.name
+	desc = sw22_on_action_events.2.desc
+	location = ROOT
+	#hide_window = yes
+	is_triggered_only = yes
+
+
+	trigger = {
+		from = { 
+			army_type = worm_army_rogue 
+			owner = {  
+				has_country_flag = sw22_attack_worms_country
+			}
+		}
+	}
+
+	option = {
+		name = sw22_on_action_events.2.a
+		#set anger level TODO
+	}
+}
+
+#Planet Killed
+planet_event = {
+	id = sw22_on_action_events.3
+	title = sw22_on_action_events.3.name
+	desc = sw22_on_action_events.3.desc
+	location = ROOT
+	#hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		controller = {
+			count_owned_army = {
+				limit = { army_type = worm_army_rogue }
+				count > 0
+			}
+		}
+	}
+
+	immediate = {
 		change_pc = pc_nuked
+		remove_all_buildings = yes
+		set_planet_flag = nuked_planet_anomalies_disabled
+		destroy_colony = yes
 		add_planet_devastation = 100
 	}	
+
+	option = {
+		name = sw22_on_action_events.3.a
+		#set anger level TODO
+	}
+
 }

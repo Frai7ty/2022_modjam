@@ -175,6 +175,8 @@
  #Non Event Local
  worm_army:0 "Attack Bioworm"
  worm_army_desc:0 "One gargantuan, bio-engineered attack bioworm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean they cause extreme amounts of planetary damage in their wake."
+ worm_army_rogue:0 "Rogue Bioworm"
+ worm_army_rogue_desc:0 "One gargantuan, bio-engineered attack bioworm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean they cause extreme amounts of planetary damage in their wake."
  sw22_d_damage_1:0 "Bioworm Eco-Damage"
  sw22_d_damage_1_desc:0 "Poisoned by a Bioworm, the soil of this world is no longer able to support any sort of healthy ecosystem."
  sw22_d_damage_2:0 "Bioworm Cave In"
@@ -242,6 +244,17 @@
  sw22_worm_operation.3.desc: "Our mission was a success. Soon the Worm will be let loose upon the [target.GetName] capital, with us free of blame."
  NAME_Attack_Worms:0 "Bioworm Army"
  NAME_Assult_Worms:0 "Bioworm Army"
+
+ #Worm Attack Events
+ sw22_on_action_events.1.name:0 "Rogue Bio Worm"
+ sw22_on_action_events.1.desc:0 "There's a worm, lets just burn down the whole planet."
+ sw22_on_action_events.1.a:0 "Kill it now."
+ sw22_on_action_events.2.name:0 "On Our Hook"
+ sw22_on_action_events.2.desc:0 "The bad empire send it, we hate them now."
+ sw22_on_action_events.2.a:0 "We will have our revenge."
+ sw22_on_action_events.3.name:0 "Burial Planet"
+ sw22_on_action_events.3.desc:0 "The worm killed our planet, what a jerk. Also the bad empire is also a jerk."
+ sw22_on_action_events.3.a:0 "They will pay for this."
  
 # Color List
 # §B thisisblue §!
