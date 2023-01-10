@@ -230,30 +230,30 @@
 
  # Operation Local
  sw22_operation_plant_attack_worm: "Plant Attack Bioworm"
- sw22_operation_plant_attack_worm_desc: "Now that we have the 'Matri-Worm' we have the means to smuggle an Attack Worm onto a planet. We just need to decide whose capital we wish to infest."
+ sw22_operation_plant_attack_worm_desc: "Now that we have the 'Matri-Worm' we have the means to smuggle a Bioworm onto a planet. This could cause considerable damage to our enemies, even destroying the planet if able to overcome local defense forces. We should be mindful that the very nature of the attack will make it easy to be able to trace it back to us afterwards."
 
- sw22_operation_plant_attack_worm_on_success: "The bioworm was successfully planted under the surface of [target.GetName]. Our agents covered their tracks well, so it'll appear as an under-matured bioworm from the Molodians."
+ sw22_operation_plant_attack_worm_on_success: "The bioworm was successfully planted under the surface of [target.GetName]. Our agents have covered their tracks well so far, so the attack will appear as a leftover bioworm from the Molodians."
 
  sw22_worm_operation.1.name: "Deep Cover"
- sw22_worm_operation.1.desc: "Our operatives have infiltrated the planetary defenses of [target.GetName] capital. The worm will take time to mature and once a suitable location is found to deposit the larva it will grow quickly."
+ sw22_worm_operation.1.desc: "Our operatives have infiltrated to the surface of the [target.GetName] capital. From there they will search out a suitable location to stash the larva worm while it matures."
 
- sw22_worm_operation.2.name: "Everything as Planned"
- sw22_worm_operation.2.desc: "The Worm is maturing at a prodigious rate, and our agents assure us that the mission will be successful."
+ sw22_worm_operation.2.name: "The Early Bird… Doesn't See The Worm"
+ sw22_worm_operation.2.desc: "The Worm is maturing at a prodigious rate, there is little chance to stop it now."
 
  sw22_worm_operation.3.name: "Pulled from Below"
- sw22_worm_operation.3.desc: "Our mission was a success. Soon the Worm will be let loose upon the [target.GetName] capital, with us free of blame."
+ sw22_worm_operation.3.desc: "The mission was a success. Soon the Worm will be let loose upon the [target.GetName] capita. While it will appear to be a rogue Bioworm at first, after this point it will become clear that we are responsible."
  NAME_Attack_Worms:0 "Bioworm Army"
  NAME_Assult_Worms:0 "Bioworm Army"
 
  #Worm Attack Events
- sw22_on_action_events.1.name:0 "Rogue Bio Worm"
- sw22_on_action_events.1.desc:0 "There's a worm, lets just burn down the whole planet."
+ sw22_on_action_events.1.name:0 "Rogue Bio Worm Attack"
+ sw22_on_action_events.1.desc:0 "[root.GetName] is under attack from a rogue Bioworm, either left behind after the Molodian's attacks or another empire has mastered the ability to create more. If we don't stop it soon it will destroy the planet!"
  sw22_on_action_events.1.a:0 "Kill it now."
- sw22_on_action_events.2.name:0 "On Our Hook"
- sw22_on_action_events.2.desc:0 "The bad empire send it, we hate them now."
+ sw22_on_action_events.2.name:0 "Hooked the Worm"
+ sw22_on_action_events.2.desc:0 "With the bioworm defeated and studied it's become clear this was a plot of [sw22_worm_attacker.GetName]. Thanks to our armies, they failed in their attempt to destroy our capital."
  sw22_on_action_events.2.a:0 "We will have our revenge."
  sw22_on_action_events.3.name:0 "Burial Planet"
- sw22_on_action_events.3.desc:0 "The worm killed our planet, what a jerk. Also the bad empire is also a jerk."
+ sw22_on_action_events.3.desc:0 "Unable to stop the bioworm, it has destroyed our capital. Studies of the remains point to [sw22_worm_attacker.GetName] being behind the vicious attack on our capital."
  sw22_on_action_events.3.a:0 "They will pay for this."
  
 # Color List
@@ -270,6 +270,8 @@
 # §W thisiswhite §!
 # §Y thisisyellow §!
 # §! this returns to the default text color §!
+
+
 
 
 
