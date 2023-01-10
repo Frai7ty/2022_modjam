@@ -47,6 +47,7 @@ espionage_operation_event = {
 				type = faction
 				effect = {
 					establish_communications_no_message = root.owner
+					establish_communications_no_message = from.owner
 					set_country_flag = sw22_attack_worms_country
 				}
 			}

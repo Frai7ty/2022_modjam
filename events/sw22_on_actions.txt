@@ -21,7 +21,7 @@ planet_event = {
 	immediate = {
 		planet_event = {
 			id = sw22_on_action_events.3
-			days = 18
+			days = 1800
 		}
 	}	
 
