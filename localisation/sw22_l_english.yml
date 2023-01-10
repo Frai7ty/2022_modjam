@@ -255,6 +255,7 @@
  sw22_on_action_events.3.name:0 "Burial Planet"
  sw22_on_action_events.3.desc:0 "Unable to stop the bioworm, it has destroyed our capital. Studies of the remains point to [sw22_worm_attacker.GetName] being behind the vicious attack on our capital."
  sw22_on_action_events.3.a:0 "They will pay for this."
+ opinion_wormed_us:0 "Wormed our World"
  
 # Color List
 # §B thisisblue §!

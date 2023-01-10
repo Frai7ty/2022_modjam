@@ -202,7 +202,7 @@ situation_event = {
 	#show_sound = event_wind_ruins
 	is_triggered_only = yes
 	location = root.target
-	situation = this
+	#situation = this
 	hide_window = yes
 
 	immediate = {
