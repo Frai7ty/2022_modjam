@@ -21,7 +21,7 @@ planet_event = {
 	immediate = {
 		planet_event = {
 			id = sw22_on_action_events.3
-			days = 1800
+			days = 18
 		}
 	}	
 
@@ -32,37 +32,44 @@ planet_event = {
 }
 
 #Killed the Worm!
-planet_event = {
+country_event = {
 	id = sw22_on_action_events.2
 	title = sw22_on_action_events.2.name
 	desc = sw22_on_action_events.2.desc
 	picture = GFX_evt_crisis_defeated
 	show_sound = event_celebration
-	location = ROOT
+	location = FROMFROM
 	#hide_window = yes
 	is_triggered_only = yes
 
 
 	trigger = {
-		from = { 
-			army_type = worm_army_rogue 
-			owner = {  
-				has_country_flag = sw22_attack_worms_country
-			}
+		has_country_flag = sw22_worm_operation
+		FROMFROM = { has_planet_flag = sw22_attack_worms_planet }
+	}
+
+	immediate = {
+		remove_country_flag = sw22_worm_operation
+		FROMFROM = {
+			remove_planet_flag = sw22_attack_worms_planet
 		}
 	}
 
+	#trigger = {
+	#	FROM = { army_type = worm_army_rogue }
+	#}
+
 	option = {
-		name = sw22_on_action_events.3.a
 		random_country = {
 			limit = {
 				has_relic = sw22_r_worm_mom
 			}
 			save_event_target_as = sw22_worm_attacker		
 		}
-		fromfrom = {
+		root = {
 			add_opinion_modifier = { who = event_target:sw22_worm_attacker modifier = opinion_wormed_us }
 		}
+		name = sw22_on_action_events.3.a
 	}
 }
 

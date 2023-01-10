@@ -250,10 +250,10 @@
  sw22_on_action_events.1.desc:0 "[root.GetName] is under attack from a rogue Bioworm, either left behind after the Molodian's attacks or another empire has mastered the ability to create more. If we don't stop it soon it will destroy the planet!"
  sw22_on_action_events.1.a:0 "Kill it now."
  sw22_on_action_events.2.name:0 "Hooked the Worm"
- sw22_on_action_events.2.desc:0 "With the bioworm defeated and studied it's become clear this was a plot of [sw22_worm_attacker.GetName]. Thanks to our armies, they failed in their attempt to destroy our capital."
+ sw22_on_action_events.2.desc:0 "With the bioworm defeated and studied it's become clear this was a deleberate attack by one of our enemies. Thanks to our armies, they failed in their attempt to destroy our capital."
  sw22_on_action_events.2.a:0 "We will have our revenge."
  sw22_on_action_events.3.name:0 "Burial Planet"
- sw22_on_action_events.3.desc:0 "Unable to stop the bioworm, it has destroyed our capital. Studies of the remains point to [sw22_worm_attacker.GetName] being behind the vicious attack on our capital."
+ sw22_on_action_events.3.desc:0 "Unable to stop the bioworm, it has destroyed our capital. Studies of the remains point to one of our enemies being behind the vicious attack on our capital."
  sw22_on_action_events.3.a:0 "They will pay for this."
  opinion_wormed_us:0 "Wormed our World"
  

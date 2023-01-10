@@ -58,6 +58,7 @@ espionage_operation_event = {
 						owner = last_created_country
 						type = "worm_army_rogue"
 					}
+					set_planet_flag = sw22_attack_worms_planet
 				}
 			}
 		}
