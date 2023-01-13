@@ -166,12 +166,12 @@ situation_worm_attack = {
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			desc = sw22_worm_containment_early_bird
 			current_situation_approach = sw22_worm_attack_early_bird 
 		}
