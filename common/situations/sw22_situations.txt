@@ -45,10 +45,10 @@ situation_worm_attack = {
 			#10 = sw22_situation.11 # Wormling Attack
 			#10 = sw22_situation.12 # Wormling Attack Big
 			#10 = sw22_situation.13 # Eco Damage
-			10 = sw22_situation.14 # Eco Damage Big
+			8 = sw22_situation.14 # Eco Damage Big
 			15 = sw22_situation.15 # Amry Wins
 			10 = sw22_situation.16 # Army Wins Big
-			25 = sw22_situation.17 # Worm Wins 
+			20 = sw22_situation.17 # Worm Wins 
 			15 = sw22_situation.18 # Worm Wins Big
 			1 = sw22_situation.19 # Worm Dies
 		}
