@@ -134,7 +134,7 @@
  situation_worm_attack:0 "Bioworm Attack"
  situation_worm_attack_desc:0 "[Target.GetName] is under attack from a Bioworm. We have to fight it to protect the planet's ecosystem from being destroyed."
  situation_worm_attack_type:0 "Bioworm Worm Attack"
- situation_worm_attack_monthly_change_tooltip:0 "[Target.GetName] will progress towards destruction or salvation based on our selected §YApproach§!."
+ situation_worm_attack_monthly_change_tooltip:0 "[Target.GetName] will progress towards destruction or salvation based on our selected §YApproach§! and the state of this planet's defenses."
  situation_sw22_worm_attack_worms_win_tooltip: "The only way to save this planet from being destroyed is to kill the bioworm that is attacking it."
  situation_sw22_worm_attack_worms_lose_tooltip: "If we cannot stop the bioworm in time, the planet's ecosystem will be destroyed rendering it uninhabitable."
  situation_sw22_worm_attack_ended_tooltip: "Victory"
@@ -154,7 +154,11 @@
  worm_attack_5:0 "Underground Warfare"
  worm_attack_6:0 "Underground Warfare"
  worm_attack_7:0 "Underground Warfare"
- worm_attack_8:0 "Planet Destruction Imminent"
+ worm_attack_8:0 "Planet Destruction Imminent" 
+ sw22_worm_has_army_small:0 "Small Planetary Garrison"
+ sw22_worm_has_army_medium:0 "Medium Planetary Garrison"
+ sw22_worm_has_army_large:0 "Large Planetary Garrison"
+ sw22_worm_has_fort_or_stronghold:0 "Planet has standing Miltary Base"
 
  #Situation - Search for the Worm Folk
  situation_search_for_the_worm_folk_monthly_change_tooltip:0 "We will attempt to discover the location of the Molonoids so they can be stopped."

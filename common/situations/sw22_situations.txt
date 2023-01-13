@@ -41,13 +41,13 @@ situation_worm_attack = {
 			sw22_situation.99
 		}
 		random_events = {
-			500 = 0
+			800 = 0
 			#10 = sw22_situation.11 # Wormling Attack
 			#10 = sw22_situation.12 # Wormling Attack Big
 			#10 = sw22_situation.13 # Eco Damage
-			8 = sw22_situation.14 # Eco Damage Big
-			15 = sw22_situation.15 # Amry Wins
-			10 = sw22_situation.16 # Army Wins Big
+			10 = sw22_situation.14 # Eco Damage Big
+			13 = sw22_situation.15 # Amry Wins
+			8 = sw22_situation.16 # Army Wins Big
 			20 = sw22_situation.17 # Worm Wins 
 			15 = sw22_situation.18 # Worm Wins Big
 			1 = sw22_situation.19 # Worm Dies
@@ -156,17 +156,22 @@ situation_worm_attack = {
 	monthly_progress = {
 		base = 0
 		modifier = {
-			add = 1
+			subtract = target.value:sw22_situation_garrison_factor #1 for every 1000 over 200, max 5 (at 1200)
+			desc = STRING_PLANETARY_GARRISON
+			target = { planet_garrison_strength > 200 }
+		}
+		modifier = {
+			factor = 1
 			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			add = -0.5
+			factor = 1.5
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 		modifier = {
-			add = -1
+			factor = 2
 			desc = sw22_worm_containment_early_bird
 			current_situation_approach = sw22_worm_attack_early_bird 
 		}
@@ -176,6 +181,7 @@ situation_worm_attack = {
 		name = sw22_worm_attack_do_nothing
 		icon = GFX_situation_approach_this_is_fine
 		icon_background = GFX_situation_approach_bg_red
+		default = yes
 		on_select = {
 			custom_tooltip = deficit_approach_do_nothing_tooltip
 		}
@@ -188,7 +194,6 @@ situation_worm_attack = {
 		name = sw22_worm_attack_keep_contained
 		icon = GFX_situation_approach_shrug
 		icon_background = GFX_situation_approach_bg_yellow
-		default = yes
 		on_select = {
 			custom_tooltip = sw22_worm_attack_keep_contained_tooltip
 		}
@@ -219,7 +224,7 @@ situation_worm_attack = {
 		resources = {
 			category = situations
 			upkeep = {
-				energy = 30
+				energy = 25
 			}
 		}
 		potential = {
