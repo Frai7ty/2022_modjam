@@ -49,7 +49,7 @@ sw22_tech_repair_damage = {
 	}
 
 	weight_modifier = {
-		factor = 5
+		factor = 500
 		modifier = {
 			factor = 0
 			any_owned_planet = {
