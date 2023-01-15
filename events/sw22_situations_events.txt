@@ -1,36 +1,36 @@
 namespace = sw22_situation
 
-planet_event = { # on_action trigger
-	id = sw22_situation.test
-	title = sw22_situation.test.name
-	desc = sw22_situation.test.desc
-	picture = GFX_evt_news_room
-	show_sound = event_red_alert
-	is_triggered_only = yes
-
-	trigger = {
-		#NOT = { has_planet_flag = sw_22_worm_attack }
-		#has_global_flag = sw22_fired
-		#has_global_flag = sw22_worm_assult_begin
-	}
-
-	immediate = {
-		set_planet_flag = sw_22_worm_attack
-		set_planet_flag = sw_22_worm_already_got_this_one
-		set_global_flag = sw22_worm_assult_begin
-		set_global_flag = sw22_in_progress
-	}
-
-	option = {
-		name = INTERESTING
-		owner = {
-			start_situation = {
-				type = situation_worm_attack
-				target = root
-			}
-		}
-	}
-}
+#	planet_event = { # on_action trigger
+#		id = sw22_situation.test
+#		title = sw22_situation.test.name
+#		desc = sw22_situation.test.desc
+#		picture = GFX_evt_news_room
+#		show_sound = event_red_alert
+#		#is_triggered_only = yes
+#
+#		trigger = {
+#			#NOT = { has_planet_flag = sw_22_worm_attack }
+#			#has_global_flag = sw22_fired
+#			#has_global_flag = sw22_worm_assult_begin
+#		}
+#
+#		immediate = {
+#			set_planet_flag = sw_22_worm_attack
+#			set_planet_flag = sw_22_worm_already_got_this_one
+#			set_global_flag = sw22_worm_assult_begin
+#			set_global_flag = sw22_in_progress
+#		}
+#
+#		option = {
+#			name = INTERESTING
+#			owner = {
+#				start_situation = {
+#					type = situation_worm_attack
+#					target = root
+#				}
+#			}
+#		}
+#	}
 
 event = { # on_action trigger
 	id = sw22_situation.1
@@ -216,7 +216,7 @@ situation_event = {
 				30 = { add_deposit = sw22_d_damage_2 }
 				20 = { add_deposit = sw22_d_damage_3 }
 			}
-			add_planet_devastation = 5
+			add_planet_devastation = 10
 		}
 	}
 
@@ -339,15 +339,15 @@ situation_event = {
 	immediate = {
 		add_situation_progress = 15
 		target = {
-			add_planet_devastation = 20
-			if = {
-				limit = { has_building = building_stronghold }
-				ruin_building = building_stronghold
-			}
-			if = {
-				limit = { has_building = building_fortress }
-				ruin_building = building_fortress
-			}
+			add_planet_devastation = 15
+			#if = {
+			#	limit = { has_building = building_stronghold }
+			#	ruin_building = building_stronghold
+			#}
+			#if = {
+			#	limit = { has_building = building_fortress }
+			#	ruin_building = building_fortress
+			#}
 			random_planet_army = {
 				limit = {
 					is_owned_by = planet.owner

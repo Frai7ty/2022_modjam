@@ -154,24 +154,27 @@ situation_worm_attack = {
 	}
 	
 	monthly_progress = {
-		base = 0
+		base = 1
 		modifier = {
 			subtract = target.value:sw22_situation_garrison_factor #1 for every 1000 over 200, max 5 (at 1200)
 			desc = STRING_PLANETARY_GARRISON
-			target = { planet_garrison_strength > 200 }
+			target = { planet_garrison_strength > 1 }
 		}
 		modifier = {
-			factor = 1
+			#add = 0
+			#factor = 1
 			desc = sw22_worm_containment_do_nothing
 			current_situation_approach = sw22_worm_attack_do_nothing
 		}
 		modifier = {
-			factor = 1.25
+			subtract = 0.5
+			#factor = 1.25
 			desc = sw22_worm_containment_contained
 			current_situation_approach = sw22_worm_attack_keep_contained 
 		}
 		modifier = {
-			factor = 1.5
+			subtract = 1
+			#factor = 1.5
 			desc = sw22_worm_containment_early_bird
 			current_situation_approach = sw22_worm_attack_early_bird 
 		}

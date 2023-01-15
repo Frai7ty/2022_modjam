@@ -1,7 +1,7 @@
-sw22_situation_garrison_factor = { #for every 1000 above 200, add 1. It rounds to the closest 50 to not add 0.342.
+sw22_situation_garrison_factor = { 
 	add = trigger:planet_garrison_strength
-	subtract = 200
+	subtract = 0
 	round_to = 50
 	divide = 1000
-	max = 10
+	max = 5
 }
