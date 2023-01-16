@@ -1,0 +1,283 @@
+﻿sw22_l_french:
+ sw22_tooltip: "Biological worm super weapons lay buried under countless habitable worlds, can you solve the mystery of the evil empire lurking just under the surface? Defend your planets and destroy those attempting to bury your empire for good."
+ sw22_allowed: "§GSleeper Worms Enabled§!"
+ sw22_disabled: "§RSleeper Worms Disabled§!"
+
+ # Event Local
+ 
+ # Event 1
+ sw22_crisis.11.name: "Seismic Disturbances"
+ sw22_crisis.11.desc: "There have been a series of unexplained seismic issues on [Root.GetName]. Due to the strange circumstances and sudden intensity, planetary administration is understandably concerned."
+ sw22_crisis.11.a: "Ignore it, it's just an simple earthquake"
+ sw22_crisis.11.b: "Explore it more just in case."
+
+ # Event 2
+ sw22_crisis.21.name: "The Land Turns to Ash"
+ sw22_crisis.21.desc: "The area directly above the epicenter has started to experience extreme ecological collapse; the soil no longer has any nutrients which has in turn destroyed local plant and animal life. This is highly irregular for earthquakes, something else must be going on."
+ sw22_crisis.21.a: "Get to the bottom of this."
+
+ sw22_crisis.22.name: "Tunnel Trouble" 
+ sw22_crisis.22.desc: "Geological scans of the affected area have uncovered a series of recently created underground tunnels. While it's too early to tell if they are naturally occurring or not, their creation coincides just a few weeks before the first earthquake."
+ sw22_crisis.22.a: "Search those tunnels."
+ 
+ sw22_crisis.23.name: "6,000 Feet Under"
+ sw22_crisis.23.desc: "The tunnels are a labyrinth of dead ends and snaking passageways. Whoever, or whatever, has been at this for months before the first earthquake happened. Cave-ins in the older parts lead to earthquakes, but the tunnels lead far away from the current epicenter. The evidence of the ecological damage is most apparent here, it's clear that we've only seen the tip of the iceberg."
+ sw22_crisis.23.a: "Bring the truth to the surface."
+ 
+ # Event 3
+ sw22_crisis.31.name: "Underground Terrorists "
+ sw22_crisis.31.desc: "We have been studying the unexpected seismic activity. Furthermore, we are starting to see some unexpected ecological damage in the surrounding area. Deep scans have uncovered a series of recently created tunnels under the affected area; it's too early to tell if it's naturally occurring, but regardless it is of concern."
+ sw22_crisis.31.a: "Get a drilling team to investigate."
+
+ sw22_crisis.32.name: "Foiled Erosion"
+ sw22_crisis.32.desc: "The tunnel network is extensive, who or what dug them out has been at this for a while. The state of the tunnels indicates there is more ecological damage to come, what is already dying is only a portion of the tunnel network. We have yet to find those responsible but will continue the search."
+ sw22_crisis.32.a: "Unearth the truth."
+
+ # Event 4
+ sw22_crisis.41.name: "Worm Your Way Out Of This One"
+ sw22_crisis.41.desc: "After a long and grueling search, our soldiers found the source of the tunnel network. A giant alien worm of unknown origin was boring below the location where the environmental damage occurred and feeding on the dead soil it left behind. Our soldiers were barely able to slay the beast, its crystalline hide and regenerative qualities made it almost impervious to our weapons. The initial autopsy shows extensive, highly advanced bioengineering much beyond our understanding. It's unclear if this is the beginning or the end of this."
+ sw22_crisis.41.a: "At least this planet is safe for now."
+
+
+ # Event 5
+ sw22_crisis.51.name: "They Hit Everyone"
+ sw22_crisis.51.desc: "It appears a worm attacked a planet of every known space faring empire. Why they decided now to attack everyone is beyond us, but the galactic community is up in arms, and paranoia runs deep with empires blaming each other and rivals for the attacks."
+ sw22_crisis.51.a: "Who could do this?"
+
+ # Event 6.1
+ sw22_crisis.61.name:0 "The Truth Surfaces"
+ sw22_crisis.61.desc:0 "Surface dwellers of the galaxy; we hope you enjoyed our little display.\n\nWe are the Molonoids, but you can refer to us simply as your new Overlords. Our ancient and advanced empire seeded all of your worlds with our advanced Bioworms long before your people or your creators had tools. The worm you experienced was nothing more than a juvenile, its size does not even begin to compare to the full-grown worms slumbering under your feet even now.\n\nYou all have two choices: Submit or be destroyed.\n\nA representative from our empire will be reaching out shortly to discuss the terms of your surrender."
+ sw22_crisis.61.a:0 "How dare they!"
+ sw22_crisis.61.b:0 "Did they hang up on us?"
+
+ # Event 6.2 Follow Up 1
+ sw22_crisis.62.name:0 "A Tense Galaxy"
+ sw22_crisis.62.desc:0 "It's been six months since sudden attacks from the Molonoids and no empire can confirm that they have heard any further demands from them. The original message's signals bounced through wormholes, off nebulae and through gateways making it impossible to track. The galactic community is on edge as empires argue about how to best deal with the Molonoid threat once it surfaces."
+ sw22_crisis.62.a:0 "What is going on?"
+
+ # Event 6.3 Follow Up 2 (Crisis Begins)
+ sw22_crisis.63.name:0 "It Starts"
+ sw22_crisis.63.desc:0 "We had hoped it wouldn't have come to this, but your defiance can not be allowed. We will not accept the seeds of rebellion to grow.\n\nWorms will continue to attack your planets at random until you have submitted and then, and only then, will they cease.\n\nAs you've already been in touch with our representatives, so you know where to reach out to when you're done digging your own graves.\n\nWe look forward to a time after this shaky start, and we can work together to build the foundations of lasting interplanetary peace as the rightful rulers of the galaxy.."
+ sw22_crisis.63.a:0 "You haven't sent anyone, what is going on?"
+
+ # Event 7.1 - Let Loose the Worms of War
+ sw22_crisis.71.name:0 "Cry Havoc, and Let Loose the Worms of War"
+ sw22_crisis.71.desc:0 "As the Molonoid promised, the attacks have begun. [sw22_planet_attack_warning.GetName] which is part of [sw22_country_attack_warning.GetName] has reported being under attack from a much larger and much stronger Bioworm. None of their weaponry is having any effect on the creature, so unless they can find a way to stop the worm it could destroy their planet."
+ sw22_crisis.71.a:0 "It begins, how many worms could there be?"
+ 
+ # Event 7.2 - 
+ sw22_crisis.72.name:0 "We Must Dig Ourselves Out Of This Mess"
+ sw22_crisis.72.desc:0 "With this most recent attack on [sw22_planet_attack_warning.GetName] it's become clear that the Molonoids must be stopped, somehow. We need to figure out how to combat the powerful and impervious Bioworms, but also to search out the hidden location of the Molonoids, so we can stop them once and for all."
+ sw22_crisis.72.a:0 "Every rock will be overturned."
+
+ sw22_situation.0.name: "Wormcon 1"
+ sw22_situation.0.desc: "A Bioworm has awoken deep under the surface of [Root.GetName]. Our forces are scrambling to respond."
+ sw22_situation.3.name:0 "Worm Defeated"
+ sw22_situation.3.desc:0 "We have defeated the worm on [Root.GetName], saving the planet. Our researchers have the carcass and have begun an autopsy."
+ sw22_situation.4.name:0 "Ecosystem Destroyed"
+ sw22_situation.4.desc:0 "The worm has won and our planet now lies in ruins. With nothing left to feed on it has died out, we may begin the process of rebuilding."
+ sw22_situation.4.a:0 "It is a dark day."
+
+ sw22_situation.13.name:0 "Damaged Ecosystem"
+ sw22_situation.13.desc:0 "The worm has caused enough damage to the ecosystem below the surface that part of the planet can now be considered uninhabitable."
+ sw22_situation.13.a:0 "Terrible."
+ sw22_situation.14.name:0 "Devastated Ecosystem"
+ sw22_situation.14.desc:0 "The worm has caused considerable damage to the ecosystem below the surface that whole sectors of the planet can now be considered uninhabitable."
+ sw22_situation.14.a:0 "Devastating"
+ sw22_situation.15.name:0 "Military Victory on [Root.Target.GetName]"
+ sw22_situation.15.desc:0 "Our local forces were able to catch the worm in a counterattack, forcing it to crawl back into some existing holes and stopping its ability to attack any new areas for the time being."
+ sw22_situation.15.a:0 "Great."
+ sw22_situation.16.name:0 "Decisive Victory on [Root.Target.GetName]"
+ sw22_situation.16.desc:0 "Our local forces provided a decisive victory against the worm, forcing it to retreat deeper into the mantle, keeping it away from populated areas and giving our forces time to regroup."
+ sw22_situation.16.a:0 "What a relief."
+ sw22_situation.17.name:0 "Military Defeat on [Root.Target.GetName]"
+ sw22_situation.17.desc:0 "Our local forces had to retreat in the last skirmish against the worm."
+ sw22_situation.17.a:0 "Unfortunate"
+ sw22_situation.18.name:0 "Crushing Defeat on [Root.Target.GetName]"
+ sw22_situation.18.desc:0 "Our local forces suffered a considerable defeat against the worm, allowing it to run unopposed for a considerable length of time."
+ sw22_situation.18.a:0 "Horrific."
+ sw22_situation.19.name:0 "The Worm Is Dead on [Root.Target.GetName]"
+ sw22_situation.19.desc:0 "By some cosmic stroke of luck the worm has died of natural causes. This planet is safe once again."
+ sw22_situation.19.a:0 "How lucky."
+
+ #End Event
+ sw22_crisis.99.name:0 "Bioworm Burial"
+ sw22_crisis.99.desc:0 "With the Molonoid home world found and the signal controlling the bioworms shut down this crisis is over. For the first time in years, the galaxy knows what it is like to trust the ground beneath its feet again."
+ sw22_crisis.99.a:0 "A new era of stability awaits."
+
+ sw22_situation.222.name:0 "Molonoids Uncovered"
+ sw22_situation.222.desc:0 "We have been able to decode the signal pattern and dig up the location of the Molonoid home world! We should send ships immediately to [sw22_molodian_spawn_system.GETNAME]."
+ sw22_situation.222.a:0 "Find the nearest fleet!"
+ sw22_situation.225.name:0 "Dug to Death"
+ sw22_situation.225.desc:0 "It appears that the subterranean Molonoids suffered the same fate to which they subjected the galaxy; planetary death by Bioworms. Geological scans show thousands of tunnels under the surface, many of which connect to the runs of their sprawling cave cities. With the level of planetary destruction, it's impossible to determine how or why the bioworms got loose and turned on their masters, but we can determine it happened long before the first bioworm attacks.\n\nWe also found one remaining high-security lab that was still in a functioning state. After a simple description, it's clear the bioworm attacks were merely a glitch in aging and damaged systems; it was never meant to go off without the Molonoids in the control seat. Inside we also found a living 'Matri-Worm', the highly advanced bioengineered responsible for birthing the attack worms."
+ sw22_situation.226.name:0 "Beaten"
+ sw22_situation.226.desc:0 "The [sw22_dug_up_the_molodian_system.GETNAME] have already discovered the home of the Molonoids and shut down the worms. They report that the Molonoids were destroyed by their own years ago and automated systems awoke the worms all over the galaxy. Other than that, [sw22_dug_up_the_molodian_system.GETNAME] claims that's all they found."
+ sw22_situation.226.a:0 "At least the galaxy is safe."
+ SW22_MOLODIAN_HOMEWORLD_PROJECT:0 "The Molonoid Homeworld"
+ SW22_MOLODIAN_HOMEWORLD_PROJECT_DESC:0 "What happened to this planet, where are the Molonoids and why did they attack us now?"
+
+ sw22_situation.101.name:0 "Early Bird Protocol"
+ sw22_situation.101.desc:0 "Our study of the Bioworms combined with lessons learned from the military's skirmishes so far has given us useful techniques for combating them. Costly but it should speed up the time it takes to destroy the worms on our worlds.."
+ sw22_situation.101.a:0 "Some good news."
+
+ #Home System
+ NAME_Molonara:0 "Molonara"
+ NAME_Aqen:0 "Aqen"
+ sw22_molodian_homeworld:0 "The Molonoid Homeworld"
+ sw22_molodian_homeworld_desc:0 "Destroyed by the very Bioworms they created, this planet lies in ruin. Before the bioworms starved to death they cut tunnels throughout the underworld of the planet leaving tons of space for future settlement."
+
+ #Notification Message
+ MESSAGE_SW22_WORM_MESSAGE_TYPE_TITLE:0 "Bioworm Attack"
+ MESSAGE_SW22_WORM:0 "$PLANET|Y$ inside the $EMPIRE|Y$ has reported being under attack from a Bioworm."
+
+ #Situation - Worm Attack 
+ situation_worm_attack:0 "Bioworm Attack"
+ situation_worm_attack_desc:0 "[Target.GetName] is under attack from a Bioworm. We have to fight it to protect the planet's ecosystem from being destroyed."
+ situation_worm_attack_type:0 "Bioworm Worm Attack"
+ situation_worm_attack_monthly_change_tooltip:0 "[Target.GetName] will progress towards destruction or salvation based on our selected §YApproach§! and the state of this planet's defenses."
+ situation_sw22_worm_attack_worms_win_tooltip: "The only way to save this planet from being destroyed is to kill the bioworm that is attacking it."
+ situation_sw22_worm_attack_worms_lose_tooltip: "If we cannot stop the bioworm in time, the planet's ecosystem will be destroyed rendering it uninhabitable."
+ situation_sw22_worm_attack_ended_tooltip: "Victory"
+ sw22_worm_attack_keep_contained: "Contain the Worm"
+ sw22_worm_attack_keep_contained_tooltip: "While costly, by using conventional drilling and seismic mines we should be able to create a 'firebreak' stopping the worm in its current location, slowing down its progress."
+ sw22_worm_attack_early_bird:0 "Early Bird Protocol"
+ sw22_worm_attack_early_bird_tooltip: "Our advanced understanding of the bioworm will allow us to kill it faster and save more of the planet."
+ sw22_worm_containment_do_nothing: "Local Forces Attack"
+ sw22_worm_containment_contained: "Worm Containment Protocol"
+ sw22_worm_containment_early_bird: "Early Bird Protocol"
+ sw22_worm_attack_do_nothing:0 "Let Local Forces Cope"
+ sw22_worm_attack_do_nothing_tooltip:0 "Local Forces will attempt to cope without extra resources."
+ worm_attack_1:0 "Victory Close at Hand"
+ worm_attack_2:0 "Underground Warfare"
+ worm_attack_3:0 "Underground Warfare"
+ worm_attack_4:0 "Underground Warfare"
+ worm_attack_5:0 "Underground Warfare"
+ worm_attack_6:0 "Underground Warfare"
+ worm_attack_7:0 "Underground Warfare"
+ worm_attack_8:0 "Planet Destruction Imminent" 
+ sw22_worm_has_army_small:0 "Small Planetary Garrison"
+ sw22_worm_has_army_medium:0 "Medium Planetary Garrison"
+ sw22_worm_has_army_large:0 "Large Planetary Garrison"
+ sw22_worm_has_fort_or_stronghold:0 "Planet has standing Miltary Base"
+
+ #Situation - Search for the Worm Folk
+ situation_search_for_the_worm_folk_monthly_change_tooltip:0 "We will attempt to discover the location of the Molonoids so they can be stopped."
+ situation_search_for_the_worm_folk:0 "Search for the Molonoids"
+ situation_search_for_the_worm_folk_desc:0 "The Molonoids are awakening sleeper Bioworms they planted on our planets generations ago. We will search them out and stop them before the galaxy is buried under their attacks."
+ situation_search_for_the_worm_folk_type:0 "Search for the Molonoids"
+ situation_sw22_search_for_the_worm_folk_found_tooltip:0 "We uncover clues to stop the Molonoid attacks or die trying."
+ sw22_search_for_the_worm_folk_light:0 "Limited Funding"
+ sw22_search_for_the_worm_folk_medium:0 "Decent Contribution"
+ sw22_search_for_the_worm_folk_medium_heavy:0 "Spare No Costs"
+ sw22_search_for_the_worm_folk_light_tooltip:0 "We will fund the search for the Molonoids in a modest way, but it will take a while as we have other priorities."
+ sw22_search_for_the_worm_folk_medium_tooltip:0 "An attack of this magnitude demands financial and research commitment."
+ sw22_search_for_the_worm_folk_medium_heavy_tooltip:0 "We will stop at nothing to stop this menace, we cannot allow them to hold the galaxy under a rock."
+ search_for_the_worm_folk_1:0 "Limited Funding"
+ search_for_the_worm_folk_2:0 "Decent Contribution"
+ search_for_the_worm_folk_3:0 "Spare No Costs"
+
+ #Non Event Local
+ worm_army:0 "Attack Bioworm"
+ worm_army_desc:0 "One gargantuan, bio-engineered attack bioworm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean they cause extreme amounts of planetary damage in their wake."
+ worm_army_rogue:0 "Rogue Bioworm"
+ worm_army_rogue_desc:0 "One gargantuan, bio-engineered attack bioworm. Able to tunnel through soil and mantle like an aquatic swimming through the ocean they cause extreme amounts of planetary damage in their wake."
+ sw22_d_damage_1:0 "Bioworm Eco-Damage"
+ sw22_d_damage_1_desc:0 "Poisoned by a Bioworm, the soil of this world is no longer able to support any sort of healthy ecosystem."
+ sw22_d_damage_2:0 "Bioworm Cave In"
+ sw22_d_damage_2_desc:0 "Caused by the movement of a Bioworm, this part of the planet is full of crevasses and sinkholes making it uninhabitable."
+ sw22_d_damage_3:0 "Bioworm Destroyed City"
+ sw22_d_damage_3_desc:0 "A Bioworm surfaced here, destroying the settlement. It's eco-damage makes it hard to repair the damage."
+ sw22_d_damage_mystery:0 "Mysterious Ecological Damage"
+ sw22_d_damage_mystery_desc:0 "The ecology of this area has deteriorated at an alarming rate, the cause of which is currently unknown."
+ sw22_r_worm_mom:0 "The Matri-Worm"
+ sw22_r_worm_mom_desc:0 "Impregnated hundreds of years ago in a Molonoid lab, this bioengineered worm has billions of wormling eggs of destruction waiting to be born and placed on a unsuspecting plant, or to be used as a powerful army unit. As this mother worm is a marvel of bioengineering, studying it will also accelerate biological research."
+ sw22_relic_worm_mom_active_tooltip:0 "§HBuilds Army:§! §Y$worm_army$§!; a powerful army unit that causes high amounts of collateral damage will be built at our capital."
+ sw22_operation_plant_attack_worm:0 "Plant Bioworm on Capital"
+ sw22_tech_early_bird:0 "Early Bird Protocol"
+ sw22_tech_early_bird_desc:0 "Using what we currently know about the bioworms, we will be able to develop a system to effectively attack them and defend our colonies."
+ sw22_tech_repair_damage:0 "Bioworm Damage Revitalization Project"
+ sw22_tech_repair_damage_desc:0 "Despite the high level of damage done to our planets during a bioworm attack, it should be possible to repair the affected areas."
+ sw22_tech_exploit_damage:0 "Bioworm Damage Utilization Projects"
+ sw22_tech_exploit_damage_desc:0 "The repaired areas left behind by the Bioworm attacks actually present some unique opportunities, exploring them may prove fruitful."
+ TECH_UNLOCK_EARLY_BIRD_TITLE:0 "Allows access to the 'Early Bird Protocol' in Bioworm attack situations."
+ TECH_UNLOCK_EARLY_BIRD_DESC:0 "A series of techniques and battle plans to effectively combat Bioworms that awaken under our planets."
+
+ sw22_molodian_homeworld_chain_title:0 "The Molonoid Homeworld"
+ sw22_molodian_homeworld_chain_desc:0 "We Must Search for the Molonoid Homeworld to stop the Bioworms from destroying the galaxy."
+
+ #Find the Molonoid Events
+ sw22_situation.300.name:0 "Curators Offer Knowledge"
+ sw22_situation.300.desc:0 "The Curators have contacted us to offer what they know about the Molonoids. While they don't have their precise location, they have some promising leads they are willing to share for a modest donation."
+ sw22_situation.300.a:0 "It's a deal."
+ sw22_situation.300.b:0 "No, too expensive"
+ sw22_situation.301.name:0 "Caravaneers Offer Trade"
+ sw22_situation.301.desc:0 "The Caravaneers claim they know an official in an undisclosed empire, who knows a guy, whose best friend's cousin's former bunk mate, found an abandoned Molonoids scout ship a few cycles back. They can have the wreck sent to us for research for the right price."
+ sw22_situation.301.a:0 "Fine, it's a deal."
+ sw22_situation.301.b:0 "Sounds like a scam."
+ sw22_situation.302.name:0 "A Little Help"
+ sw22_situation.302.desc:0 "A galactic collector has an old data stick with some information about the Molonoids. They are donating it to us for the sake of the galaxy."
+ sw22_situation.302.a:0 "How kind."
+ sw22_situation.303.name:0 "Decryption Success"
+ sw22_situation.303.desc:0 "Our recent decryption attempts on the Molonoids transmission have uncovered some promising leads."
+ sw22_situation.303.a:0 "Excellent."
+ sw22_situation.304.name:0 "Decryption Failure"
+ sw22_situation.304.desc:0 "Our recent decryption attempts on the Molonoids signals led to a series of dead ends, setting our process back considerably."
+ sw22_situation.304.a:0 "Unfortunate"
+ sw22_situation.305.name:0 "Stolen Research"
+ sw22_situation.305.desc:0 "One of our research centers was subject to a break-in and robbery. We suspect it was another nearby empire trying to improve their own research, but their tracks were covered well enough that we can't determine who. Regardless, this loss will set back our own progress."
+ sw22_situation.305.a:0 "Terrible."
+ sw22_situation.306.name:0 "Give Worms a Chance"
+ sw22_situation.306.desc:0 "Despite the devastation to the galaxy, a concerned group of vocal citizens have begun a movement denouncing our attacks on the worms. Some claim them to merely be misunderstood by the galactic community while others claim it's all a conspiracy of 'the big worm agenda'. They are demanding that we cease our studies into eradicating and stopping the worms for a time to further explore peaceful options."
+ sw22_situation.306.a:0 "Fine."
+ sw22_situation.306.b:0 "Idiots."
+
+
+ # Operation Local
+ sw22_operation_plant_attack_worm: "Plant Attack Bioworm"
+ sw22_operation_plant_attack_worm_desc: "Now that we have the 'Matri-Worm' we have the means to smuggle a Bioworm onto a planet. This could cause considerable damage to our enemies, even destroying the planet if able to overcome local defense forces. We should be mindful that the very nature of the attack will make it easy to be able to trace it back to us afterwards."
+
+ sw22_operation_plant_attack_worm_on_success: "The bioworm was successfully planted under the surface of [target.GetName]. Our agents have covered their tracks well so far, so the attack will appear as a leftover bioworm from the Molodians."
+
+ sw22_worm_operation.1.name: "Deep Cover"
+ sw22_worm_operation.1.desc: "Our operatives have infiltrated to the surface of the [target.GetName] capital. From there they will search out a suitable location to stash the larva worm while it matures."
+
+ sw22_worm_operation.2.name: "The Early Bird… Doesn't See The Worm"
+ sw22_worm_operation.2.desc: "The Worm is maturing at a prodigious rate, there is little chance to stop it now."
+
+ sw22_worm_operation.3.name: "Pulled from Below"
+ sw22_worm_operation.3.desc: "The mission was a success. Soon the Worm will be let loose upon the [target.GetName] capita. While it will appear to be a rogue Bioworm at first, after this point it will become clear that we are responsible."
+ NAME_Attack_Worms:0 "Bioworm Army"
+ NAME_Assult_Worms:0 "Bioworm Army"
+
+ #Worm Attack Events
+ sw22_on_action_events.1.name:0 "Rogue Bio Worm Attack"
+ sw22_on_action_events.1.desc:0 "[root.GetName] is under attack from a rogue Bioworm, either left behind after the Molodian's attacks or another empire has mastered the ability to create more. If we don't stop it soon it will destroy the planet!"
+ sw22_on_action_events.1.a:0 "Kill it now."
+ sw22_on_action_events.2.name:0 "Hooked the Worm"
+ sw22_on_action_events.2.desc:0 "With the bioworm defeated and studied it's become clear this was a deleberate attack by one of our enemies. Thanks to our armies, they failed in their attempt to destroy our capital."
+ sw22_on_action_events.2.a:0 "We will have our revenge."
+ sw22_on_action_events.3.name:0 "Burial Planet"
+ sw22_on_action_events.3.desc:0 "Unable to stop the bioworm, it has destroyed our capital. Studies of the remains point to one of our enemies being behind the vicious attack on our capital."
+ sw22_on_action_events.3.a:0 "They will pay for this."
+ opinion_wormed_us:0 "Wormed our World"
+ 
+# Color List
+# §B thisisblue §!
+# §E thisisteal §!
+# §G thisisgreen §!
+# §H thisisorange §!
+# §L thisisbrown §!
+# §M thisispurple §!
+# §P thisislightred §! 
+# §R thisisred §!
+# §S thisisdarkorange §!
+# §T thisislightgrey §!
+# §W thisiswhite §!
+# §Y thisisyellow §!
+# §! this returns to the default text color §!
+
+
+
+
+
+
