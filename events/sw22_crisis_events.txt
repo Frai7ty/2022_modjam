@@ -404,5 +404,6 @@ country_event = { # WE ALL WON!
 
 	option = {
 		name = sw22_crisis.99.a
+		owner = { add_research_option = sw22_tech_repair_damage }
 	}
 }
