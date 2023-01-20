@@ -35,6 +35,7 @@ sw22_tech_repair_damage = {
 	tier = 2
 	is_rare = yes
 	is_reverse_engineerable = no
+	prerequisites = { "tech_basic_industry" }
     start_tech = no
 	category = { new_worlds }
 
