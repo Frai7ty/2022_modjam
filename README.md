@@ -1,4 +1,4 @@
-# 2022 Modjam (Need Better Mod Name :D)
+# Sleeper Worms 2022 Modjam
 Rules to note.
 
 - You are not allowed to impede or change the mechanics of vanilla events. There's nothing saying you can't expand on them, however.
