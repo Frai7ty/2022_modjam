@@ -50,9 +50,9 @@ sw22_tech_repair_damage = {
 	}
 
 	weight_modifier = {
-		factor = 10
+		factor = 0
 		modifier = {
-			factor = 0
+			factor = 10
 			any_owned_planet = {
 				NOR = {
 					has_deposit = sw22_d_damage_1
