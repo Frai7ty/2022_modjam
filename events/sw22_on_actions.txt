@@ -94,10 +94,10 @@ planet_event = {
 	}
 
 	immediate = {
+		destroy_colony = yes
 		change_pc = pc_nuked
 		remove_all_buildings = yes
 		set_planet_flag = nuked_planet_anomalies_disabled
-		destroy_colony = yes
 		add_planet_devastation = 100
 	}	
 
