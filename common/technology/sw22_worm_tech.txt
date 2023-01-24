@@ -38,6 +38,7 @@ sw22_tech_repair_damage = {
 	prerequisites = { "tech_basic_industry" }
     start_tech = no
 	category = { new_worlds }
+	weight = @tier3weight3
 
 	potential = {
 		any_owned_planet = {
@@ -50,22 +51,70 @@ sw22_tech_repair_damage = {
 	}
 
 	weight_modifier = {
-		factor = 0
+		factor = 10 # 0 # Replaced
+		modifier = { # Added: Standard for blocker clearing techs
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+		modifier = { # Added: Standard for blocker clearing techs
+			factor = 4
+			has_ascension_perk = ap_mastery_of_nature
+		}
 		modifier = {
-			factor = 10
-			any_owned_planet = {
-				NOR = {
-					has_deposit = sw22_d_damage_1
-					has_deposit = sw22_d_damage_2
-					has_deposit = sw22_d_damage_3
+			factor = 0 # 10 # Replaced
+			NOT = { # Added NOT
+				any_owned_planet = {
+					OR = { # NOR = { # Replaced
+						has_deposit = "sw22_d_damage_1"
+						has_deposit = "sw22_d_damage_2"
+						has_deposit = "sw22_d_damage_3"
+					}
 				}
 			}
 		}
+		modifier = { # Added: Standard for all techs
+			factor = value:tech_weight_likelihood
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+		modifier = { # Added: Standard for rare techs
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = { # Added: Standard for rare techs
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = tech_gene_banks }
+			}
+		}
 	}
-
+	
 	ai_weight = {
 		modifier = {
 			factor = 500
+		}
+		modifier = { # Added: Standard for blocker clearing techs (for if you lose the planet with the blocker after drawing the tech but for finishing it)
+			factor = 0
+			NOT = {
+				any_owned_planet = {
+					OR = {
+						has_deposit = "sw22_d_damage_1"
+						has_deposit = "sw22_d_damage_2"
+						has_deposit = "sw22_d_damage_3"
+					}
+				}
+			}
+		}
+		modifier = { # Added: Standard for all techs
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
 		}
 	}
 }
